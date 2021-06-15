@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level2.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level2.owl#" />
+</owl:Ontology>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/Q62120">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q62120</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:interaction rdf:about="interaction_reaction_11_p1EpoRpJAK2_2">
+</bp:interaction>
+
+<bp:interaction rdf:about="interaction_reaction_34_SOCS3RNA_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_3_EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:protein rdf:about="Epo">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P07321" />
+</bp:protein>
+
+<bp:interaction rdf:about="interaction_reaction_13_p12EpoRpJAK2_2">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_32_SOCS3RNA">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3RNA" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_13_EpoRpJAK2_0">
+</bp:interaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/P42230">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P42230</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_1_EpoRJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_30_SOCS3nRNA3">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA3" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_4_SOCS3_1">
+</bp:interaction>
+
+<bp:interaction rdf:about="interaction_reaction_10_p12EpoRpJAK2_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_29_SOCS3nRNA2">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA2" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_5_p1EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p1EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_18_CISnRNA2">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA2" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:protein rdf:about="npSTAT5">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P42230" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+</bp:protein>
+
+<bp:interaction rdf:about="interaction_reaction_14_CIS_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_7_p1EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p1EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_11_EpoRpJAK2_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_2_EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_34_SOCS3">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_6">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_6_p2EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_6_p12EpoRpJAK2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_5">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_5_p1EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_5_p12EpoRpJAK2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_8">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_8_p2EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016311" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_8_EpoRJAK2" />
+</bp:biochemicalReaction>
+
+<bp:complex rdf:about="EpoRpJAK2">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_7">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_7_p1EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016311" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_7_EpoRJAK2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_9">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_9_p12EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016311" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_9_EpoRJAK2" />
+</bp:biochemicalReaction>
+
+<bp:protein rdf:about="pSTAT5">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P42230" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+</bp:protein>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_29_SOCS3nRNA3">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA3" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_4_EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_11_SHP1Act">
+ <bp:PHYSICAL-ENTITY rdf:resource="SHP1Act" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_20_CISnRNA4">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA4" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_2">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_2_EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016311" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_2_EpoRJAK2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_1">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_1_EpoRJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_1_EpoRpJAK2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_4">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_4_EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_4_p2EpoRpJAK2" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_13_pSTAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="pSTAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_3">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_3_EpoRpJAK2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_3_p1EpoRpJAK2" />
+</bp:biochemicalReaction>
+
+<bp:rna rdf:about="SOCS3RNA">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_25_CIS">
+ <bp:PHYSICAL-ENTITY rdf:resource="CIS" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_21_CISnRNA5">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_7_EpoRJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_15_pSTAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="pSTAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:rna rdf:about="CISRNA">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_16_npSTAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="npSTAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_22_CISnRNA5">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0032774">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0032774</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:rna rdf:about="CISnRNA1">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:rna rdf:about="CISnRNA2">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:rna rdf:about="CISnRNA3">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:unificationXref rdf:about="http://identifiers.org/mod/MOD:00000">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MOD:00000</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Protein Modification Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0005829">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005829</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_15_npSTAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="npSTAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_1_SOCS3_1">
+</bp:interaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_36">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009058" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_36_SOCS3" />
+</bp:biochemicalReaction>
+
+<bp:interaction rdf:about="interaction_reaction_17_npSTAT5_0">
+</bp:interaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_31">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_31_SOCS3nRNA4" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_31_SOCS3nRNA5" />
+</bp:biochemicalReaction>
+
+<bp:protein rdf:about="SOCS3">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/O35718" />
+</bp:protein>
+
+<bp:interaction rdf:about="interaction_reaction_14_p1EpoRpJAK2_3">
+</bp:interaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_30">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_30_SOCS3nRNA3" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_30_SOCS3nRNA4" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_13_STAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="STAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_35">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_35_SOCS3" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0006401" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_22_CISRNA">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISRNA" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_34">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009058" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_34_SOCS3" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_33">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_33_SOCS3RNA" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0006401" />
+</bp:biochemicalReaction>
+
+<bp:interaction rdf:about="interaction_reaction_14_SOCS3_1">
+</bp:interaction>
+
+<bp:transport rdf:about="conversion_reaction_32">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_32_SOCS3nRNA5" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_32_SOCS3RNA" />
+</bp:transport>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0016310">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0016310</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_28_SOCS3nRNA2">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA2" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_3_p1EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p1EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0016311">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0016311</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:rna rdf:about="CISnRNA4">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:complex rdf:about="EpoRJAK2_CIS">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62225" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:rna rdf:about="CISnRNA5">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:interaction rdf:about="interaction_reaction_5_SOCS3_1">
+</bp:interaction>
+
+<bp:complex rdf:about="p1EpoRpJAK2">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_8_EpoRJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_14_p12EpoRpJAK2_2">
+</bp:interaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/O35718">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O35718</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:interaction rdf:about="interaction_reaction_27_npSTAT5_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_28_SOCS3nRNA1">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA1" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_12_SHP1">
+ <bp:PHYSICAL-ENTITY rdf:resource="SHP1" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_18_CISnRNA1">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA1" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0006401">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0006401</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_10_EpoRJAK2_CIS">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2_CIS" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_14_STAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="STAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_14_pSTAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="pSTAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_4_EpoRJAK2_CIS_0">
+</bp:interaction>
+
+<bp:complex rdf:about="p12EpoRpJAK2">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:unificationXref rdf:about="http://identifiers.org/biomodels.db/MODEL1107220000">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MODEL1107220000</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BioModels Database</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_33_SOCS3RNA">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3RNA" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:bioSource rdf:about="biosource_1">
+</bp:bioSource>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_23_CISRNA">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISRNA" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:openControlledVocabulary rdf:about="nuc">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0005634" />
+ <bp:TERM rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuc</bp:TERM>
+</bp:openControlledVocabulary>
+
+<bp:unificationXref rdf:about="http://identifiers.org/kegg.compound/C00562">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00562</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/P14753">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P14753</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:interaction rdf:about="interaction_reaction_1_Epo_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_35_SOCS3">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_31_SOCS3nRNA5">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:rna rdf:about="SOCS3nRNA3">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:interaction rdf:about="interaction_reaction_13_SOCS3_1">
+</bp:interaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_17">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0032774" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_17_CISnRNA1" />
+</bp:biochemicalReaction>
+
+<bp:rna rdf:about="SOCS3nRNA2">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:transport rdf:about="conversion_reaction_16">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016311" />
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_16_npSTAT5" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_16_STAT5" />
+</bp:transport>
+
+<bp:rna rdf:about="SOCS3nRNA5">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:transport rdf:about="conversion_reaction_15">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0051169" />
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_15_pSTAT5" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_15_npSTAT5" />
+</bp:transport>
+
+<bp:rna rdf:about="SOCS3nRNA4">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_14">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_14_STAT5" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_14_pSTAT5" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_27_SOCS3nRNA1">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA1" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:rna rdf:about="SOCS3nRNA1">
+ <bp:XREF rdf:resource="http://identifiers.org/chebi/CHEBI:33699" />
+</bp:rna>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_19">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_19_CISnRNA2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_19_CISnRNA3" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_20_CISnRNA3">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA3" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_18">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_18_CISnRNA1" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_18_CISnRNA2" />
+</bp:biochemicalReaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0009056">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0009056</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0009058">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0009058</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_13">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_13_STAT5" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0016310" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_13_pSTAT5" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_12">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_12_SHP1Act" />
+ <bp:XREF rdf:resource="http://identifiers.org/mod/MOD:00000" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_12_SHP1" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_11">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_11_SHP1" />
+ <bp:XREF rdf:resource="http://identifiers.org/mod/MOD:00000" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_11_SHP1Act" />
+</bp:biochemicalReaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0009451">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0009451</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_9_p12EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p12EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:complexAssembly rdf:about="conversion_reaction_10">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009056" />
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_10_EpoRJAK2_CIS" />
+ <bp:SPONTANEOUS rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">R_L</bp:SPONTANEOUS>
+</bp:complexAssembly>
+
+<bp:interaction rdf:about="interaction_reaction_6_SOCS3_0">
+</bp:interaction>
+
+<bp:interaction rdf:about="interaction_reaction_10_p1EpoRpJAK2_1">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_6_p12EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p12EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_8_SHP1Act_0">
+</bp:interaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/biomodels.db/BIOMD0000000347">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BIOMD0000000347</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BioModels Database</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/taxonomy/10090">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10090</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Taxonomy</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_21_CISnRNA4">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA4" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_31_SOCS3nRNA4">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA4" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_11_p12EpoRpJAK2_1">
+</bp:interaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/chebi/CHEBI:33699">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:33699</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:DB>
+</bp:unificationXref>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_28">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_28_SOCS3nRNA1" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_28_SOCS3nRNA2" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_27">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0032774" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_27_SOCS3nRNA1" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_26">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009058" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_26_CIS" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_25">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_25_CIS" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0006401" />
+</bp:biochemicalReaction>
+
+<bp:protein rdf:about="CIS">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62225" />
+</bp:protein>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_26_CIS">
+ <bp:PHYSICAL-ENTITY rdf:resource="CIS" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_24_CIS">
+ <bp:PHYSICAL-ENTITY rdf:resource="CIS" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_4_p2EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p2EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_29">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_29_SOCS3nRNA2" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_29_SOCS3nRNA3" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_20">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_20_CISnRNA3" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_20_CISnRNA4" />
+</bp:biochemicalReaction>
+
+<bp:interaction rdf:about="interaction_reaction_9_SHP1Act_0">
+</bp:interaction>
+
+<bp:pathway rdf:about="Bachmann2011_JAK2STAT5_FeedbackControl">
+ <bp:XREF rdf:resource="http://identifiers.org/bto/BTO:0004911" />
+ <bp:XREF rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000347" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0046425" />
+ <bp:XREF rdf:resource="http://identifiers.org/pubmed/21772264" />
+ <bp:XREF rdf:resource="http://identifiers.org/biomodels.db/MODEL1107220000" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_19" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_10" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_17" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_1" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_18" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_6" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_7" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_8" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_9" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_2" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_3" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_4" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_5" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_22" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_30" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_11" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_33" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_12" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_34" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_31" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_13" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_35" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_14" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_36" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_28" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_29" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_32" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_16" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_15" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_23" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_20" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_21" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_26" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_27" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_24" />
+ <bp:PATHWAY-COMPONENTS rdf:resource="conversion_reaction_25" />
+ <bp:COMMENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The original model, &apos;Bachmann2011_JAK2STAT5_FeedbackControl&apos;, was published in BioModels Database (http://www.ebi.ac.uk/biomodels/).</bp:COMMENT>
+ <bp:COMMENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This BioPAX Level2 file was automatically generated on 23-Jun-2017 by SBML2BioPAX-3.1, BioModels.net, EMBL-EBI.</bp:COMMENT>
+ <bp:ORGANISM rdf:resource="biosource_1" />
+ <bp:DATA-SOURCE rdf:resource="datasource_2" />
+ <bp:DATA-SOURCE rdf:resource="datasource_1" />
+</bp:pathway>
+
+<bp:unificationXref rdf:about="http://identifiers.org/bto/BTO:0004911">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BTO:0004911</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Brenda Tissue Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_24">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009058" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_24_CIS" />
+</bp:biochemicalReaction>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_23">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_23_CISRNA" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0006401" />
+</bp:biochemicalReaction>
+
+<bp:transport rdf:about="conversion_reaction_22">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_22_CISnRNA5" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_22_CISRNA" />
+</bp:transport>
+
+<bp:biochemicalReaction rdf:about="conversion_reaction_21">
+ <bp:LEFT rdf:resource="LEFT_0_conversion_reaction_21_CISnRNA4" />
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0009451" />
+ <bp:RIGHT rdf:resource="RIGHT_0_conversion_reaction_21_CISnRNA5" />
+</bp:biochemicalReaction>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_32_SOCS3nRNA5">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA5" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_12_SHP1Act">
+ <bp:PHYSICAL-ENTITY rdf:resource="SHP1Act" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_13_p2EpoRpJAK2_4">
+</bp:interaction>
+
+<bp:protein rdf:about="SHP1Act">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P29351" />
+</bp:protein>
+
+<bp:interaction rdf:about="interaction_reaction_2_SHP1Act_0">
+</bp:interaction>
+
+<bp:openControlledVocabulary rdf:about="cyt">
+ <bp:XREF rdf:resource="http://identifiers.org/go/GO:0005829" />
+ <bp:TERM rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cyt</bp:TERM>
+</bp:openControlledVocabulary>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0051169">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0051169</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/P07321">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P07321</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_6_p2EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p2EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_13_p1EpoRpJAK2_3">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_2_EpoRJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_8_p2EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p2EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_19_CISnRNA3">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA3" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:protein rdf:about="SHP1">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P29351" />
+</bp:protein>
+
+<bp:interaction rdf:about="interaction_reaction_3_SOCS3_0">
+</bp:interaction>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_1_EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_30_SOCS3nRNA4">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3nRNA4" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_5_p12EpoRpJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="p12EpoRpJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:protein rdf:about="STAT5">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P42230" />
+</bp:protein>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/P29351">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P29351</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:dataSource rdf:about="datasource_2">
+ <bp:XREF rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000347" />
+ <bp:NAME rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BioModels Database</bp:NAME>
+</bp:dataSource>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_16_STAT5">
+ <bp:PHYSICAL-ENTITY rdf:resource="STAT5" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_9_EpoRJAK2">
+ <bp:PHYSICAL-ENTITY rdf:resource="EpoRJAK2" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_36_SOCS3">
+ <bp:PHYSICAL-ENTITY rdf:resource="SOCS3" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_11_SHP1">
+ <bp:PHYSICAL-ENTITY rdf:resource="SHP1" />
+ <bp:CELLULAR-LOCATION rdf:resource="cyt" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:interaction rdf:about="interaction_reaction_11_p2EpoRpJAK2_3">
+</bp:interaction>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0046425">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0046425</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:unificationXref rdf:about="http://identifiers.org/go/GO:0005634">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GO:0005634</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene Ontology</bp:DB>
+</bp:unificationXref>
+
+<bp:dataSource rdf:about="datasource_1">
+ <bp:XREF rdf:resource="http://identifiers.org/biomodels.db/MODEL1107220000" />
+ <bp:NAME rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BioModels Database</bp:NAME>
+</bp:dataSource>
+
+<bp:physicalEntityParticipant rdf:about="RIGHT_0_conversion_reaction_17_CISnRNA1">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA1" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:physicalEntityParticipant rdf:about="LEFT_0_conversion_reaction_19_CISnRNA2">
+ <bp:PHYSICAL-ENTITY rdf:resource="CISnRNA2" />
+ <bp:CELLULAR-LOCATION rdf:resource="nuc" />
+ <bp:STOICHIOMETRIC-COEFFICIENT rdf:datatype = "http://www.w3.org/2001/XMLSchema#double">1.0</bp:STOICHIOMETRIC-COEFFICIENT>
+</bp:physicalEntityParticipant>
+
+<bp:publicationXref rdf:about="http://identifiers.org/pubmed/21772264">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21772264</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:publicationXref>
+
+<bp:complex rdf:about="EpoRJAK2">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:complex rdf:about="p2EpoRpJAK2">
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/Q62120" />
+ <bp:XREF rdf:resource="http://identifiers.org/kegg.compound/C00562" />
+ <bp:XREF rdf:resource="http://identifiers.org/uniprot/P14753" />
+</bp:complex>
+
+<bp:unificationXref rdf:about="http://identifiers.org/uniprot/Q62225">
+ <bp:ID rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q62225</bp:ID>
+ <bp:DB rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UniProt Knowledgebase</bp:DB>
+</bp:unificationXref>
+
+<bp:interaction rdf:about="interaction_reaction_5_EpoRJAK2_CIS_0">
+</bp:interaction>
+
+<bp:interaction rdf:about="interaction_reaction_24_CISRNA_0">
+</bp:interaction>
+
+<bp:interaction rdf:about="interaction_reaction_7_SHP1Act_0">
+</bp:interaction>
+</rdf:RDF>
