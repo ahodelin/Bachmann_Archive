@@ -21,6 +21,6 @@ The files are organized into folders as follows:
 You can clone this repository or [download the latest version of this archive](https://github.com/ahodelin/Bachmann_Archive/archive/refs/heads/main.zip).
 
 ## References
-**[1]** Scharm, M. and Waltemath, D._ A fully featured COMBINE archive of a simulation study on syncytial mitotic cycles in Drosophila embryos. _F1000Research_ **5**, 2421 (2016). [https://doi.org/10.12688/f1000research.9379.1](https://doi.org/10.12688/f1000research.9379.1)
+**[1]** Scharm, M. and Waltemath, D. A fully featured COMBINE archive of a simulation study on syncytial mitotic cycles in Drosophila embryos. _F1000Research_ **5**, 2421 (2016). [https://doi.org/10.12688/f1000research.9379.1](https://doi.org/10.12688/f1000research.9379.1)
 
 **[2]** Bachmann, J., Raue, A., Schilling, M. _et al._ Division of labor by dual feedback regulators controls JAK2/STAT5 signaling over broad ligand range. _Molecular Systems Biology_ **7**, 516 (2011). [https://doi.org/10.1038/msb.2011.50](https://doi.org/10.1038/msb.2011.50)
