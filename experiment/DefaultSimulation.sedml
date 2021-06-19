@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by libSedML v1.1.7559.26360 see http://libsedml.sf.net -->
+<sedML level="1" version="1" xmlns="http://sed-ml.org/">
+  <listOfSimulations>
+    <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019" />
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfModels>
+    <model id="model1" language="urn:sedml:language:sbml" source="../model/Bachmann2011.xml" />
+  </listOfModels>
+  <listOfTasks>
+    <task id="task1" modelReference="model1" simulationReference="sim1" />
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="time" name="time">
+      <listOfVariables>
+        <variable id="var_time_0" taskReference="task1" symbol="urn:sedml:symbol:time" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> var_time_0 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="EpoRJAK2_1" name="EpoRJAK2">
+      <listOfVariables>
+        <variable id="EpoRJAK2" name="EpoRJAK2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='EpoRJAK2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> EpoRJAK2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="EpoRpJAK2_1" name="EpoRpJAK2">
+      <listOfVariables>
+        <variable id="EpoRpJAK2" name="EpoRpJAK2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='EpoRpJAK2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> EpoRpJAK2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="p1EpoRpJAK2_1" name="p1EpoRpJAK2">
+      <listOfVariables>
+        <variable id="p1EpoRpJAK2" name="p1EpoRpJAK2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='p1EpoRpJAK2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p1EpoRpJAK2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="p2EpoRpJAK2_1" name="p2EpoRpJAK2">
+      <listOfVariables>
+        <variable id="p2EpoRpJAK2" name="p2EpoRpJAK2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='p2EpoRpJAK2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p2EpoRpJAK2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="p12EpoRpJAK2_1" name="p12EpoRpJAK2">
+      <listOfVariables>
+        <variable id="p12EpoRpJAK2" name="p12EpoRpJAK2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='p12EpoRpJAK2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p12EpoRpJAK2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="EpoRJAK2_CIS_1" name="EpoRJAK2_CIS">
+      <listOfVariables>
+        <variable id="EpoRJAK2_CIS" name="EpoRJAK2_CIS" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='EpoRJAK2_CIS']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> EpoRJAK2_CIS </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SHP1_1" name="SHP1">
+      <listOfVariables>
+        <variable id="SHP1" name="SHP1" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SHP1']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SHP1 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SHP1Act_1" name="SHP1Act">
+      <listOfVariables>
+        <variable id="SHP1Act" name="SHP1Act" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SHP1Act']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SHP1Act </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="STAT5_1" name="STAT5">
+      <listOfVariables>
+        <variable id="STAT5" name="STAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='STAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> STAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="pSTAT5_1" name="pSTAT5">
+      <listOfVariables>
+        <variable id="pSTAT5" name="pSTAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> pSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="npSTAT5_1" name="npSTAT5">
+      <listOfVariables>
+        <variable id="npSTAT5" name="npSTAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='npSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> npSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISnRNA1_1" name="CISnRNA1">
+      <listOfVariables>
+        <variable id="CISnRNA1" name="CISnRNA1" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISnRNA1']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISnRNA1 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISnRNA2_1" name="CISnRNA2">
+      <listOfVariables>
+        <variable id="CISnRNA2" name="CISnRNA2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISnRNA2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISnRNA2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISnRNA3_1" name="CISnRNA3">
+      <listOfVariables>
+        <variable id="CISnRNA3" name="CISnRNA3" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISnRNA3']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISnRNA3 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISnRNA4_1" name="CISnRNA4">
+      <listOfVariables>
+        <variable id="CISnRNA4" name="CISnRNA4" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISnRNA4']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISnRNA4 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISnRNA5_1" name="CISnRNA5">
+      <listOfVariables>
+        <variable id="CISnRNA5" name="CISnRNA5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISnRNA5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISnRNA5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CISRNA_1" name="CISRNA">
+      <listOfVariables>
+        <variable id="CISRNA" name="CISRNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISRNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISRNA </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="CIS_1" name="CIS">
+      <listOfVariables>
+        <variable id="CIS" name="CIS" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CIS </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3nRNA1_1" name="SOCS3nRNA1">
+      <listOfVariables>
+        <variable id="SOCS3nRNA1" name="SOCS3nRNA1" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3nRNA1']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3nRNA1 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3nRNA2_1" name="SOCS3nRNA2">
+      <listOfVariables>
+        <variable id="SOCS3nRNA2" name="SOCS3nRNA2" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3nRNA2']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3nRNA2 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3nRNA3_1" name="SOCS3nRNA3">
+      <listOfVariables>
+        <variable id="SOCS3nRNA3" name="SOCS3nRNA3" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3nRNA3']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3nRNA3 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3nRNA4_1" name="SOCS3nRNA4">
+      <listOfVariables>
+        <variable id="SOCS3nRNA4" name="SOCS3nRNA4" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3nRNA4']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3nRNA4 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3nRNA5_1" name="SOCS3nRNA5">
+      <listOfVariables>
+        <variable id="SOCS3nRNA5" name="SOCS3nRNA5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3nRNA5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3nRNA5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3RNA_1" name="SOCS3RNA">
+      <listOfVariables>
+        <variable id="SOCS3RNA" name="SOCS3RNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3RNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3RNA </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="SOCS3_1" name="SOCS3">
+      <listOfVariables>
+        <variable id="SOCS3" name="SOCS3" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="Epo_1" name="Epo">
+      <listOfVariables>
+        <variable id="Epo" name="Epo" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Epo']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> Epo </ci>
+      </math>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot1">
+      <listOfCurves>
+        <curve id="curve_0" logX="false" logY="false" xDataReference="time" yDataReference="EpoRJAK2_1" />
+        <curve id="curve_1" logX="false" logY="false" xDataReference="time" yDataReference="EpoRpJAK2_1" />
+        <curve id="curve_2" logX="false" logY="false" xDataReference="time" yDataReference="p1EpoRpJAK2_1" />
+        <curve id="curve_3" logX="false" logY="false" xDataReference="time" yDataReference="p2EpoRpJAK2_1" />
+        <curve id="curve_4" logX="false" logY="false" xDataReference="time" yDataReference="p12EpoRpJAK2_1" />
+        <curve id="curve_5" logX="false" logY="false" xDataReference="time" yDataReference="EpoRJAK2_CIS_1" />
+        <curve id="curve_6" logX="false" logY="false" xDataReference="time" yDataReference="SHP1_1" />
+        <curve id="curve_7" logX="false" logY="false" xDataReference="time" yDataReference="SHP1Act_1" />
+        <curve id="curve_8" logX="false" logY="false" xDataReference="time" yDataReference="STAT5_1" />
+        <curve id="curve_9" logX="false" logY="false" xDataReference="time" yDataReference="pSTAT5_1" />
+        <curve id="curve_10" logX="false" logY="false" xDataReference="time" yDataReference="npSTAT5_1" />
+        <curve id="curve_11" logX="false" logY="false" xDataReference="time" yDataReference="CISnRNA1_1" />
+        <curve id="curve_12" logX="false" logY="false" xDataReference="time" yDataReference="CISnRNA2_1" />
+        <curve id="curve_13" logX="false" logY="false" xDataReference="time" yDataReference="CISnRNA3_1" />
+        <curve id="curve_14" logX="false" logY="false" xDataReference="time" yDataReference="CISnRNA4_1" />
+        <curve id="curve_15" logX="false" logY="false" xDataReference="time" yDataReference="CISnRNA5_1" />
+        <curve id="curve_16" logX="false" logY="false" xDataReference="time" yDataReference="CISRNA_1" />
+        <curve id="curve_17" logX="false" logY="false" xDataReference="time" yDataReference="CIS_1" />
+        <curve id="curve_18" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3nRNA1_1" />
+        <curve id="curve_19" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3nRNA2_1" />
+        <curve id="curve_20" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3nRNA3_1" />
+        <curve id="curve_21" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3nRNA4_1" />
+        <curve id="curve_22" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3nRNA5_1" />
+        <curve id="curve_23" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3RNA_1" />
+        <curve id="curve_24" logX="false" logY="false" xDataReference="time" yDataReference="SOCS3_1" />
+        <curve id="curve_25" logX="false" logY="false" xDataReference="time" yDataReference="Epo_1" />
+      </listOfCurves>
+    </plot2D>
+    <report id="report1">
+      <listOfDataSets>
+        <dataSet id="col_0" dataReference="time" label="time" />
+        <dataSet id="col_1" dataReference="EpoRJAK2_1" label="EpoRJAK2_1" />
+        <dataSet id="col_2" dataReference="EpoRpJAK2_1" label="EpoRpJAK2_1" />
+        <dataSet id="col_3" dataReference="p1EpoRpJAK2_1" label="p1EpoRpJAK2_1" />
+        <dataSet id="col_4" dataReference="p2EpoRpJAK2_1" label="p2EpoRpJAK2_1" />
+        <dataSet id="col_5" dataReference="p12EpoRpJAK2_1" label="p12EpoRpJAK2_1" />
+        <dataSet id="col_6" dataReference="EpoRJAK2_CIS_1" label="EpoRJAK2_CIS_1" />
+        <dataSet id="col_7" dataReference="SHP1_1" label="SHP1_1" />
+        <dataSet id="col_8" dataReference="SHP1Act_1" label="SHP1Act_1" />
+        <dataSet id="col_9" dataReference="STAT5_1" label="STAT5_1" />
+        <dataSet id="col_10" dataReference="pSTAT5_1" label="pSTAT5_1" />
+        <dataSet id="col_11" dataReference="npSTAT5_1" label="npSTAT5_1" />
+        <dataSet id="col_12" dataReference="CISnRNA1_1" label="CISnRNA1_1" />
+        <dataSet id="col_13" dataReference="CISnRNA2_1" label="CISnRNA2_1" />
+        <dataSet id="col_14" dataReference="CISnRNA3_1" label="CISnRNA3_1" />
+        <dataSet id="col_15" dataReference="CISnRNA4_1" label="CISnRNA4_1" />
+        <dataSet id="col_16" dataReference="CISnRNA5_1" label="CISnRNA5_1" />
+        <dataSet id="col_17" dataReference="CISRNA_1" label="CISRNA_1" />
+        <dataSet id="col_18" dataReference="CIS_1" label="CIS_1" />
+        <dataSet id="col_19" dataReference="SOCS3nRNA1_1" label="SOCS3nRNA1_1" />
+        <dataSet id="col_20" dataReference="SOCS3nRNA2_1" label="SOCS3nRNA2_1" />
+        <dataSet id="col_21" dataReference="SOCS3nRNA3_1" label="SOCS3nRNA3_1" />
+        <dataSet id="col_22" dataReference="SOCS3nRNA4_1" label="SOCS3nRNA4_1" />
+        <dataSet id="col_23" dataReference="SOCS3nRNA5_1" label="SOCS3nRNA5_1" />
+        <dataSet id="col_24" dataReference="SOCS3RNA_1" label="SOCS3RNA_1" />
+        <dataSet id="col_25" dataReference="SOCS3_1" label="SOCS3_1" />
+        <dataSet id="col_26" dataReference="Epo_1" label="Epo_1"/>
+      </listOfDataSets>
+    </report>
+  </listOfOutputs>
+</sedML>
