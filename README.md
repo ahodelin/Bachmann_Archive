@@ -2,7 +2,7 @@
 
 This public repository is a collaborative effort of participants of the module "Bioinformatik und Systembiologie" in the [**Master Program BIDS**](https://www.master-bids.hs-mannheim.de/), organized by the **Graduate School Rhein-Neckar** in cooperation with **MIRACUM**, a consortium of the **Medizininformatik-Initiative**.
 
-Our goal is to provide the **Bachmann Model** as a fully-featured COMBINE archive, a standardized container for data files related to biological simulation studies  described by Scharm & Waltemath ([[1]](https://doi.org/10.12688/f1000research.9379.1)).
+Our goal is to provide the **Bachmann Model** as a fully-featured [COMBINE](https://combinearchive.org/index/) archive, a standardized container for data files related to biological simulation studies  described by Scharm & Waltemath ([[1]](https://doi.org/10.12688/f1000research.9379.1)).
 
 ## Contents
 
