@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by phraSED-ML version v1.1.1 with libSBML version 5.19.1. -->
+<sedML xmlns="http://sed-ml.org/sed-ml/level1/version3" level="1" version="3">
+  <listOfModels>
+    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/Bachmann2011.xml"/>
+    <model id="model2" language="urn:sedml:language:sbml.level-2.version-1" source="model1">
+      <listOfChanges>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='SOCS3oe']/@value" newValue="1"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']/@initialConcentration" newValue="300"/>
+      </listOfChanges>
+    </model>
+    <model id="model3" language="urn:sedml:language:sbml.level-2.version-1" source="model1">
+      <listOfChanges>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='CISoe']/@value" newValue="1"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']/@initialConcentration" newValue="580"/>
+      </listOfChanges>
+    </model>
+  </listOfModels>
+  <listOfSimulations>
+    <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="120" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019"/>
+    </uniformTimeCourse>
+    <uniformTimeCourse id="sim2" initialTime="0" outputStartTime="0" outputEndTime="60" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019"/>
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfTasks>
+    <task id="task1" modelReference="model1" simulationReference="sim1"/>
+    <task id="task2" modelReference="model2" simulationReference="sim1"/>
+    <task id="task3" modelReference="model3" simulationReference="sim2"/>
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="plot_0_0_0" name="task1.time">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____time </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task1_____time" symbol="urn:sedml:symbol:time" taskReference="task1" modelReference="model1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_0_0_1" name="task1.SOCS3">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____SOCS3 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task1_____SOCS3" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" taskReference="task1" modelReference="model1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_0_1_1" name="task2.SOCS3">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task2_____SOCS3 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task2_____SOCS3" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" taskReference="task2" modelReference="model2"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_1_0_1" name="task1.pSTAT5">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____pSTAT5 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task1_____pSTAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" taskReference="task1" modelReference="model1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_1_1_1" name="task2.pSTAT5">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task2_____pSTAT5 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task2_____pSTAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" taskReference="task2" modelReference="model2"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_2_0_1" name="task1.CIS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____CIS </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task1_____CIS" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" taskReference="task1" modelReference="model1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_2_1_1" name="task2.CIS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task2_____CIS </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task2_____CIS" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" taskReference="task2" modelReference="model2"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_3_1_1" name="task3.CIS">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task3_____CIS </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task3_____CIS" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" taskReference="task3" modelReference="model3"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_4_1_1" name="task3.pSTAT5">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task3_____pSTAT5 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task3_____pSTAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" taskReference="task3" modelReference="model3"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="plot_5_1_1" name="task3.SOCS3">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task3_____SOCS3 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="task3_____SOCS3" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" taskReference="task3" modelReference="model3"/>
+      </listOfVariables>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot_0" name="SOCS3">
+      <listOfCurves>
+        <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_0_1"/>
+        <curve id="plot_0__plot_0_0_0__plot_0_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_1_1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_1" name="pSTAT5">
+      <listOfCurves>
+        <curve id="plot_1__plot_0_0_0__plot_1_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_1_0_1"/>
+        <curve id="plot_1__plot_0_0_0__plot_1_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_1_1_1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_2" name="CIS">
+      <listOfCurves>
+        <curve id="plot_2__plot_0_0_0__plot_2_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_2_0_1"/>
+        <curve id="plot_2__plot_0_0_0__plot_2_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_2_1_1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_3" name="CIS">
+      <listOfCurves>
+        <curve id="plot_3__plot_0_0_0__plot_2_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_2_0_1"/>
+        <curve id="plot_3__plot_0_0_0__plot_3_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_3_1_1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_4" name="pSTAT5">
+      <listOfCurves>
+        <curve id="plot_4__plot_0_0_0__plot_1_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_1_0_1"/>
+        <curve id="plot_4__plot_0_0_0__plot_4_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_4_1_1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_5" name="SOCS3">
+      <listOfCurves>
+        <curve id="plot_5__plot_0_0_0__plot_0_0_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_0_0_1"/>
+        <curve id="plot_5__plot_0_0_0__plot_5_1_1" logX="false" xDataReference="plot_0_0_0" logY="false" yDataReference="plot_5_1_1"/>
+      </listOfCurves>
+    </plot2D>
+  </listOfOutputs>
+</sedML>
