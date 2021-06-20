@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by COPASI version 4.31 (Build 243) on 2021-06-18 21:32 with libSBML version 5.19.1. -->
+<sedML xmlns="http://sed-ml.org/sed-ml/level1/version2" level="1" version="2">
+  <listOfModels>
+    <model id="model3" language="urn:sedml:language:sbml" source="Bachmann2011.xml"/>
+  </listOfModels>
+  <listOfSimulations>
+    <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019"/>
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfTasks>
+    <task id="task1" modelReference="model3" simulationReference="sim1"/>
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="time_task1" name="Time">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> var_time_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="var_time_task1" symbol="urn:sedml:symbol:time" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="EpoRJAK2_1_task1" name="[EpoRJAK2]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p1_EpoRJAK2_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p1_EpoRJAK2_task1" name="EpoRJAK2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;EpoRJAK2&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="EpoRpJAK2_1_task1" name="[EpoRpJAK2]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p2_EpoRpJAK2_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p2_EpoRpJAK2_task1" name="EpoRpJAK2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;EpoRpJAK2&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="p1EpoRpJAK2_1_task1" name="[p1EpoRpJAK2]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p3_p1EpoRpJAK2_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p3_p1EpoRpJAK2_task1" name="p1EpoRpJAK2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;p1EpoRpJAK2&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="p2EpoRpJAK2_1_task1" name="[p2EpoRpJAK2]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p4_p2EpoRpJAK2_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p4_p2EpoRpJAK2_task1" name="p2EpoRpJAK2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;p2EpoRpJAK2&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="p12EpoRpJAK2_1_task1" name="[p12EpoRpJAK2]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p5_p12EpoRpJAK2_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p5_p12EpoRpJAK2_task1" name="p12EpoRpJAK2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;p12EpoRpJAK2&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="SHP1_1_task1" name="[SHP1]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p6_SHP1_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p6_SHP1_task1" name="SHP1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;SHP1&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="SHP1Act_1_task1" name="[SHP1Act]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p7_SHP1Act_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p7_SHP1Act_task1" name="SHP1Act" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;SHP1Act&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="STAT5_1_task1" name="[STAT5]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p8_STAT5_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p8_STAT5_task1" name="STAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;STAT5&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="pSTAT5_1_task1" name="[pSTAT5]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p9_pSTAT5_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p9_pSTAT5_task1" name="pSTAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;pSTAT5&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="npSTAT5_1_task1" name="[npSTAT5]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p10_npSTAT5_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p10_npSTAT5_task1" name="npSTAT5" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;npSTAT5&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="CISRNA_1_task1" name="[CISRNA]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p11_CISRNA_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p11_CISRNA_task1" name="CISRNA" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;CISRNA&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="CIS_1_task1" name="[CIS]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p12_CIS_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p12_CIS_task1" name="CIS" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;CIS&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="SOCS3RNA_1_task1" name="[SOCS3RNA]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p13_SOCS3RNA_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p13_SOCS3RNA_task1" name="SOCS3RNA" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;SOCS3RNA&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+    <dataGenerator id="SOCS3_1_task1" name="[SOCS3]">
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p14_SOCS3_task1 </ci>
+      </math>
+      <listOfVariables>
+        <variable id="p14_SOCS3_task1" name="SOCS3" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id=&apos;SOCS3&apos;]" taskReference="task1"/>
+      </listOfVariables>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot_1_task1" name="EpoRJAK2">
+      <listOfCurves>
+        <curve id="p1_curve_1_task1" name="[EpoRJAK2]" logX="false" xDataReference="time_task1" logY="false" yDataReference="EpoRJAK2_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_2_task1" name="EpoRpJAK2">
+      <listOfCurves>
+        <curve id="p2_curve_1_task1" name="[EpoRpJAK2]" logX="false" xDataReference="time_task1" logY="false" yDataReference="EpoRpJAK2_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_3_task1" name="p1EpoRpJAK2">
+      <listOfCurves>
+        <curve id="p3_curve_1_task1" name="[p1EpoRpJAK2]" logX="false" xDataReference="time_task1" logY="false" yDataReference="p1EpoRpJAK2_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_4_task1" name="p2EpoRpJAK2">
+      <listOfCurves>
+        <curve id="p4_curve_1_task1" name="[p2EpoRpJAK2]" logX="false" xDataReference="time_task1" logY="false" yDataReference="p2EpoRpJAK2_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_5_task1" name="p12EpoRpJAK2">
+      <listOfCurves>
+        <curve id="p5_curve_1_task1" name="[p12EpoRpJAK2]" logX="false" xDataReference="time_task1" logY="false" yDataReference="p12EpoRpJAK2_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_6_task1" name="SHP1">
+      <listOfCurves>
+        <curve id="p6_curve_1_task1" name="[SHP1]" logX="false" xDataReference="time_task1" logY="false" yDataReference="SHP1_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_7_task1" name="SHP1Act">
+      <listOfCurves>
+        <curve id="p7_curve_1_task1" name="[SHP1Act]" logX="false" xDataReference="time_task1" logY="false" yDataReference="SHP1Act_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_8_task1" name="STAT5">
+      <listOfCurves>
+        <curve id="p8_curve_1_task1" name="[STAT5]" logX="false" xDataReference="time_task1" logY="false" yDataReference="STAT5_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_9_task1" name="pSTAT5">
+      <listOfCurves>
+        <curve id="p9_curve_1_task1" name="[pSTAT5]" logX="false" xDataReference="time_task1" logY="false" yDataReference="pSTAT5_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_10_task1" name="npSTAT5">
+      <listOfCurves>
+        <curve id="p10_curve_1_task1" name="[npSTAT5]" logX="false" xDataReference="time_task1" logY="false" yDataReference="npSTAT5_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_11_task1" name="CISRNA">
+      <listOfCurves>
+        <curve id="p11_curve_1_task1" name="[CISRNA]" logX="false" xDataReference="time_task1" logY="false" yDataReference="CISRNA_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_12_task1" name="CIS">
+      <listOfCurves>
+        <curve id="p12_curve_1_task1" name="[CIS]" logX="false" xDataReference="time_task1" logY="false" yDataReference="CIS_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_13_task1" name="SOCS3RNA">
+      <listOfCurves>
+        <curve id="p13_curve_1_task1" name="[SOCS3RNA]" logX="false" xDataReference="time_task1" logY="false" yDataReference="SOCS3RNA_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_14_task1" name="SOCS3">
+      <listOfCurves>
+        <curve id="p14_curve_1_task1" name="[SOCS3]" logX="false" xDataReference="time_task1" logY="false" yDataReference="SOCS3_1_task1"/>
+      </listOfCurves>
+    </plot2D>
+  </listOfOutputs>
+</sedML>
