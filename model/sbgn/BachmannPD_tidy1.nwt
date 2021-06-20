@@ -177,102 +177,70 @@
         <bbox x="-411.39830947492453" y="-1153.0517835522367" w="12" h="12"/>
       </glyph>
     </glyph>
-    <glyph id="nwtN_b9bc5d99-f02d-4771-b9ec-22253ed4aabb" class="submap" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
-      <extension>
-        <extraInfo>
-          <w>122.39999999999984</w>
-          <h>466.5971694008681</h>
-          <minW>122.39999999999984</minW>
-          <minH>0</minH>
-          <WLBias>0.009999999999999997</WLBias>
-          <WRBias>2.842170943040401e-18</WRBias>
-          <HTBias>0</HTBias>
-          <HBBias>0</HBBias>
-        </extraInfo>
-      </extension>
-      <label text="SOCS3RNA Delay"/>
-      <bbox x="55.324672925702785" y="-1315.8459277617237" w="150.39999999999984" h="494.5971694008681"/>
-      <glyph id="2c837646-ac34-039d-c363-482176c80d4a" class="nucleic acid feature">
-        <label text="socs3RNA1"/>
-        <bbox x="100.0996729257026" y="-866.8737583608556" w="90" h="30"/>
-      </glyph>
-      <glyph id="ea850968-a714-4d00-f035-28c3e687ea0e" class="nucleic acid feature">
-        <label text="socs3RNA2"/>
-        <bbox x="100.0996729257026" y="-968.2464471208987" w="90" h="30"/>
-      </glyph>
-      <glyph id="394cad75-eb38-51e6-c72e-17fa9453483d" class="nucleic acid feature">
-        <label text="socs3RNA3"/>
-        <bbox x="100.0996729257026" y="-1093.2464471208987" w="90" h="30"/>
-      </glyph>
-      <glyph id="db2d3850-95a6-92dc-0a37-7f57234911f1" class="nucleic acid feature">
-        <label text="socs3RNA4"/>
-        <bbox x="100.0996729257026" y="-1193.2464471208973" w="90" h="30"/>
-      </glyph>
-      <glyph id="8a235ab7-a269-d7ee-818f-16de87f15aa3" class="nucleic acid feature">
-        <label text="socs3RNA5"/>
-        <bbox x="100.0996729257026" y="-1300.2209277617237" w="90" h="30"/>
-      </glyph>
-      <glyph id="nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5" class="process">
-        <bbox x="135.0996729257026" y="-908.2464471208996" w="20" h="20"/>
-      </glyph>
-      <glyph id="nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603" class="process">
-        <bbox x="135.0996729257026" y="-1020.2464471208984" w="20" h="20"/>
-      </glyph>
-      <glyph id="nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453" class="process">
-        <bbox x="135.0996729257026" y="-1133.2464471208973" w="20" h="20"/>
-      </glyph>
-      <glyph id="nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5" class="process">
-        <bbox x="135.0996729257026" y="-1228.2464471208987" w="20" h="20"/>
-      </glyph>
-    </glyph>
-    <glyph id="nwtN_3fa398bc-c108-4606-8bdf-e99f72d2f738" class="submap" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
-      <extension>
-        <extraInfo>
-          <w>93.25</w>
-          <h>413.2499999999991</h>
-          <minW>0</minW>
-          <minH>0</minH>
-          <WLBias>0</WLBias>
-          <WRBias>0</WRBias>
-          <HTBias>0</HTBias>
-          <HBBias>0</HBBias>
-        </extraInfo>
-      </extension>
-      <label text="cisRNA Delay"/>
-      <bbox x="-196.97044470649297" y="-1291.1459948474755" w="121.25" h="441.2499999999991"/>
-      <glyph id="e4284739-d83c-e0fb-a3aa-db31776a7197" class="nucleic acid feature">
+	  <glyph id="2c837646-ac34-039d-c363-482176c80d4a" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<label text="socs3RNA1"/>
+		<bbox x="100.0996729257026" y="-866.8737583608556" w="90" h="30"/>
+	  </glyph>
+	  <glyph id="ea850968-a714-4d00-f035-28c3e687ea0e" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<label text="socs3RNA2"/>
+		<bbox x="100.0996729257026" y="-968.2464471208987" w="90" h="30"/>
+	  </glyph>
+	  <glyph id="394cad75-eb38-51e6-c72e-17fa9453483d" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<label text="socs3RNA3"/>
+		<bbox x="100.0996729257026" y="-1093.2464471208987" w="90" h="30"/>
+	  </glyph>
+	  <glyph id="db2d3850-95a6-92dc-0a37-7f57234911f1" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<label text="socs3RNA4"/>
+		<bbox x="100.0996729257026" y="-1193.2464471208973" w="90" h="30"/>
+	  </glyph>
+	  <glyph id="8a235ab7-a269-d7ee-818f-16de87f15aa3" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<label text="socs3RNA5"/>
+		<bbox x="100.0996729257026" y="-1300.2209277617237" w="90" h="30"/>
+	  </glyph>
+	  <glyph id="nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<bbox x="135.0996729257026" y="-908.2464471208996" w="20" h="20"/>
+	  </glyph>
+	  <glyph id="nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<bbox x="135.0996729257026" y="-1020.2464471208984" w="20" h="20"/>
+	  </glyph>
+	  <glyph id="nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<bbox x="135.0996729257026" y="-1133.2464471208973" w="20" h="20"/>
+	  </glyph>
+	  <glyph id="nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
+		<bbox x="135.0996729257026" y="-1228.2464471208987" w="20" h="20"/>
+	  </glyph>
+      <glyph id="e4284739-d83c-e0fb-a3aa-db31776a7197" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <label text="cisRNA1"/>
         <bbox x="-181.34544470649297" y="-895.5209948474765" w="90" h="30"/>
       </glyph>
-      <glyph id="553002a0-f5e9-6f6d-6356-1cba78f0e950" class="nucleic acid feature">
+      <glyph id="553002a0-f5e9-6f6d-6356-1cba78f0e950" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <label text="cisRNA2"/>
         <bbox x="-181.34544470649297" y="-975.5209948474776" w="90" h="30"/>
       </glyph>
-      <glyph id="d01b95dd-5f14-f37f-228d-1add3fbd70a8" class="nucleic acid feature">
+      <glyph id="d01b95dd-5f14-f37f-228d-1add3fbd70a8" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <label text="cisRNA3"/>
         <bbox x="-181.34544470649297" y="-1055.520994847475" w="90" h="30"/>
       </glyph>
-      <glyph id="932b8b62-193f-438b-58db-8c6fcc1b4e19" class="nucleic acid feature">
+      <glyph id="932b8b62-193f-438b-58db-8c6fcc1b4e19" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <label text="cisRNA4"/>
         <bbox x="-181.34544470649297" y="-1155.5209948474765" w="90" h="30"/>
       </glyph>
-      <glyph id="a87e1036-1e10-48c8-603c-c6c54e633241" class="nucleic acid feature">
+      <glyph id="a87e1036-1e10-48c8-603c-c6c54e633241" class="nucleic acid feature" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <label text="cisRNA5"/>
         <bbox x="-181.34544470649297" y="-1275.5209948474755" w="90" h="30"/>
       </glyph>
-      <glyph id="nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7" class="process">
+      <glyph id="nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <bbox x="-146.34544470649297" y="-930.5209948474762" w="20" h="20"/>
       </glyph>
-      <glyph id="nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3" class="process">
+      <glyph id="nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <bbox x="-146.34544470649297" y="-1010.5209948474755" w="20" h="20"/>
       </glyph>
-      <glyph id="nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3" class="process">
+      <glyph id="nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <bbox x="-146.34544470649297" y="-1090.5209948474753" w="20" h="20"/>
       </glyph>
-      <glyph id="nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa" class="process">
+      <glyph id="nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
         <bbox x="-146.34544470649297" y="-1210.520994847477" w="20" h="20"/>
       </glyph>
-    </glyph>
     <glyph id="nwtN_f64a8174-89a8-402f-90ad-d992047b386f" class="process" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
       <bbox x="-285.52829137539976" y="-893.4613029976158" w="20" h="20"/>
     </glyph>
