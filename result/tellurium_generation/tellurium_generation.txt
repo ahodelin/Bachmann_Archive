@@ -1,0 +1,4 @@
+2021-06-20
+results from simulating SED-ML files ../experiment/Fig4.sedml and ../experiment/SuppFig9.sedml in Tellurium during generation of files
+using GoogleColab Notebooks SEDML_Fig4_v2.ipynb and SEDML_SuppFig9_v2.ipynb
+using ../model/Bachmann2011.xml (from BIOMD0000000861)
