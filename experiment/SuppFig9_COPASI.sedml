@@ -2,7 +2,7 @@
 <!-- Created by COPASI version 4.31 (Build 243) on 2021-06-18 21:32 with libSBML version 5.19.1. -->
 <sedML xmlns="http://sed-ml.org/sed-ml/level1/version2" level="1" version="2">
   <listOfModels>
-    <model id="model3" language="urn:sedml:language:sbml" source="Bachmann2011.xml"/>
+    <model id="model3" language="urn:sedml:language:sbml" source="../model/Bachmann2011.xml"/>
   </listOfModels>
   <listOfSimulations>
     <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
