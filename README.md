@@ -19,6 +19,7 @@ The files are organized into folders as follows:
 ## Explore the COMBINE archive
 
 This COMBINE Archive is available here: https://cat.bio.informatik.uni-rostock.de/rest/share/6b507398-c103-4b92-9c90-d6b105ff1372
+
 You can clone this repository or [download the latest version of this archive](https://github.com/ahodelin/Bachmann_Archive/archive/refs/heads/main.zip).
 
 ## References
