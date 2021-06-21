@@ -3,18 +3,18 @@
     <map language="process description">
         <glyph compartmentOrder="-96.0" id="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d" class="compartment">
             <label text="cytoplasm">
-                <bbox y="1028.5273" x="1229.2662" h="18.0" w="72.0"/>
+                <bbox y="1037.4435" x="1228.9869" h="18.0" w="72.0"/>
             </label>
-            <bbox y="11.772461" x="336.84656" h="2051.5098" w="1856.8394"/>
+            <bbox y="15.688599" x="331.56726" h="2061.5098" w="1866.8394"/>
         </glyph>
         <glyph compartmentOrder="-95.0" id="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90" class="compartment">
             <label text="nucleus">
-                <bbox y="1692.7936" x="1311.2708" h="18.0" w="58.0"/>
+                <bbox y="1692.7936" x="1311.2705" h="18.0" w="58.0"/>
             </label>
-            <bbox y="1454.154" x="948.9036" h="495.2791" w="782.73425"/>
+            <bbox y="1449.154" x="943.9034" h="505.2791" w="792.73425"/>
         </glyph>
         <glyph compartmentOrder="-94.0" id="nwtN_88547560-20ea-4f40-8fc8-6513b2072f69" class="compartment">
-            <bbox y="134.68155" x="15.383217" h="81.46932" w="228.10164"/>
+            <bbox y="129.68155" x="10.383217" h="91.46932" w="238.10164"/>
         </glyph>
         <glyph compartmentRef="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d" id="nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3" class="source and sink">
             <bbox y="941.45544" x="2043.29" h="22.0" w="22.0"/>
@@ -336,9 +336,6 @@
                 <bbox y="117.67871" x="611.7796" h="18.0" w="76.0"/>
             </label>
             <bbox y="65.05371" x="593.1546" h="123.25" w="113.25"/>
-            <glyph id="nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3ca" class="state variable">
-                <bbox y="55.05371" x="611.4671" h="20.0" w="20.0"/>
-            </glyph>
             <glyph id="nwtN_ed697f40-b142-4cde-9305-d10618d4e883" class="macromolecule">
                 <label text="EpoR"/>
                 <bbox y="76.67871" x="604.7796" h="40.0" w="90.0"/>
