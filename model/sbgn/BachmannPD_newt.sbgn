@@ -3,7 +3,7 @@
   <map language="process description">
     <glyph id="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d" class="compartment">
       <label text="cytoplasm"/>
-      <bbox x="336.8465297519848" y="11.77250577565269" w="1856.8394" h="2051.5098"/>
+      <bbox x="331.5672209476455" y="15.688575414468232" w="1866.8394" h="2061.5098"/>
     </glyph>
     <glyph id="nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3" class="source and sink" compartmentRef="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d">
       <bbox x="2043.29" y="941.45544" w="22" h="22"/>
@@ -91,10 +91,6 @@
     <glyph id="nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c" class="complex" compartmentRef="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d">
       <label text="EpoRJAK2"/>
       <bbox x="593.1546" y="65.05371" w="113.25" h="123.25"/>
-      <glyph id="nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3ca" class="state variable">
-        <state/>
-        <bbox x="611.4671" y="55.053709999999995" w="20" h="20"/>
-      </glyph>
       <glyph id="nwtN_ed697f40-b142-4cde-9305-d10618d4e883" class="macromolecule">
         <label text="EpoR"/>
         <bbox x="604.7796" y="76.67871" w="90" h="40"/>
@@ -226,7 +222,7 @@
     </glyph>
     <glyph id="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90" class="compartment">
       <label text="nucleus"/>
-      <bbox x="948.9035664773901" y="1454.154" w="782.73425" h="495.27909999999997"/>
+      <bbox x="943.903469426949" y="1449.154" w="792.73425" h="505.27909999999997"/>
     </glyph>
     <glyph id="d2672078-a0a4-aeeb-3521-bf3d1b4d539a" class="macromolecule" compartmentRef="nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90">
       <label text="STAT5"/>
@@ -283,7 +279,7 @@
       <bbox x="965.4685" y="1911.8081" w="22" h="22"/>
     </glyph>
     <glyph id="nwtN_88547560-20ea-4f40-8fc8-6513b2072f69" class="compartment">
-      <bbox x="15.383221237716427" y="134.68155252446184" w="228.10164" h="81.46932"/>
+      <bbox x="10.383221237716427" y="129.68155252446184" w="238.10164" h="91.46932"/>
     </glyph>
     <glyph id="nwtN_7a3c8b46-083f-4ed1-8e7e-b659a05afeff" class="macromolecule" compartmentRef="nwtN_88547560-20ea-4f40-8fc8-6513b2072f69">
       <label text="Epo"/>
@@ -533,7 +529,7 @@
     </arc>
     <arc id="nwtE_11265350-0288-4bbd-bb10-b3ac8df60985" class="consumption" source="manualId13" target="nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.1">
       <start x="1931.1735" y="1484.779"/>
-      <next x="1947.2903999999994" y="1484.779"/>
+      <next x="1947.290399999999" y="1484.779"/>
       <end x="1943.0047140000001" y="1484.779057"/>
     </arc>
     <arc id="nwtE_9cfa1cfe-77b1-47d1-95c7-b15c73967c84" class="production" source="nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.2" target="c0aa1740-3f0a-959d-ec2a-92e8f7f85134">
@@ -549,8 +545,8 @@
     </arc>
     <arc id="nwtE_e473f1da-d965-499b-85a2-bf3fb89a0b65" class="catalysis" source="nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.2" target="nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0">
       <start x="883.392786" y="1071.3499"/>
-      <next x="883.3928000001945" y="1064.9213002687704"/>
-      <end x="883.3927977386081" y="1097.3178997593748"/>
+      <next x="883.3928000052448" y="1064.9213002687704"/>
+      <end x="883.3927977398515" y="1097.3178997593748"/>
     </arc>
     <arc id="nwtE_1a43c84d-b892-4593-b85a-cb59afc01528" class="consumption" source="nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884" target="nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.1">
       <start x="756.08215" y="1107.8982"/>
@@ -559,18 +555,18 @@
     </arc>
     <arc id="nwtE_4ff12a9c-49e2-4f1c-bdb3-ecefabfe647e" class="consumption" source="nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245" target="nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.1">
       <start x="1249.9548418975005" y="166.62793"/>
-      <next x="1300.5808000000002" y="122.31444999999964"/>
+      <next x="1300.5808000000004" y="122.31444999999938"/>
       <end x="1296.295" y="122.314447"/>
     </arc>
     <arc id="nwtE_4ccb8bfb-18e6-4adf-a4d0-6cac909dd81a" class="production" source="nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.2" target="manualId12">
       <start x="1326.1167140000002" y="122.314447"/>
-      <next x="1321.8308000000002" y="122.31445000000006"/>
+      <next x="1321.8308000000002" y="122.31445000000001"/>
       <end x="1375.9906547947483" y="165.31895118841834"/>
     </arc>
     <arc id="nwtE_2f7ea37d-a524-4fd1-b5b8-8fec07ed2372" class="inhibition" source="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5" target="nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae">
-      <start x="1909.6906114629217" y="955.83044"/>
-      <next x="1909.8144999999997" y="955.7245999999999"/>
-      <next x="1914.9971000000005" y="45.480956999999876"/>
+      <start x="1909.6906114629214" y="955.83044"/>
+      <next x="1909.8144999999997" y="955.7245999999998"/>
+      <next x="1914.9971000000005" y="45.48095699999976"/>
       <next x="418.34850000000006" y="42.35962000000002"/>
       <end x="418.29866860101595" y="164.78585992971244"/>
     </arc>
@@ -584,13 +580,13 @@
     </arc>
     <arc id="nwtE_bad4659f-90e2-4940-b44f-28f5ae9bcc30" class="inhibition" source="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5" target="nwtN_fa380867-57bf-4316-8549-9dc573aee386">
       <start x="1885.7247505038677" y="955.83044"/>
-      <next x="1890.5652" y="389.3964800000003"/>
-      <end x="1747.2342141661438" y="389.34116040419747"/>
+      <next x="1890.5652" y="389.39648000000034"/>
+      <end x="1747.2342141661438" y="389.3411604041975"/>
     </arc>
     <arc id="nwtE_c26f87b0-9934-4d2a-80db-b03bb5f25fe6" class="production" source="nwtN_fa380867-57bf-4316-8549-9dc573aee386.2" target="a0eb5581-288d-95d4-25af-081d9b9eb23b">
       <start x="1738.778857" y="404.2486"/>
       <next x="1738.7788000000003" y="399.9629"/>
-      <next x="1736.3317" y="490.48755000000006"/>
+      <next x="1736.3317" y="490.4875500000001"/>
       <end x="611.6488125673504" y="500.23804681405153"/>
     </arc>
     <arc id="nwtE_3d49e248-020f-4200-a194-37a6682c1779" class="consumption" source="manualId7" target="nwtN_fa380867-57bf-4316-8549-9dc573aee386.1">
@@ -632,8 +628,8 @@
     </arc>
     <arc id="nwtE_b1ce2676-c469-4f61-90b7-0bed84c4acd5" class="catalysis" source="nwtN_89ad11ba-c238-4125-8778-e07da137a458.2" target="nwtN_45a89a92-3fee-411d-b961-01973a7b0c70">
       <start x="1322.9906" y="641.125986"/>
-      <next x="1316.5620999999999" y="641.1260000000001"/>
-      <next x="1363.3771000000004" y="639.90576"/>
+      <next x="1316.5620999999999" y="641.1260000000002"/>
+      <next x="1363.3771000000006" y="639.90576"/>
       <end x="1374.2539956483547" y="639.6932559139032"/>
     </arc>
     <arc id="nwtE_da6c695c-6193-4ba2-9d31-0ce15b5fb874" class="logic arc" source="a0eb5581-288d-95d4-25af-081d9b9eb23b" target="nwtN_89ad11ba-c238-4125-8778-e07da137a458.1">
@@ -665,27 +661,27 @@
     </arc>
     <arc id="nwtE_672267fc-f300-477f-afa7-a5f3ff780783" class="production" source="nwtN_00458032-42ea-43fe-a080-ba70a662206e.1" target="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5">
       <start x="1976.1514140000002" y="1005.604587"/>
-      <next x="1980.437" y="1005.6046000000001"/>
-      <end x="1933.9380265798993" y="991.320403115675"/>
+      <next x="1980.437" y="1005.6046000000002"/>
+      <end x="1933.938026579899" y="991.3204031156752"/>
     </arc>
     <arc id="nwtE_cc828635-57aa-4724-a01a-28b3f3437077" class="production" source="nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.1" target="nwtN_444ba2bc-b306-4dbf-954d-5bbf0f9d9647">
       <start x="1384.833757" y="624.57587"/>
-      <next x="1384.833656793235" y="628.861599988716"/>
-      <end x="1384.8338405926693" y="583.2267999998804"/>
+      <next x="1384.8336567932236" y="628.861599988716"/>
+      <end x="1384.8338405926665" y="583.2267999998804"/>
     </arc>
     <arc id="nwtE_3a860da6-1536-4ff3-b12f-633d2ce5e0ae" class="consumption" source="a4654a8c-1e3c-ae08-59c3-60671c6d080e" target="nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.2">
       <start x="1480.2593" y="642.677094847762"/>
-      <next x="1384.8338999999999" y="650.1116"/>
+      <next x="1384.8338999999996" y="650.1115999999998"/>
       <end x="1384.833757" y="654.3972440000001"/>
     </arc>
     <arc id="nwtE_65e557ff-be38-4c5c-b740-8c7f01acf61c" class="consumption" source="manualId12" target="nwtN_aac7a54a-9331-4678-887f-2856de398b2e.2">
       <start x="1378.3791467004041" y="208.5122"/>
-      <next x="1321.1895000000002" y="253.81981999999988"/>
+      <next x="1321.1895000000002" y="253.8198199999999"/>
       <end x="1325.4752" y="253.81958699999998"/>
     </arc>
     <arc id="nwtE_f83fd02b-5a0c-4e93-9ec1-9d1053595341" class="production" source="nwtN_aac7a54a-9331-4678-887f-2856de398b2e.1" target="nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245">
       <start x="1295.6537139999998" y="253.81958699999998"/>
-      <next x="1299.9394999999997" y="253.81981999999985"/>
+      <next x="1299.9394999999997" y="253.81981999999988"/>
       <end x="1251.4966525528437" y="209.97494521395447"/>
     </arc>
     <arc id="nwtE_69431fd8-b31d-4ecd-84d3-75cd5f584c2e" class="consumption" source="nwtN_edf59ed3-fe0d-46cf-bf8c-b4a9f7117278" target="nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.2">
@@ -695,8 +691,8 @@
     </arc>
     <arc id="nwtE_25e3b92e-8979-4758-8bfd-b973bfb6608f" class="production" source="nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.1" target="nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc">
       <start x="1555.772757" y="1273.979814"/>
-      <next x="1555.7726999999554" y="1278.265399767871"/>
-      <end x="1555.7726999999875" y="1217.5162"/>
+      <next x="1555.7726999996867" y="1278.265399767871"/>
+      <end x="1555.772699999912" y="1217.5162"/>
     </arc>
     <arc id="nwtE_6d834280-417c-476b-9ee6-30f878871466" class="necessary stimulation" source="nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4" target="nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335">
       <start x="1555.772710051674" y="1361.8701"/>
@@ -726,12 +722,12 @@
     </arc>
     <arc id="nwtE_48812ab9-0533-4654-ba4e-def6f94bae5a" class="production" source="nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.1" target="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5">
       <start x="1885.548457" y="1251.5321"/>
-      <next x="1885.5485000010578" y="1255.8178993484305"/>
-      <end x="1885.54850000009" y="1000.20544"/>
+      <next x="1885.5484171484031" y="1255.8178978150345"/>
+      <end x="1885.5484929563713" y="1000.2054399999998"/>
     </arc>
     <arc id="nwtE_6a429355-3d17-4f27-afba-cf408c3a904c" class="consumption" source="nwtN_27755964-e20c-4f03-8550-f753824ad702" target="nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.2">
       <start x="1939.079387917853" y="1278.1976197668737"/>
-      <next x="1885.5485000000003" y="1277.0678999999998"/>
+      <next x="1885.5485000000008" y="1277.0678999999998"/>
       <end x="1885.548457" y="1281.353614"/>
     </arc>
     <arc id="nwtE_2aa6af5f-07fc-4020-b52b-1b7e133f0e85" class="necessary stimulation" source="manualId13" target="nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916">
@@ -773,103 +769,103 @@
       <end x="1526.3497309669074" y="1918.5725318486882"/>
     </arc>
     <arc id="nwtE_2455d240-9cc1-4170-a853-b944f00d5ab7" class="consumption" source="manualId1" target="nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.2">
-      <start x="1575.0995999997524" y="1902.5012"/>
-      <next x="1575.0995999994334" y="1882.3785001170115"/>
+      <start x="1575.0995999996962" y="1902.5012"/>
+      <next x="1575.0995999993052" y="1882.3785001170115"/>
       <end x="1575.099657" y="1886.6643"/>
     </arc>
     <arc id="nwtE_3180327d-62dc-440b-8f64-6ed2ac35dffe" class="consumption" source="ea850968-a714-4d00-f035-28c3e687ea0e" target="nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.2">
-      <start x="1575.0995999998192" y="1801.1285"/>
-      <next x="1575.0995999994632" y="1770.3785001827412"/>
+      <start x="1575.0995999998133" y="1801.1285"/>
+      <next x="1575.0995999994457" y="1770.3785001827412"/>
       <end x="1575.099657" y="1774.6643"/>
     </arc>
     <arc id="nwtE_7ec6e7dc-d717-4f2b-a0ae-78f06c22dcc1" class="production" source="nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.1" target="ea850968-a714-4d00-f035-28c3e687ea0e">
       <start x="1575.099657" y="1856.842814"/>
-      <next x="1575.0995999994586" y="1861.1285002222053"/>
-      <end x="1575.0995999997713" y="1835.5035"/>
+      <next x="1575.0995999988356" y="1861.128500441601"/>
+      <end x="1575.099599999508" y="1835.5035"/>
     </arc>
     <arc id="nwtE_01623ae2-de87-47e2-a702-952615ac5e39" class="consumption" source="manualId2" target="nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.2">
-      <start x="1575.0995999997401" y="1676.1285"/>
-      <next x="1575.0995999994282" y="1657.378500113793"/>
+      <start x="1575.0995999996776" y="1676.1285"/>
+      <next x="1575.0995999992908" y="1657.378500113793"/>
       <end x="1575.099657" y="1661.6643"/>
     </arc>
     <arc id="nwtE_10338c8d-a15f-4808-b492-0e6d83ec8f3f" class="production" source="nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.1" target="manualId2">
       <start x="1575.099657" y="1744.842814"/>
-      <next x="1575.0995999994823" y="1749.1285002769664"/>
-      <end x="1575.0995999998308" y="1710.5035"/>
+      <next x="1575.099599999128" y="1749.1285005482193"/>
+      <end x="1575.099599999715" y="1710.5035"/>
     </arc>
     <arc id="nwtE_d6121c6f-1ef5-4be5-9622-47849d8da480" class="production" source="nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.1" target="db2d3850-95a6-92dc-0a37-7f57234911f1">
       <start x="1575.099657" y="1631.842814"/>
-      <next x="1575.0995999994586" y="1636.128500222205"/>
-      <end x="1575.0995999997713" y="1610.5035"/>
+      <next x="1575.0995999988356" y="1636.128500441601"/>
+      <end x="1575.099599999508" y="1610.5035"/>
     </arc>
     <arc id="nwtE_457d967e-0877-430d-86ae-2e91f62f9db6" class="consumption" source="db2d3850-95a6-92dc-0a37-7f57234911f1" target="nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.2">
-      <start x="1575.0995999999986" y="1576.1285"/>
-      <next x="1575.0995999999973" y="1562.3785000669964"/>
+      <start x="1575.0995999999557" y="1576.1285"/>
+      <next x="1575.0995999999166" y="1562.3785000669964"/>
       <end x="1575.099657" y="1566.6643"/>
     </arc>
     <arc id="nwtE_e6409a3e-b745-4513-82f1-28b24a8ca5c7" class="consumption" source="manualId3" target="nwtN_4a2ea381-8769-4085-9921-03688def94b9.1">
-      <start x="1620.7246" y="1484.779"/>
-      <next x="1720.4161" y="1484.7790000000002"/>
+      <start x="1620.7246" y="1484.7790000000002"/>
+      <next x="1720.4161" y="1484.7790000000005"/>
       <end x="1716.1304" y="1484.779057"/>
     </arc>
     <arc id="nwtE_e70b012c-9226-42df-aa76-10c0fbe254b1" class="production" source="nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.1" target="manualId3">
       <start x="1575.099657" y="1536.842814"/>
-      <next x="1575.0995999994807" y="1541.1285002409095"/>
-      <end x="1575.0995999998272" y="1503.529"/>
+      <next x="1575.099599998973" y="1541.128500508072"/>
+      <end x="1575.0995999996583" y="1503.529"/>
     </arc>
     <arc id="nwtE_f6704e1e-7a9d-413e-9f95-e93f200083ee" class="production" source="nwtN_f64a8174-89a8-402f-90ad-d992047b386f.2" target="e4284739-d83c-e0fb-a3aa-db31776a7197">
       <start x="1169.3824" y="1886.538757"/>
-      <next x="1165.0967" y="1886.5387000000003"/>
+      <next x="1165.0967" y="1886.5387000000005"/>
       <end x="1244.9053170264303" y="1888.364036748473"/>
     </arc>
     <arc id="nwtE_fb2965be-44e5-4150-b63a-0ae448226c34" class="consumption" source="e4284739-d83c-e0fb-a3aa-db31776a7197" target="nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.2">
-      <start x="1293.654499999947" y="1873.854"/>
-      <next x="1293.6544999999" y="1860.1040000669964"/>
+      <start x="1293.654499999943" y="1873.854"/>
+      <next x="1293.6544999998928" y="1860.1040000669964"/>
       <end x="1293.654557" y="1864.3898"/>
     </arc>
     <arc id="nwtE_4c51435b-127d-4ef1-b834-23b4b7c46724" class="production" source="nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.1" target="manualId4">
       <start x="1293.654557" y="1834.568314"/>
-      <next x="1293.654499999991" y="1838.854000042065"/>
-      <end x="1293.6544999999944" y="1828.229"/>
+      <next x="1293.654499999933" y="1838.854000042065"/>
+      <end x="1293.6544999999574" y="1828.229"/>
     </arc>
     <arc id="nwtE_71283c42-18fe-461e-a91b-681a85431c4c" class="consumption" source="manualId4" target="nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.2">
-      <start x="1293.654499999947" y="1793.854"/>
-      <next x="1293.6544999999" y="1780.1040000669964"/>
+      <start x="1293.654499999943" y="1793.854"/>
+      <next x="1293.6544999998928" y="1780.1040000669964"/>
       <end x="1293.654557" y="1784.3898"/>
     </arc>
     <arc id="nwtE_45856a5e-f62c-46dd-ad38-b926c4358dce" class="consumption" source="d01b95dd-5f14-f37f-228d-1add3fbd70a8" target="nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.2">
-      <start x="1293.654499999947" y="1713.854"/>
-      <next x="1293.6544999999" y="1700.1040000669964"/>
+      <start x="1293.654499999943" y="1713.854"/>
+      <next x="1293.6544999998928" y="1700.1040000669964"/>
       <end x="1293.654557" y="1704.3898"/>
     </arc>
     <arc id="nwtE_9f659bb7-46c6-45cd-b0b3-3916fb7b9ebf" class="production" source="nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.1" target="d01b95dd-5f14-f37f-228d-1add3fbd70a8">
       <start x="1293.654557" y="1754.568314"/>
-      <next x="1293.654499999991" y="1758.854000042065"/>
-      <end x="1293.6544999999944" y="1748.229"/>
+      <next x="1293.654499999933" y="1758.854000042065"/>
+      <end x="1293.6544999999574" y="1748.229"/>
     </arc>
     <arc id="nwtE_24daf4e4-9bea-4915-b715-80ab8d2d1774" class="consumption" source="manualId5" target="nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.2">
-      <start x="1293.6544999999273" y="1613.854"/>
-      <next x="1293.6544999997702" y="1580.1039997685957"/>
+      <start x="1293.6544999998475" y="1613.854"/>
+      <next x="1293.6544999995178" y="1580.1039995292554"/>
       <end x="1293.654557" y="1584.3898"/>
     </arc>
     <arc id="nwtE_de926cb7-17d9-4674-a7b4-4f88502471d9" class="production" source="nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.1" target="manualId5">
       <start x="1293.654557" y="1674.568314"/>
-      <next x="1293.6544999999107" y="1678.8539999830048"/>
-      <end x="1293.6544999999662" y="1648.229"/>
+      <next x="1293.6544999997852" y="1678.8539999830048"/>
+      <end x="1293.6544999999185" y="1648.229"/>
     </arc>
     <arc id="nwtE_8e315bba-0aec-4d76-9d0e-d7a64a359242" class="consumption" source="a87e1036-1e10-48c8-603c-c6c54e633241" target="nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.2">
-      <start x="1293.654499999916" y="1493.854"/>
-      <next x="1293.6544999996656" y="1447.424199651059"/>
+      <start x="1293.6544999999032" y="1493.854"/>
+      <next x="1293.6544999996154" y="1447.4241993611388"/>
       <end x="1293.654557" y="1451.71"/>
     </arc>
     <arc id="nwtE_960607be-77da-4495-810e-29ffce8bf973" class="production" source="nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.1" target="a87e1036-1e10-48c8-603c-c6c54e633241">
       <start x="1293.654557" y="1554.568314"/>
-      <next x="1293.6544999999107" y="1558.853999983005"/>
-      <end x="1293.6544999999662" y="1528.229"/>
+      <next x="1293.6544999997852" y="1558.853999983005"/>
+      <end x="1293.6544999999185" y="1528.229"/>
     </arc>
     <arc id="nwtE_7f78c6d2-4659-4881-a766-ed0cd3dbd16a" class="consumption" source="nwtN_97a87116-9b3d-4f45-b677-200705ea9740" target="nwtN_f64a8174-89a8-402f-90ad-d992047b386f.1">
       <start x="1102.9755" y="1886.5387"/>
-      <next x="1143.8467000000003" y="1886.5387"/>
+      <next x="1143.8467000000005" y="1886.5387"/>
       <end x="1139.561114" y="1886.538757"/>
     </arc>
     <arc id="nwtE_2b52f9fe-33e4-468d-96c9-a2b46f039d1c" class="consumption" source="nwtN_585d4e98-d3ee-497b-81c3-6388fecb9769" target="nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.1">
@@ -895,7 +891,7 @@
     <arc id="nwtE_23aa46d4-2cc2-4424-8825-cadc3d80f3c7" class="production" source="nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.1" target="nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884">
       <start x="934.159094" y="1642.985957"/>
       <next x="938.4448000000001" y="1642.9860000000003"/>
-      <next x="713.3573599999999" y="1641.9424"/>
+      <next x="713.3573599999997" y="1641.9424"/>
       <end x="710.5861278146782" y="1131.6481539197416"/>
     </arc>
     <arc id="nwtE_9d46dd1d-fb52-49ef-9f65-33f7378ae56f" class="catalysis" source="nwtN_abf49e76-d207-458e-b91b-988537476335.2" target="nwtN_b1002eee-8088-45e9-943a-804c34e42c98">
@@ -908,8 +904,8 @@
     </arc>
     <arc id="nwtE_159372f1-a395-4744-b05e-4dbc2262a3b2" class="production" source="nwtN_b1002eee-8088-45e9-943a-804c34e42c98.2" target="c0aa1740-3f0a-959d-ec2a-92e8f7f85134">
       <start x="898.3035" y="978.8763170000001"/>
-      <next x="894.0178000000001" y="978.87634"/>
-      <end x="1018.2049592255908" y="1079.595886549977"/>
+      <next x="894.0178000000001" y="978.8763399999999"/>
+      <end x="1018.2049592255814" y="1079.5958865499692"/>
     </arc>
     <arc id="nwtE_3ea35b9a-bc97-4266-a6d7-b65fbaa2961a" class="consumption" source="nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884" target="nwtN_b1002eee-8088-45e9-943a-804c34e42c98.1">
       <start x="736.4035838543095" y="1087.2732"/>
@@ -934,12 +930,12 @@
     </arc>
     <arc id="nwtE_e452b6c9-a8f0-4583-808d-204e8523cfc5" class="logic arc" source="a0eb5581-288d-95d4-25af-081d9b9eb23b" target="nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1">
       <start x="590.0692354975549" y="563.0114699999999"/>
-      <next x="883.3928" y="1033.6712999999997"/>
+      <next x="883.3927999999999" y="1033.6712999999995"/>
       <end x="883.392786" y="1027.242672"/>
     </arc>
     <arc id="nwtE_3e50b71f-b675-49d8-8214-bb1a1c9a7bc5" class="logic arc" source="e08d1628-0d6a-e2e7-8532-ece8f502e322" target="nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1">
       <start x="607.3675499999999" y="894.94220252524"/>
-      <next x="883.3927999999999" y="1033.6713"/>
+      <next x="883.3927999999997" y="1033.6713"/>
       <end x="883.392786" y="1027.242672"/>
     </arc>
     <arc id="nwtE_fe536189-d1ad-48a5-be5c-7e61dd5f1073" class="logic arc" source="nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc" target="nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2">
