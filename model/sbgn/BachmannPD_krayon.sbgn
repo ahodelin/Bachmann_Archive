@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+  <map language="process description">
+    <extension>
+      <styles version="1" xmlns="http://krayon.sbgn.ns/v1">
+        <style id="style1" name="Canonical"><![CDATA[
+.simple-chemical {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 10.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 60.0px;
+  height: 60.0px;}
+.macromolecule {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 10.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.nucleic-acid-feature {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 10.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.complex {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 10.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 160.0px;
+  height: 160.0px;}
+.unspecified-entity {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 10.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.perturbing-agent {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 15.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.source-and-sink {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  width: 60.0px;
+  height: 60.0px;}
+.process {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 40.0px;
+  height: 20.0px;}
+.omitted-process {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 40.0px;
+  height: 20.0px;}
+.uncertain-process {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 40.0px;
+  height: 20.0px;}
+.association {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(0,0,0);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 40.0px;
+  height: 20.0px;}
+.dissociation {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 40.0px;
+  height: 20.0px;}
+.phenotype {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  shape-parameter: 15.0px;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.tag {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.and {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 30.0px;
+  height: 50.0px;}
+.or {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 30.0px;
+  height: 50.0px;}
+.not {
+  font-size: 12.0px;
+  font-style: bold;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  port-color: rgb(0,0,0);
+  port-width: 1.0px;
+  drop-shadow: false;
+  width: 30.0px;
+  height: 50.0px;}
+.compartment {
+  outline-color: rgb(0,0,0);
+  outline-width: 4.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  font-size: 16.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 160.0px;
+  height: 120.0px;}
+.submap {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 150.0px;
+  height: 90.0px;}
+.annotation {
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  drop-shadow: false;
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgba(0,0,0, 0.0);
+  label-outline-width: 1.0px;
+  label-background-color: rgba(0,0,0, 0.0);
+  width: 100.0px;
+  height: 60.0px;}
+.consumption {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.production {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.modulation {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.stimulation {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.catalysis {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.inhibition {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.necessary-stimulation {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.equivalence-arc {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.logic-arc {
+  path-color: rgb(0,0,0);
+  path-width: 1.0px;
+  arrow-scale: 1.0px;
+  path-corner-radius: 0.0px;}
+.clone-marker {
+  clone-marker-background: rgb(128,128,128);
+  clone-marker-font-size: 10.0px;
+  clone-marker-text-color: rgb(255,255,255);
+  clone-marker-font-style: plain;}
+.terminal {
+  font-size: 10.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  outline-color: rgb(0,0,0);
+  outline-width: 1.0px;
+  background: rgb(255,255,255);
+  width: 20.0px;
+  height: 20.0px;}
+.state-variable {
+  font-size: 10.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgb(0,0,0);
+  label-outline-width: 1.0px;
+  label-background-color: rgb(255,255,255);
+  label-insets: 6.0 7.0 7.0 10.0;
+  state-variable-shape: ellipse;}
+.unit-of-information {
+  font-size: 10.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgb(0,0,0);
+  label-outline-width: 1.0px;
+  label-background-color: rgb(255,255,255);
+  label-insets: 6.0 7.0 7.0 10.0;}
+.callout-label {
+  font-size: 12.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgb(0,0,0);
+  label-outline-width: 1.0px;
+  label-background-color: rgb(255,255,255);
+  drop-shadow: false;}
+.cardinality {
+  font-size: 10.0px;
+  font-style: plain;
+  text-color: rgb(0,0,0);
+  label-outline-color: rgb(0,0,0);
+  label-outline-width: 1.0px;
+  label-background-color: rgb(255,255,255);}
+map {
+  background-color: rgb(255,255,255);
+  highlight-color: rgb(161,192,87);}
+]]></style>
+      </styles>
+      <style idRef="style1" xmlns="http://krayon.sbgn.ns/v1"/>
+    </extension>
+    <glyph class="source and sink" compartmentRef="id1" id="id2">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="2043.29" y="941.45544"/>
+      <port id="id3" x="2054.29" y="952.45544"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id4">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="2009.9141" y="1473.779"/>
+      <port id="id5" x="2020.9141" y="1484.779"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id6">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1734.0375" y="1221.1223"/>
+      <port id="id7" x="1745.0375" y="1232.1223"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id8">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="2043.29" y="994.6046"/>
+      <port id="id9" x="2054.29" y="1005.6046"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id10">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1373.8339" y="557.4768"/>
+      <port id="id11" x="1384.8339" y="568.4768"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id12">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="EpoRJAK2_CIS">
+        <bbox h="18.71" w="90.0" x="1492.5093" y="551.5918"/>
+      </label>
+      <bbox h="183.25" w="113.25" x="1480.8843" y="546.5918"/>
+      <glyph class="macromolecule" id="id16">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="1520.0093" y="568.8618"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="1492.5093" y="558.2168"/>
+        <glyph class="state variable" id="id17">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="1502.5281" y="585.5913"/>
+        </glyph>
+        <glyph class="state variable" id="id18">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="1524.8838" y="585.5913"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id19">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="1521.5093" y="648.8618"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="1492.5093" y="638.2168"/>
+        <glyph class="state variable" id="id20">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="1502.5281" y="625.5913"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id21">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="CIS">
+          <bbox h="18.71" w="24.0" x="1525.5093" y="688.8618"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="1492.5093" y="678.2168"/>
+      </glyph>
+      <port id="id13" x="1537.5093" y="638.2168"/>
+      <port id="id14" x="1537.5093" y="638.2168"/>
+      <port id="id15" x="1537.5093" y="638.2168"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id22">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="SHP1">
+        <bbox h="18.71" w="36.0" x="1386.4131" y="178.53221"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1359.4131" y="167.8872"/>
+      <port id="id23" x="1404.4131" y="187.8872"/>
+      <port id="id24" x="1404.4131" y="187.8872"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id25">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1642.8787" y="1290.8457"/>
+      <port id="id26" x="1653.8787" y="1301.8457"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id27">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1734.0375" y="1147.0751"/>
+      <port id="id28" x="1745.0375" y="1158.0751"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id29">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1939.7018" y="1267.4429"/>
+      <port id="id30" x="1950.7018" y="1278.4429"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id1" id="id31">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1679.6836" y="1366.4951"/>
+      <port id="id32" x="1690.6836" y="1377.4951"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id1" id="id33">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA">
+        <bbox h="18.71" w="45.0" x="1533.2727" y="1368.1401"/>
+      </label>
+      <bbox h="30.0" w="60.0" x="1525.7727" y="1362.4951"/>
+      <port id="id34" x="1555.7727" y="1377.4951"/>
+      <port id="id35" x="1555.7727" y="1377.4951"/>
+      <port id="id36" x="1555.7727" y="1377.4951"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id1" id="id37">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA">
+        <bbox h="18.71" w="63.0" x="1854.0485" y="1475.4241"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1840.5485" y="1469.779"/>
+      <port id="id38" x="1885.5485" y="1484.779"/>
+      <port id="id39" x="1885.5485" y="1484.779"/>
+      <port id="id40" x="1885.5485" y="1484.779"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id41">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="STAT5">
+        <bbox h="18.71" w="40.0" x="1033.1017" y="1098.5432"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1008.1017" y="1087.8982"/>
+      <glyph class="state variable" id="id42">
+        <state value="P"/>
+        <bbox h="25.26" w="24.0" x="1018.6017" y="1075.2682"/>
+      </glyph>
+      <port id="id43" x="1053.1017" y="1107.8982"/>
+      <port id="id44" x="1053.1017" y="1107.8982"/>
+      <port id="id45" x="1053.1017" y="1107.8982"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id46">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="STAT5">
+        <bbox h="18.71" w="40.0" x="690.45715" y="1098.5432"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="665.45715" y="1087.8982"/>
+      <port id="id47" x="710.45715" y="1107.8982"/>
+      <port id="id48" x="710.45715" y="1107.8982"/>
+      <port id="id49" x="710.45715" y="1107.8982"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id50">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="CIS">
+        <bbox h="18.71" w="24.0" x="1543.7727" y="1184.4113"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1510.7727" y="1173.7662"/>
+      <port id="id51" x="1555.7727" y="1193.7662"/>
+      <port id="id52" x="1555.7727" y="1193.7662"/>
+      <port id="id53" x="1555.7727" y="1193.7662"/>
+      <port id="id54" x="1555.7727" y="1193.7662"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id55">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="EpoRJAK2">
+        <bbox h="18.71" w="63.0" x="618.2796" y="70.05371"/>
+      </label>
+      <bbox h="123.25" w="113.25" x="593.1546" y="65.05371"/>
+      <glyph class="macromolecule" id="id61">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="632.2796" y="87.32371"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="604.7796" y="76.67871"/>
+        <glyph class="state variable" id="id62">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="614.7984" y="104.05322"/>
+        </glyph>
+        <glyph class="state variable" id="id63">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="637.1541" y="104.05322"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id64">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="633.7796" y="147.32372"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="604.7796" y="136.67871"/>
+        <glyph class="state variable" id="id65">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="614.7984" y="124.05322"/>
+        </glyph>
+      </glyph>
+      <port id="id56" x="649.7796" y="126.67871"/>
+      <port id="id57" x="649.7796" y="126.67871"/>
+      <port id="id58" x="649.7796" y="126.67871"/>
+      <port id="id59" x="649.7796" y="126.67871"/>
+      <port id="id60" x="649.7796" y="126.67871"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id66">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="SHP1">
+        <bbox h="18.71" w="36.0" x="1208.3918" y="177.89793"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1181.3918" y="167.25293"/>
+      <glyph class="state variable" id="id67">
+        <state value="active"/>
+        <bbox h="25.26" w="46.0" x="1180.8918" y="154.62292"/>
+      </glyph>
+      <port id="id68" x="1226.3918" y="187.25293"/>
+      <port id="id69" x="1226.3918" y="187.25293"/>
+      <port id="id70" x="1226.3918" y="187.25293"/>
+      <port id="id71" x="1226.3918" y="187.25293"/>
+      <port id="id72" x="1226.3918" y="187.25293"/>
+      <port id="id73" x="1226.3918" y="187.25293"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id74">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="EpoRpJAK2">
+        <bbox h="18.71" w="70.0" x="516.2739" y="262.5891"/>
+      </label>
+      <bbox h="123.25" w="113.25" x="494.64893" y="257.5891"/>
+      <glyph class="macromolecule" id="id81">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="533.7739" y="279.8591"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="269.2141"/>
+        <glyph class="state variable" id="id82">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="516.2927" y="296.58862"/>
+        </glyph>
+        <glyph class="state variable" id="id83">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="538.64844" y="296.58862"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id84">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="535.2739" y="339.8591"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="329.2141"/>
+        <glyph class="state variable" id="id85">
+          <state value="P"/>
+          <bbox h="25.26" w="24.0" x="516.7739" y="316.5841"/>
+        </glyph>
+      </glyph>
+      <port id="id75" x="551.2739" y="319.2141"/>
+      <port id="id76" x="498.09775" y="260.84177"/>
+      <port id="id77" x="551.2739" y="319.2141"/>
+      <port id="id78" x="551.2739" y="319.2141"/>
+      <port id="id79" x="551.2739" y="319.2141"/>
+      <port id="id80" x="551.2739" y="319.2141"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id86">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="p12EpoRpJAK2">
+        <bbox h="18.71" w="91.0" x="504.61755" y="809.5436"/>
+      </label>
+      <bbox h="123.25" w="113.25" x="493.49255" y="804.5436"/>
+      <glyph class="macromolecule" id="id94">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="532.61755" y="826.8136"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="505.11755" y="816.1686"/>
+        <glyph class="state variable" id="id95">
+          <state value="P1"/>
+          <bbox h="25.26" w="30.0" x="512.61755" y="843.5386"/>
+        </glyph>
+        <glyph class="state variable" id="id96">
+          <state value="P2"/>
+          <bbox h="25.26" w="30.0" x="535.11755" y="843.5386"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id97">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="534.11755" y="886.8136"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="505.11755" y="876.1686"/>
+        <glyph class="state variable" id="id98">
+          <state value="P"/>
+          <bbox h="25.26" w="24.0" x="515.61755" y="863.5386"/>
+        </glyph>
+      </glyph>
+      <port id="id87" x="550.11755" y="866.1686"/>
+      <port id="id88" x="550.11755" y="866.1686"/>
+      <port id="id89" x="550.11755" y="866.1686"/>
+      <port id="id90" x="550.11755" y="866.1686"/>
+      <port id="id91" x="550.11755" y="866.1686"/>
+      <port id="id92" x="550.11755" y="866.1686"/>
+      <port id="id93" x="550.11755" y="866.1686"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id1" id="id99">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="SOCS3">
+        <bbox h="18.71" w="45.0" x="1863.0485" y="967.10046"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1840.5485" y="956.45544"/>
+      <port id="id100" x="1885.5485" y="976.45544"/>
+      <port id="id101" x="1885.5485" y="976.45544"/>
+      <port id="id102" x="1885.5485" y="976.45544"/>
+      <port id="id103" x="1885.5485" y="976.45544"/>
+      <port id="id104" x="1885.5485" y="976.45544"/>
+      <port id="id105" x="1885.5485" y="976.45544"/>
+      <port id="id106" x="1885.5485" y="976.45544"/>
+      <port id="id107" x="1885.5485" y="976.45544"/>
+      <port id="id108" x="1885.5485" y="976.45544"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id109">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="p2EpoRpJAK2">
+        <bbox h="18.71" w="84.0" x="509.27393" y="632.6218"/>
+      </label>
+      <bbox h="123.25" w="113.25" x="494.64893" y="627.6218"/>
+      <glyph class="macromolecule" id="id115">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="533.7739" y="649.89185"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="639.2468"/>
+        <glyph class="state variable" id="id116">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="516.2927" y="666.62134"/>
+        </glyph>
+        <glyph class="state variable" id="id117">
+          <state value="P2"/>
+          <bbox h="25.26" w="30.0" x="536.2739" y="666.6168"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id118">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="535.2739" y="709.89185"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="699.2468"/>
+        <glyph class="state variable" id="id119">
+          <state value="P"/>
+          <bbox h="25.26" w="24.0" x="516.7739" y="686.6168"/>
+        </glyph>
+      </glyph>
+      <port id="id110" x="551.2739" y="689.2468"/>
+      <port id="id111" x="551.2739" y="689.2468"/>
+      <port id="id112" x="551.2739" y="689.2468"/>
+      <port id="id113" x="551.2739" y="689.2468"/>
+      <port id="id114" x="551.2739" y="689.2468"/>
+    </glyph>
+    <glyph class="complex" compartmentRef="id1" id="id120">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="p1EpoRpJAK2">
+        <bbox h="18.71" w="84.0" x="509.27393" y="444.13647"/>
+      </label>
+      <bbox h="123.25" w="113.25" x="494.64893" y="439.13647"/>
+      <glyph class="macromolecule" id="id128">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="EpoR">
+          <bbox h="18.71" w="35.0" x="533.7739" y="461.40646"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="450.76147"/>
+        <glyph class="state variable" id="id129">
+          <state value="P1"/>
+          <bbox h="25.26" w="30.0" x="513.7739" y="478.13147"/>
+        </glyph>
+        <glyph class="state variable" id="id130">
+          <state value=""/>
+          <bbox h="25.250977" w="25.250977" x="538.64844" y="478.136"/>
+        </glyph>
+      </glyph>
+      <glyph class="macromolecule" id="id131">
+        <extension>
+          <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+        </extension>
+        <label text="JAK2">
+          <bbox h="18.71" w="32.0" x="535.2739" y="521.4065"/>
+        </label>
+        <bbox h="40.0" w="90.0" x="506.27393" y="510.76147"/>
+        <glyph class="state variable" id="id132">
+          <state value="P"/>
+          <bbox h="25.26" w="24.0" x="516.7739" y="498.13147"/>
+        </glyph>
+      </glyph>
+      <port id="id121" x="551.2739" y="500.76147"/>
+      <port id="id122" x="551.2739" y="500.76147"/>
+      <port id="id123" x="551.2739" y="500.76147"/>
+      <port id="id124" x="551.2739" y="500.76147"/>
+      <port id="id125" x="551.2739" y="500.76147"/>
+      <port id="id126" x="551.2739" y="500.76147"/>
+      <port id="id127" x="551.2739" y="500.76147"/>
+    </glyph>
+    <glyph class="compartment" compartmentOrder="1.0" id="id1">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cytoplasm">
+        <bbox h="23.61" w="74.0" x="1228.2662" y="16.772507"/>
+      </label>
+      <bbox h="2051.5098" w="1856.8394" x="336.84653" y="11.772506"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id133" id="id134">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="STAT5">
+        <bbox h="18.71" w="40.0" x="1033.1017" y="1633.5933"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="1008.1017" y="1622.9482"/>
+      <glyph class="state variable" id="id135">
+        <state value="P"/>
+        <bbox h="25.26" w="24.0" x="1018.6017" y="1610.3182"/>
+      </glyph>
+      <port id="id136" x="1053.1017" y="1642.9482"/>
+      <port id="id137" x="1053.1017" y="1642.9482"/>
+      <port id="id138" x="1053.1017" y="1642.9482"/>
+      <port id="id139" x="1053.1017" y="1642.9482"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id140">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA1">
+        <bbox h="18.71" w="70.0" x="1540.0996" y="1908.7712"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1530.0996" y="1903.1262"/>
+      <port id="id141" x="1575.0996" y="1918.1262"/>
+      <port id="id142" x="1575.0996" y="1918.1262"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id143">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA2">
+        <bbox h="18.71" w="70.0" x="1540.0996" y="1807.3986"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1530.0996" y="1801.7535"/>
+      <port id="id144" x="1575.0996" y="1816.7535"/>
+      <port id="id145" x="1575.0996" y="1816.7535"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id146">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA3">
+        <bbox h="18.71" w="70.0" x="1540.0996" y="1682.3986"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1530.0996" y="1676.7535"/>
+      <port id="id147" x="1575.0996" y="1691.7535"/>
+      <port id="id148" x="1575.0996" y="1691.7535"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id149">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA4">
+        <bbox h="18.71" w="70.0" x="1540.0996" y="1582.3986"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1530.0996" y="1576.7535"/>
+      <port id="id150" x="1575.0996" y="1591.7535"/>
+      <port id="id151" x="1575.0996" y="1591.7535"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id152">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="socs3RNA5">
+        <bbox h="18.71" w="70.0" x="1540.0996" y="1475.4241"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1530.0996" y="1469.779"/>
+      <port id="id153" x="1575.0996" y="1484.779"/>
+      <port id="id154" x="1575.0996" y="1484.779"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id155">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA1">
+        <bbox h="18.71" w="52.0" x="1267.6545" y="1880.124"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1248.6545" y="1874.479"/>
+      <port id="id156" x="1293.6545" y="1889.479"/>
+      <port id="id157" x="1293.6545" y="1889.479"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id158">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA2">
+        <bbox h="18.71" w="52.0" x="1267.6545" y="1800.124"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1248.6545" y="1794.479"/>
+      <port id="id159" x="1293.6545" y="1809.479"/>
+      <port id="id160" x="1293.6545" y="1809.479"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id161">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA3">
+        <bbox h="18.71" w="52.0" x="1267.6545" y="1720.124"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1248.6545" y="1714.479"/>
+      <port id="id162" x="1293.6545" y="1729.479"/>
+      <port id="id163" x="1293.6545" y="1729.479"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id164">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA4">
+        <bbox h="18.71" w="52.0" x="1267.6545" y="1620.124"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1248.6545" y="1614.479"/>
+      <port id="id165" x="1293.6545" y="1629.479"/>
+      <port id="id166" x="1293.6545" y="1629.479"/>
+    </glyph>
+    <glyph class="nucleic acid feature" compartmentRef="id133" id="id167">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="cisRNA5">
+        <bbox h="18.71" w="52.0" x="1267.6545" y="1500.124"/>
+      </label>
+      <bbox h="30.0" w="90.0" x="1248.6545" y="1494.479"/>
+      <port id="id168" x="1293.6545" y="1509.479"/>
+      <port id="id169" x="1293.6545" y="1509.479"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id133" id="id170">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="1080.3505" y="1875.5387"/>
+      <port id="id171" x="1091.3505" y="1886.5387"/>
+    </glyph>
+    <glyph class="source and sink" compartmentRef="id133" id="id172">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="22.0" w="22.0" x="965.4685" y="1911.8081"/>
+      <port id="id173" x="976.4685" y="1922.8081"/>
+    </glyph>
+    <glyph class="compartment" compartmentOrder="133.0" id="id133">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="nucleus">
+        <bbox h="23.61" w="56.0" x="1312.2708" y="1459.154"/>
+      </label>
+      <bbox h="495.2791" w="782.73425" x="948.90356" y="1454.154"/>
+    </glyph>
+    <glyph class="macromolecule" compartmentRef="id174" id="id175">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <label text="Epo">
+        <bbox h="18.71" w="26.0" x="65.33826" y="162.04149"/>
+      </label>
+      <bbox h="40.0" w="90.0" x="33.338257" y="151.39648"/>
+      <port id="id176" x="78.33826" y="171.39648"/>
+    </glyph>
+    <glyph class="compartment" compartmentOrder="174.0" id="id174">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="81.46932" w="228.10164" x="15.383222" y="134.68155"/>
+    </glyph>
+    <glyph class="process" id="id177">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1950.7726" y="1477.6362"/>
+      <port id="id178" x="1972.2012" y="1484.779"/>
+      <port id="id179" x="1943.6298" y="1484.779"/>
+    </glyph>
+    <glyph class="process" id="id180">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="876.24994" y="1100.7554"/>
+      <port id="id181" x="897.6785" y="1107.8983"/>
+      <port id="id182" x="869.1071" y="1107.8983"/>
+      <port id="id183" x="883.3928" y="1107.8982"/>
+      <port id="id184" x="883.3928" y="1107.8982"/>
+    </glyph>
+    <glyph class="process" id="id185">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1304.063" y="115.17159"/>
+      <port id="id186" x="1296.92" y="122.314445"/>
+      <port id="id187" x="1325.4917" y="122.314445"/>
+    </glyph>
+    <glyph class="process" id="id188">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1731.636" y="382.19504"/>
+      <port id="id189" x="1738.7788" y="403.6236"/>
+      <port id="id190" x="1738.7788" y="375.0522"/>
+      <port id="id191" x="1738.7788" y="389.3379"/>
+    </glyph>
+    <glyph class="process" id="id192">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="939.62695" y="101.42379"/>
+      <port id="id193" x="961.05554" y="108.56665"/>
+      <port id="id194" x="932.4841" y="108.56665"/>
+      <port id="id195" x="946.7698" y="108.56665"/>
+    </glyph>
+    <glyph class="process" id="id196">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1663.75" y="1220.8009"/>
+      <port id="id197" x="1656.607" y="1227.9437"/>
+      <port id="id198" x="1685.1787" y="1227.9437"/>
+    </glyph>
+    <glyph class="process" id="id199">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="411.15237" y="166.09836"/>
+      <port id="id200" x="404.00952" y="173.24121"/>
+      <port id="id201" x="432.58093" y="173.24121"/>
+      <port id="id202" x="418.29523" y="173.24121"/>
+      <port id="id203" x="418.29523" y="173.24121"/>
+    </glyph>
+    <glyph class="or" id="id204">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="1290.2228" y="630.4117"/>
+      <port id="id205" x="1322.3656" y="641.126"/>
+      <port id="id206" x="1279.5085" y="641.126"/>
+    </glyph>
+    <glyph class="process" id="id207">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="941.69836" y="259.13547"/>
+      <port id="id208" x="963.12695" y="266.27832"/>
+      <port id="id209" x="934.5555" y="266.27832"/>
+      <port id="id210" x="948.8412" y="266.27832"/>
+    </glyph>
+    <glyph class="process" id="id211">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1983.9193" y="998.46173"/>
+      <port id="id212" x="2005.3479" y="1005.6046"/>
+      <port id="id213" x="1976.7764" y="1005.6046"/>
+    </glyph>
+    <glyph class="process" id="id214">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1377.6909" y="632.3437"/>
+      <port id="id215" x="1384.8337" y="625.20087"/>
+      <port id="id216" x="1384.8337" y="653.7722"/>
+      <port id="id217" x="1384.8337" y="639.4866"/>
+    </glyph>
+    <glyph class="process" id="id218">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1303.4216" y="246.67673"/>
+      <port id="id219" x="1324.8502" y="253.81958"/>
+      <port id="id220" x="1296.2787" y="253.81958"/>
+      <port id="id221" x="1310.5645" y="253.81958"/>
+    </glyph>
+    <glyph class="process" id="id222">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1548.6299" y="1281.7477"/>
+      <port id="id223" x="1555.7727" y="1303.1761"/>
+      <port id="id224" x="1555.7727" y="1274.6049"/>
+      <port id="id225" x="1555.7727" y="1288.8905"/>
+    </glyph>
+    <glyph class="process" id="id226">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1662.0785" y="1158.9578"/>
+      <port id="id227" x="1683.5071" y="1166.1007"/>
+      <port id="id228" x="1654.9357" y="1166.1007"/>
+    </glyph>
+    <glyph class="process" id="id229">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="939.1944" y="344.1628"/>
+      <port id="id230" x="932.0515" y="351.30566"/>
+      <port id="id231" x="960.623" y="351.30566"/>
+      <port id="id232" x="946.3373" y="351.30566"/>
+    </glyph>
+    <glyph class="process" id="id233">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1878.4056" y="1259.3"/>
+      <port id="id234" x="1885.5485" y="1252.1571"/>
+      <port id="id235" x="1885.5485" y="1280.7286"/>
+      <port id="id236" x="1885.5485" y="1266.4429"/>
+    </glyph>
+    <glyph class="process" id="id237">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1625.6069" y="1370.3523"/>
+      <port id="id238" x="1618.4641" y="1377.4951"/>
+      <port id="id239" x="1647.0354" y="1377.4951"/>
+    </glyph>
+    <glyph class="process" id="id240">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1567.9568" y="1864.6107"/>
+      <port id="id241" x="1575.0996" y="1886.0393"/>
+      <port id="id242" x="1575.0996" y="1857.4678"/>
+    </glyph>
+    <glyph class="process" id="id243">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1567.9568" y="1752.6107"/>
+      <port id="id244" x="1575.0996" y="1774.0393"/>
+      <port id="id245" x="1575.0996" y="1745.4678"/>
+    </glyph>
+    <glyph class="process" id="id246">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1567.9568" y="1639.6107"/>
+      <port id="id247" x="1575.0996" y="1661.0393"/>
+      <port id="id248" x="1575.0996" y="1632.4678"/>
+    </glyph>
+    <glyph class="process" id="id249">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1567.9568" y="1544.6107"/>
+      <port id="id250" x="1575.0996" y="1566.0393"/>
+      <port id="id251" x="1575.0996" y="1537.4678"/>
+    </glyph>
+    <glyph class="process" id="id252">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1286.5117" y="1842.3362"/>
+      <port id="id253" x="1293.6545" y="1863.7648"/>
+      <port id="id254" x="1293.6545" y="1835.1934"/>
+    </glyph>
+    <glyph class="process" id="id255">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1286.5117" y="1762.3362"/>
+      <port id="id256" x="1293.6545" y="1783.7648"/>
+      <port id="id257" x="1293.6545" y="1755.1934"/>
+    </glyph>
+    <glyph class="process" id="id258">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1286.5117" y="1682.3362"/>
+      <port id="id259" x="1293.6545" y="1703.7648"/>
+      <port id="id260" x="1293.6545" y="1675.1934"/>
+    </glyph>
+    <glyph class="process" id="id261">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1286.5117" y="1562.3362"/>
+      <port id="id262" x="1293.6545" y="1583.7648"/>
+      <port id="id263" x="1293.6545" y="1555.1934"/>
+    </glyph>
+    <glyph class="process" id="id264">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1147.329" y="1879.3959"/>
+      <port id="id265" x="1168.7574" y="1886.5387"/>
+      <port id="id266" x="1140.1862" y="1886.5387"/>
+      <port id="id267" x="1154.4718" y="1886.5387"/>
+    </glyph>
+    <glyph class="process" id="id268">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1045.9589" y="1915.6653"/>
+      <port id="id269" x="1067.3875" y="1922.8081"/>
+      <port id="id270" x="1038.816" y="1922.8081"/>
+      <port id="id271" x="1053.1018" y="1922.8081"/>
+    </glyph>
+    <glyph class="process" id="id272">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1286.5117" y="1429.6564"/>
+      <port id="id273" x="1293.6545" y="1451.085"/>
+      <port id="id274" x="1293.6545" y="1422.5135"/>
+    </glyph>
+    <glyph class="process" id="id275">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1723.8982" y="1477.6362"/>
+      <port id="id276" x="1716.7554" y="1484.779"/>
+      <port id="id277" x="1745.3267" y="1484.779"/>
+    </glyph>
+    <glyph class="process" id="id278">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1044.3982" y="1429.1503"/>
+      <port id="id279" x="1051.541" y="1450.5789"/>
+      <port id="id280" x="1051.541" y="1422.0074"/>
+    </glyph>
+    <glyph class="process" id="id281">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="941.92694" y="1635.8431"/>
+      <port id="id282" x="963.3555" y="1642.986"/>
+      <port id="id283" x="934.7841" y="1642.986"/>
+    </glyph>
+    <glyph class="process" id="id284">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="876.24994" y="971.73346"/>
+      <port id="id285" x="897.6785" y="978.87634"/>
+      <port id="id286" x="869.1071" y="978.87634"/>
+      <port id="id287" x="883.3928" y="978.87634"/>
+      <port id="id288" x="883.3928" y="978.87634"/>
+    </glyph>
+    <glyph class="or" id="id289">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="875.39056" y="910.82196"/>
+      <port id="id290" x="907.53345" y="921.53625"/>
+      <port id="id291" x="864.6763" y="921.53625"/>
+    </glyph>
+    <glyph class="or" id="id292">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="872.6785" y="1038.582"/>
+      <port id="id293" x="883.39276" y="1070.7249"/>
+      <port id="id294" x="883.39276" y="1027.8677"/>
+    </glyph>
+    <glyph class="or" id="id295">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="1130.2279" y="1181.0424"/>
+      <port id="id296" x="1119.5137" y="1191.7567"/>
+      <port id="id297" x="1162.3707" y="1191.7567"/>
+    </glyph>
+    <glyph class="process" id="id298">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="940.85077" y="173.54465"/>
+      <port id="id299" x="933.70795" y="180.6875"/>
+      <port id="id300" x="962.2793" y="180.6875"/>
+      <port id="id301" x="947.99365" y="180.6875"/>
+    </glyph>
+    <glyph class="or" id="id302">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="1289.2362" y="733.72003"/>
+      <port id="id303" x="1321.379" y="744.4343"/>
+      <port id="id304" x="1278.522" y="744.4343"/>
+    </glyph>
+    <glyph class="process" id="id305">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1143.334" y="737.3443"/>
+      <port id="id306" x="1164.7626" y="744.4872"/>
+      <port id="id307" x="1136.1912" y="744.4872"/>
+      <port id="id308" x="1150.4768" y="744.4872"/>
+    </glyph>
+    <glyph class="process" id="id309">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1142.9646" y="810.8973"/>
+      <port id="id310" x="1164.3932" y="818.04016"/>
+      <port id="id311" x="1135.8217" y="818.04016"/>
+      <port id="id312" x="1150.1074" y="818.04016"/>
+    </glyph>
+    <glyph class="process" id="id313">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1146.7457" y="879.2597"/>
+      <port id="id314" x="1139.6029" y="886.4025"/>
+      <port id="id315" x="1168.1742" y="886.4025"/>
+      <port id="id316" x="1153.8885" y="886.4026"/>
+    </glyph>
+    <glyph class="or" id="id317">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="1292.7991" y="807.80804"/>
+      <port id="id318" x="1324.9419" y="818.52234"/>
+      <port id="id319" x="1282.0848" y="818.52234"/>
+    </glyph>
+    <glyph class="process" id="id320">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="14.285714" w="14.285714" x="1983.9193" y="945.31256"/>
+      <port id="id321" x="2005.3479" y="952.45544"/>
+      <port id="id322" x="1976.7764" y="952.45544"/>
+    </glyph>
+    <glyph class="or" id="id323">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <bbox h="21.428572" w="21.428572" x="1301.4523" y="333.60284"/>
+      <port id="id324" x="1290.7379" y="344.31714"/>
+      <port id="id325" x="1333.5952" y="344.31714"/>
+    </glyph>
+    <arc class="logic arc" id="id326" source="id87" target="id324">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="606.74255" y="826.26984"/>
+      <end x="1290.7379" y="344.31714"/>
+    </arc>
+    <arc class="logic arc" id="id327" source="id75" target="id324">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="321.13638"/>
+      <end x="1290.7379" y="344.31714"/>
+    </arc>
+    <arc class="catalysis" id="id328" source="id325" target="id221">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1333.5952" y="344.31714"/>
+      <end x="1315.3418" y="272.59177"/>
+    </arc>
+    <arc class="production" id="id329" source="id321" target="id3">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="2005.3479" y="952.45544"/>
+      <next x="2001.687" y="952.45544"/>
+      <end x="2030.29" y="952.45544"/>
+    </arc>
+    <arc class="logic arc" id="id330" source="id13" target="id318">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1480.8843" y="684.9712"/>
+      <next x="1319.1383" y="818.52234"/>
+      <end x="1324.9419" y="818.52234"/>
+    </arc>
+    <arc class="production" id="id331" source="id178" target="id5">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1972.2012" y="1484.779"/>
+      <next x="1968.5404" y="1484.779"/>
+      <end x="1996.9141" y="1484.779"/>
+    </arc>
+    <arc class="consumption" id="id332" source="id38" target="id179">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1930.5485" y="1484.779"/>
+      <next x="1947.2904" y="1484.779"/>
+      <end x="1943.6298" y="1484.779"/>
+    </arc>
+    <arc class="production" id="id333" source="id181" target="id43">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="897.6785" y="1107.8983"/>
+      <next x="894.0178" y="1107.8982"/>
+      <end x="995.1017" y="1107.8982"/>
+    </arc>
+    <arc class="inhibition" id="id334" source="id296" target="id183">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1119.5137" y="1191.7567"/>
+      <next x="1125.3173" y="1191.7567"/>
+      <next x="882.8638" y="1194.4315"/>
+      <end x="883.3308" y="1118.041"/>
+    </arc>
+    <arc class="catalysis" id="id335" source="id293" target="id184">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="883.39276" y="1070.7249"/>
+      <next x="883.3928" y="1064.9213"/>
+      <end x="883.3928" y="1088.7554"/>
+    </arc>
+    <arc class="consumption" id="id336" source="id47" target="id182">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="755.45715" y="1107.8982"/>
+      <next x="872.7678" y="1107.8982"/>
+      <end x="869.1071" y="1107.8983"/>
+    </arc>
+    <arc class="consumption" id="id337" source="id68" target="id186">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1249.2408" y="167.25293"/>
+      <next x="1300.5808" y="122.31445"/>
+      <end x="1296.92" y="122.314445"/>
+    </arc>
+    <arc class="production" id="id338" source="id187" target="id23">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1325.4917" y="122.314445"/>
+      <next x="1321.8308" y="122.31445"/>
+      <end x="1369.0442" y="159.80328"/>
+    </arc>
+    <arc class="inhibition" id="id339" source="id100" target="id202">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1908.959" y="956.45544"/>
+      <next x="1909.8145" y="955.7246"/>
+      <next x="1914.9971" y="45.480957"/>
+      <next x="418.3485" y="42.35962"/>
+      <end x="418.29935" y="163.09836"/>
+    </arc>
+    <arc class="production" id="id340" source="id200" target="id76">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="404.00952" y="173.24121"/>
+      <end x="485.13437" y="248.77225"/>
+    </arc>
+    <arc class="consumption" id="id341" source="id56" target="id201">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="593.1546" y="138.81784"/>
+      <end x="432.58093" y="173.24121"/>
+    </arc>
+    <arc class="inhibition" id="id342" source="id101" target="id191">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1885.7194" y="956.45544"/>
+      <next x="1890.5652" y="389.39648"/>
+      <end x="1748.9218" y="389.3418"/>
+    </arc>
+    <arc class="production" id="id343" source="id189" target="id121">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1738.7788" y="403.6236"/>
+      <next x="1738.7788" y="399.9629"/>
+      <next x="1736.3317" y="490.48755"/>
+      <end x="620.89844" y="500.15787"/>
+    </arc>
+    <arc class="consumption" id="id344" source="id77" target="id190">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="318.97592"/>
+      <next x="1734.1823" y="314.23853"/>
+      <next x="1738.7788" y="378.7129"/>
+      <end x="1738.7788" y="375.0522"/>
+    </arc>
+    <arc class="catalysis" id="id345" source="id69" target="id195">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1180.8918" y="174.44913"/>
+      <end x="972.6069" y="115.837265"/>
+    </arc>
+    <arc class="consumption" id="id346" source="id78" target="id193">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="290.10614"/>
+      <end x="961.05554" y="108.56665"/>
+    </arc>
+    <arc class="production" id="id347" source="id194" target="id57">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="932.4841" y="108.56665"/>
+      <end x="719.378" y="122.21974"/>
+    </arc>
+    <arc class="production" id="id348" source="id197" target="id51">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1656.607" y="1227.9437"/>
+      <next x="1660.2678" y="1227.9437"/>
+      <end x="1613.1285" y="1212.5258"/>
+    </arc>
+    <arc class="consumption" id="id349" source="id7" target="id198">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1734.11" y="1231.4034"/>
+      <next x="1681.5178" y="1227.9437"/>
+      <end x="1685.1787" y="1227.9437"/>
+    </arc>
+    <arc class="logic arc" id="id350" source="id14" target="id303">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1480.8843" y="665.31757"/>
+      <next x="1315.5754" y="744.43445"/>
+      <end x="1321.379" y="744.4343"/>
+    </arc>
+    <arc class="stimulation" id="id351" source="id176" target="id203">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="123.33826" y="171.64067"/>
+      <end x="392.0097" y="173.09859"/>
+    </arc>
+    <arc class="catalysis" id="id352" source="id205" target="id217">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1322.3656" y="641.126"/>
+      <next x="1316.5621" y="641.126"/>
+      <next x="1363.3771" y="639.90576"/>
+      <end x="1365.6932" y="639.86053"/>
+    </arc>
+    <arc class="logic arc" id="id353" source="id122" target="id206">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="511.58945"/>
+      <next x="1285.3121" y="641.126"/>
+      <end x="1279.5085" y="641.126"/>
+    </arc>
+    <arc class="logic arc" id="id354" source="id88" target="id206">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="606.74255" y="848.8357"/>
+      <next x="1285.3121" y="641.126"/>
+      <end x="1279.5085" y="641.126"/>
+    </arc>
+    <arc class="consumption" id="id355" source="id123" target="id208">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="468.52277"/>
+      <end x="963.12695" y="266.27832"/>
+    </arc>
+    <arc class="production" id="id356" source="id209" target="id58">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="934.5555" y="266.27832"/>
+      <end x="718.0775" y="160.15894"/>
+    </arc>
+    <arc class="catalysis" id="id357" source="id70" target="id210">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1181.3918" y="200.06552"/>
+      <end x="974.6683" y="258.92474"/>
+    </arc>
+    <arc class="consumption" id="id358" source="id9" target="id212">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="2043.29" y="1005.6046"/>
+      <next x="2001.687" y="1005.6046"/>
+      <end x="2005.3479" y="1005.6046"/>
+    </arc>
+    <arc class="production" id="id359" source="id213" target="id102">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1976.7764" y="1005.6046"/>
+      <next x="1980.437" y="1005.6046"/>
+      <end x="1942.9753" y="994.0966"/>
+    </arc>
+    <arc class="production" id="id360" source="id215" target="id11">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1384.8337" y="625.20087"/>
+      <next x="1384.8336" y="628.8616"/>
+      <end x="1384.8337" y="592.4768"/>
+    </arc>
+    <arc class="consumption" id="id361" source="id15" target="id216">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1480.8843" y="642.6284"/>
+      <next x="1384.8339" y="650.1116"/>
+      <end x="1384.8337" y="653.7722"/>
+    </arc>
+    <arc class="consumption" id="id362" source="id24" target="id219">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1379.168" y="207.8872"/>
+      <next x="1321.1895" y="253.81982"/>
+      <end x="1324.8502" y="253.81958"/>
+    </arc>
+    <arc class="production" id="id363" source="id220" target="id71">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1296.2787" y="253.81958"/>
+      <next x="1299.9395" y="253.81982"/>
+      <end x="1258.1276" y="215.97652"/>
+    </arc>
+    <arc class="consumption" id="id364" source="id26" target="id223">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1642.9049" y="1301.5851"/>
+      <next x="1555.7727" y="1299.5154"/>
+      <end x="1555.7727" y="1303.1761"/>
+    </arc>
+    <arc class="production" id="id365" source="id224" target="id52">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1555.7727" y="1274.6049"/>
+      <next x="1555.7727" y="1278.2654"/>
+      <end x="1555.7727" y="1226.7662"/>
+    </arc>
+    <arc class="necessary stimulation" id="id366" source="id34" target="id225">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1555.7727" y="1362.4951"/>
+      <end x="1555.7727" y="1313.1761"/>
+    </arc>
+    <arc class="production" id="id367" source="id227" target="id28">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1683.5071" y="1166.1007"/>
+      <next x="1679.8464" y="1166.1006"/>
+      <end x="1721.2698" y="1161.0011"/>
+    </arc>
+    <arc class="consumption" id="id368" source="id53" target="id228">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1600.7727" y="1181.6586"/>
+      <next x="1658.5964" y="1166.1006"/>
+      <end x="1654.9357" y="1166.1007"/>
+    </arc>
+    <arc class="production" id="id369" source="id230" target="id59">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="932.0515" y="351.30566"/>
+      <end x="716.5768" y="179.83472"/>
+    </arc>
+    <arc class="catalysis" id="id370" source="id72" target="id232">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1192.2499" y="207.25293"/>
+      <end x="968.8851" y="338.0974"/>
+    </arc>
+    <arc class="consumption" id="id371" source="id89" target="id231">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="599.2518" y="804.5436"/>
+      <end x="960.623" y="351.30566"/>
+    </arc>
+    <arc class="production" id="id372" source="id234" target="id103">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1885.5485" y="1252.1571"/>
+      <next x="1885.5485" y="1255.8179"/>
+      <end x="1885.5485" y="1009.45544"/>
+    </arc>
+    <arc class="consumption" id="id373" source="id30" target="id235">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1939.7251" y="1278.2112"/>
+      <next x="1885.5485" y="1277.0679"/>
+      <end x="1885.5485" y="1280.7286"/>
+    </arc>
+    <arc class="necessary stimulation" id="id374" source="id39" target="id236">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1885.5485" y="1469.779"/>
+      <end x="1885.5485" y="1290.7286"/>
+    </arc>
+    <arc class="consumption" id="id375" source="id35" target="id238">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1585.7727" y="1377.4951"/>
+      <next x="1622.1248" y="1377.4951"/>
+      <end x="1618.4641" y="1377.4951"/>
+    </arc>
+    <arc class="production" id="id376" source="id239" target="id32">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1647.0354" y="1377.4951"/>
+      <next x="1643.3748" y="1377.4951"/>
+      <end x="1666.6836" y="1377.4951"/>
+    </arc>
+    <arc class="necessary stimulation" id="id377" source="id136" target="id271">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1053.1017" y="1662.9482"/>
+      <end x="1053.1017" y="1905.6653"/>
+    </arc>
+    <arc class="necessary stimulation" id="id378" source="id137" target="id267">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1098.1017" y="1642.2036"/>
+      <next x="1150.394" y="1641.3384"/>
+      <end x="1154.1868" y="1869.3972"/>
+    </arc>
+    <arc class="consumption" id="id379" source="id138" target="id282">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1008.1017" y="1642.9664"/>
+      <next x="959.6948" y="1642.986"/>
+      <end x="963.3555" y="1642.986"/>
+    </arc>
+    <arc class="production" id="id380" source="id279" target="id139">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1051.541" y="1450.5789"/>
+      <next x="1051.541" y="1446.9182"/>
+      <end x="1052.839" y="1609.9486"/>
+    </arc>
+    <arc class="production" id="id381" source="id269" target="id141">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1067.3875" y="1922.8081"/>
+      <next x="1063.7267" y="1922.8081"/>
+      <end x="1517.1001" y="1918.6572"/>
+    </arc>
+    <arc class="consumption" id="id382" source="id142" target="id241">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1903.1262"/>
+      <next x="1575.0996" y="1882.3785"/>
+      <end x="1575.0996" y="1886.0393"/>
+    </arc>
+    <arc class="consumption" id="id383" source="id144" target="id244">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1801.7535"/>
+      <next x="1575.0996" y="1770.3785"/>
+      <end x="1575.0996" y="1774.0393"/>
+    </arc>
+    <arc class="production" id="id384" source="id242" target="id145">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1857.4678"/>
+      <next x="1575.0996" y="1861.1285"/>
+      <end x="1575.0996" y="1844.7535"/>
+    </arc>
+    <arc class="consumption" id="id385" source="id147" target="id247">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1676.7535"/>
+      <next x="1575.0996" y="1657.3785"/>
+      <end x="1575.0996" y="1661.0393"/>
+    </arc>
+    <arc class="production" id="id386" source="id245" target="id148">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1745.4678"/>
+      <next x="1575.0996" y="1749.1285"/>
+      <end x="1575.0996" y="1719.7535"/>
+    </arc>
+    <arc class="production" id="id387" source="id248" target="id150">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1632.4678"/>
+      <next x="1575.0996" y="1636.1285"/>
+      <end x="1575.0996" y="1619.7535"/>
+    </arc>
+    <arc class="consumption" id="id388" source="id151" target="id250">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1576.7535"/>
+      <next x="1575.0996" y="1562.3785"/>
+      <end x="1575.0996" y="1566.0393"/>
+    </arc>
+    <arc class="consumption" id="id389" source="id153" target="id276">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1620.0996" y="1484.779"/>
+      <next x="1720.4161" y="1484.779"/>
+      <end x="1716.7554" y="1484.779"/>
+    </arc>
+    <arc class="production" id="id390" source="id251" target="id154">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1575.0996" y="1537.4678"/>
+      <next x="1575.0996" y="1541.1285"/>
+      <end x="1575.0996" y="1512.779"/>
+    </arc>
+    <arc class="production" id="id391" source="id265" target="id156">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1168.7574" y="1886.5387"/>
+      <next x="1165.0967" y="1886.5387"/>
+      <end x="1235.658" y="1888.1526"/>
+    </arc>
+    <arc class="consumption" id="id392" source="id157" target="id253">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1874.479"/>
+      <next x="1293.6545" y="1860.104"/>
+      <end x="1293.6545" y="1863.7648"/>
+    </arc>
+    <arc class="production" id="id393" source="id254" target="id159">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1835.1934"/>
+      <next x="1293.6545" y="1838.854"/>
+      <end x="1293.6545" y="1837.479"/>
+    </arc>
+    <arc class="consumption" id="id394" source="id160" target="id256">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1794.479"/>
+      <next x="1293.6545" y="1780.104"/>
+      <end x="1293.6545" y="1783.7648"/>
+    </arc>
+    <arc class="consumption" id="id395" source="id162" target="id259">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1714.479"/>
+      <next x="1293.6545" y="1700.104"/>
+      <end x="1293.6545" y="1703.7648"/>
+    </arc>
+    <arc class="production" id="id396" source="id257" target="id163">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1755.1934"/>
+      <next x="1293.6545" y="1758.854"/>
+      <end x="1293.6545" y="1757.479"/>
+    </arc>
+    <arc class="consumption" id="id397" source="id165" target="id262">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1614.479"/>
+      <next x="1293.6545" y="1580.104"/>
+      <end x="1293.6545" y="1583.7648"/>
+    </arc>
+    <arc class="production" id="id398" source="id260" target="id166">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1675.1934"/>
+      <next x="1293.6545" y="1678.854"/>
+      <end x="1293.6545" y="1657.479"/>
+    </arc>
+    <arc class="consumption" id="id399" source="id168" target="id273">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1494.479"/>
+      <next x="1293.6545" y="1447.4242"/>
+      <end x="1293.6545" y="1451.085"/>
+    </arc>
+    <arc class="production" id="id400" source="id263" target="id169">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1555.1934"/>
+      <next x="1293.6545" y="1558.854"/>
+      <end x="1293.6545" y="1537.479"/>
+    </arc>
+    <arc class="consumption" id="id401" source="id171" target="id266">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1102.3505" y="1886.5387"/>
+      <next x="1143.8467" y="1886.5387"/>
+      <end x="1140.1862" y="1886.5387"/>
+    </arc>
+    <arc class="consumption" id="id402" source="id173" target="id270">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="987.4685" y="1922.8081"/>
+      <next x="1042.4767" y="1922.8081"/>
+      <end x="1038.816" y="1922.8081"/>
+    </arc>
+    <arc class="production" id="id403" source="id274" target="id36">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1293.6545" y="1422.5135"/>
+      <next x="1293.6545" y="1426.1742"/>
+      <end x="1512.9912" y="1385.4402"/>
+    </arc>
+    <arc class="production" id="id404" source="id277" target="id40">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1745.3267" y="1484.779"/>
+      <next x="1741.6661" y="1484.779"/>
+      <end x="1827.5485" y="1484.779"/>
+    </arc>
+    <arc class="consumption" id="id405" source="id44" target="id280">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1053.0034" y="1127.8982"/>
+      <next x="1051.541" y="1425.6682"/>
+      <end x="1051.541" y="1422.0074"/>
+    </arc>
+    <arc class="production" id="id406" source="id283" target="id48">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="934.7841" y="1642.986"/>
+      <next x="938.4448" y="1642.986"/>
+      <next x="713.35736" y="1641.9424"/>
+      <end x="710.63635" y="1140.898"/>
+    </arc>
+    <arc class="catalysis" id="id407" source="id290" target="id287">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="907.53345" y="921.53625"/>
+      <end x="891.0563" y="960.67365"/>
+    </arc>
+    <arc class="inhibition" id="id408" source="id104" target="id288">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1840.5485" y="976.56415"/>
+      <end x="900.6785" y="978.83453"/>
+    </arc>
+    <arc class="production" id="id409" source="id285" target="id45">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="897.6785" y="978.87634"/>
+      <next x="894.0178" y="978.87634"/>
+      <end x="1008.50494" y="1071.7289"/>
+    </arc>
+    <arc class="consumption" id="id410" source="id49" target="id286">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="735.6173" y="1087.8982"/>
+      <next x="872.7678" y="978.87634"/>
+      <end x="869.1071" y="978.87634"/>
+    </arc>
+    <arc class="logic arc" id="id411" source="id90" target="id291">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="606.74255" y="876.13556"/>
+      <end x="864.6763" y="921.53625"/>
+    </arc>
+    <arc class="logic arc" id="id412" source="id124" target="id291">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="597.1736" y="562.3865"/>
+      <end x="864.6763" y="921.53625"/>
+    </arc>
+    <arc class="logic arc" id="id413" source="id79" target="id291">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="583.33887" y="380.8391"/>
+      <end x="864.6763" y="921.53625"/>
+    </arc>
+    <arc class="logic arc" id="id414" source="id110" target="id291">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="731.2165"/>
+      <end x="864.6763" y="921.53625"/>
+    </arc>
+    <arc class="logic arc" id="id415" source="id125" target="id294">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="589.67975" y="562.3865"/>
+      <next x="883.3928" y="1033.6713"/>
+      <end x="883.39276" y="1027.8677"/>
+    </arc>
+    <arc class="logic arc" id="id416" source="id91" target="id294">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="606.74255" y="894.62805"/>
+      <next x="883.3928" y="1033.6713"/>
+      <end x="883.39276" y="1027.8677"/>
+    </arc>
+    <arc class="logic arc" id="id417" source="id54" target="id297">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1510.7727" y="1193.5397"/>
+      <next x="1156.5673" y="1191.7567"/>
+      <end x="1162.3707" y="1191.7567"/>
+    </arc>
+    <arc class="logic arc" id="id418" source="id105" target="id297">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1840.5485" y="989.746"/>
+      <next x="1156.5673" y="1191.7567"/>
+      <end x="1162.3707" y="1191.7567"/>
+    </arc>
+    <arc class="production" id="id419" source="id299" target="id60">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="933.70795" y="180.6875"/>
+      <end x="719.1756" y="139.8792"/>
+    </arc>
+    <arc class="catalysis" id="id420" source="id73" target="id301">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1181.3918" y="186.1917"/>
+      <end x="974.27594" y="181.30731"/>
+    </arc>
+    <arc class="consumption" id="id421" source="id111" target="id300">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="601.07776" y="627.6218"/>
+      <end x="962.2793" y="180.6875"/>
+    </arc>
+    <arc class="consumption" id="id422" source="id80" target="id306">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="358.46683"/>
+      <end x="1164.7626" y="744.4872"/>
+    </arc>
+    <arc class="production" id="id423" source="id307" target="id112">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1136.1912" y="744.4872"/>
+      <end x="620.8413" y="695.8169"/>
+    </arc>
+    <arc class="inhibition" id="id424" source="id304" target="id308">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1278.522" y="744.4343"/>
+      <next x="1284.3254" y="744.43445"/>
+      <end x="1167.7626" y="744.48035"/>
+    </arc>
+    <arc class="inhibition" id="id425" source="id319" target="id312">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1282.0848" y="818.52234"/>
+      <next x="1287.8883" y="818.52234"/>
+      <end x="1167.3932" y="818.10065"/>
+    </arc>
+    <arc class="consumption" id="id426" source="id126" target="id310">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="530.06396"/>
+      <end x="1164.3932" y="818.04016"/>
+    </arc>
+    <arc class="production" id="id427" source="id311" target="id92">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1135.8217" y="818.04016"/>
+      <end x="619.6989" y="860.4509"/>
+    </arc>
+    <arc class="inhibition" id="id428" source="id106" target="id316">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1840.5485" y="970.9168"/>
+      <end x="1171.1517" y="888.52734"/>
+    </arc>
+    <arc class="production" id="id429" source="id314" target="id93">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1139.6029" y="886.4025"/>
+      <end x="619.7349" y="868.55817"/>
+    </arc>
+    <arc class="consumption" id="id430" source="id113" target="id315">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="707.3437"/>
+      <end x="1168.1742" y="886.4025"/>
+    </arc>
+    <arc class="logic arc" id="id431" source="id107" target="id318">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1840.5485" y="963.908"/>
+      <next x="1319.1383" y="818.52234"/>
+      <end x="1324.9419" y="818.52234"/>
+    </arc>
+    <arc class="consumption" id="id432" source="id108" target="id322">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="1930.5485" y="965.07367"/>
+      <next x="1980.437" y="952.45544"/>
+      <end x="1976.7764" y="952.45544"/>
+    </arc>
+    <arc class="logic arc" id="id433" source="id114" target="id324">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="662.83356"/>
+      <end x="1290.7379" y="344.31714"/>
+    </arc>
+    <arc class="logic arc" id="id434" source="id127" target="id324">
+      <extension>
+        <style xmlns="http://krayon.sbgn.ns/v1" idRef="style1"/>
+      </extension>
+      <start x="607.8989" y="488.78165"/>
+      <end x="1290.7379" y="344.31714"/>
+    </arc>
+  </map>
+</sbgn>
