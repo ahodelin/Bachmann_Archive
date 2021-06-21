@@ -1,0 +1,1020 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn xmlns='http://sbgn.org/libsbgn/0.2'>
+<map language='process description'>
+<glyph id='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' class='compartment'  >
+<label text='cytoplasm' />
+<bbox y='68.17870999999991' x='403.00952000000007' w='1664.03048' h='1889.3793899999998' />
+</glyph>
+<glyph id='nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='941.45544' x='2043.29' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_34153a1f-cf3f-4447-853f-f667002d4691' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1473.779' x='2009.9141' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_74036716-c607-4c1d-95ab-6c8a6534703d' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1221.1223' x='1734.0375' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_079d5024-c071-46f6-9b0b-5743645f607e' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='994.6046' x='2043.29' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_444ba2bc-b306-4dbf-954d-5bbf0f9d9647' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='557.4768' x='1373.8339' w='22' h='22' />
+</glyph>
+<glyph id='a4654a8c-1e3c-ae08-59c3-60671c6d080e' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='EpoRJAK2_CIS' />
+<bbox y='556.4668' x='1490.7593' w='93.5' h='163.5' />
+<glyph id='manualId16' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='558.2168' x='1492.5093' w='90' h='40' />
+<glyph id='manualId16a' class='state variable'>
+<state />
+<bbox y='588.2168' x='1505.0093' w='20' h='20' />
+</glyph>
+<glyph id='manualId16b' class='state variable'>
+<state />
+<bbox y='588.2168' x='1527.5093' w='20' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId17' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='638.2168' x='1492.5093' w='90' h='40' />
+<glyph id='manualId17a' class='state variable'>
+<state />
+<bbox y='628.2168' x='1505.0093' w='20' h='20' />
+</glyph>
+</glyph>
+<glyph id='nwtN_2e6bca99-7c8c-446e-9ca9-8eb3de6c3693' class='macromolecule' >
+<label text='CIS' />
+<bbox y='678.2168' x='1492.5093' w='90' h='40' />
+</glyph>
+</glyph>
+<glyph id='manualId12' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='SHP1' />
+<bbox y='167.8872' x='1359.4131' w='90' h='40' />
+</glyph>
+<glyph id='nwtN_edf59ed3-fe0d-46cf-bf8c-b4a9f7117278' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1290.8457' x='1642.8787' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_b4ce0455-9bf6-4853-bcf0-ab0d8b31666b' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1147.0751' x='1734.0375' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_27755964-e20c-4f03-8550-f753824ad702' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1267.4429' x='1939.7018' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_a3bfd34c-6ac9-4d87-a03a-37c7c7e2e2f2' class='source and sink' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1366.4951' x='1679.6836' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4' class='nucleic acid feature' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='cisRNA' />
+<bbox y='1362.4951' x='1525.7727' w='60' h='30' />
+</glyph>
+<glyph id='manualId13' class='nucleic acid feature' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='socs3RNA' />
+<bbox y='1469.779' x='1840.5485' w='90' h='30' />
+</glyph>
+<glyph id='c0aa1740-3f0a-959d-ec2a-92e8f7f85134' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='STAT5' />
+<bbox y='1087.8982' x='1008.1017000000002' w='90' h='40' />
+<glyph id='c0aa1740-3f0a-959d-ec2a-92e8f7f85134a' class='state variable'>
+<state value='P' />
+<bbox y='1077.8982' x='1018.6017000000002' w='24' h='20' />
+</glyph>
+</glyph>
+<glyph id='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='STAT5' />
+<bbox y='1087.8982' x='665.45715' w='90' h='40' />
+</glyph>
+<glyph id='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='CIS' />
+<bbox y='1173.7662' x='1510.7727' w='90' h='40' />
+</glyph>
+<glyph id='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='EpoRJAK2' />
+<bbox y='74.92871' x='603.0296' w='93.5' h='103.5' />
+<glyph id='nwtN_ed697f40-b142-4cde-9305-d10618d4e883' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='76.67871' x='604.7796' w='90' h='40' />
+<glyph id='nwtN_ed697f40-b142-4cde-9305-d10618d4e883a' class='state variable'>
+<state />
+<bbox y='106.67871' x='617.2796' w='20' h='20' />
+</glyph>
+<glyph id='nwtN_ed697f40-b142-4cde-9305-d10618d4e883b' class='state variable'>
+<state />
+<bbox y='106.67871' x='639.7796' w='20' h='20' />
+</glyph>
+</glyph>
+<glyph id='nwtN_200bb2f9-0abe-4caa-a632-cab524373d86' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='136.67871' x='604.7796' w='90' h='40' />
+<glyph id='nwtN_200bb2f9-0abe-4caa-a632-cab524373d86a' class='state variable'>
+<state />
+<bbox y='126.67871' x='617.2796' w='20' h='20' />
+</glyph>
+</glyph>
+</glyph>
+<glyph id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='SHP1' />
+<bbox y='167.25293' x='1181.3918' w='90' h='40' />
+<glyph id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245a' class='state variable'>
+<state value='active' />
+<bbox y='156.25293' x='1179.8918' w='48' h='22' />
+</glyph>
+</glyph>
+<glyph id='manualId7' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='EpoRpJAK2' />
+<bbox y='267.4641' x='504.52393000000006' w='93.5' h='103.5' />
+<glyph id='manualId8' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='269.2141' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId8a' class='state variable'>
+<state />
+<bbox y='299.2141' x='518.7739' w='20' h='20' />
+</glyph>
+<glyph id='manualId8b' class='state variable'>
+<state />
+<bbox y='299.2141' x='541.2739' w='20' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId9' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='329.2141' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId9a' class='state variable'>
+<state value='P' />
+<bbox y='319.2141' x='516.7739' w='24' h='20' />
+</glyph>
+</glyph>
+</glyph>
+<glyph id='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='p12EpoRpJAK2' />
+<bbox y='814.4186' x='503.36754999999994' w='93.5' h='103.5' />
+<glyph id='manualId14' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='816.1686' x='505.11754999999994' w='90' h='40' />
+<glyph id='manualId14a' class='state variable'>
+<state value='P1' />
+<bbox y='846.1686' x='512.61755' w='30' h='20' />
+</glyph>
+<glyph id='manualId14b' class='state variable'>
+<state value='P2' />
+<bbox y='846.1686' x='535.11755' w='30' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId15' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='876.1686' x='505.11754999999994' w='90' h='40' />
+<glyph id='manualId15a' class='state variable'>
+<state value='P' />
+<bbox y='866.1686' x='515.61755' w='24' h='20' />
+</glyph>
+</glyph>
+</glyph>
+<glyph id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='macromolecule' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='SOCS3' />
+<bbox y='956.45544' x='1840.5485' w='90' h='40' />
+</glyph>
+<glyph id='manualId18' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='p2EpoRpJAK2' />
+<bbox y='637.4968' x='504.52393000000006' w='93.5' h='103.5' />
+<glyph id='manualId19' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='639.2468' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId19a' class='state variable'>
+<state />
+<bbox y='669.2468' x='518.7739' w='20' h='20' />
+</glyph>
+<glyph id='manualId19b' class='state variable'>
+<state value='P2' />
+<bbox y='669.2468' x='536.2739' w='30' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId20' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='699.2468' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId20a' class='state variable'>
+<state value='P' />
+<bbox y='689.2468' x='516.7739' w='24' h='20' />
+</glyph>
+</glyph>
+</glyph>
+<glyph id='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='complex'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='p1EpoRpJAK2' />
+<bbox y='449.0114699999999' x='504.52393000000006' w='93.5' h='103.49999999999994' />
+<glyph id='manualId10' class='macromolecule' >
+<label text='EpoR' />
+<bbox y='450.76147' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId10a' class='state variable'>
+<state value='P1' />
+<bbox y='480.76147' x='513.7739' w='30' h='20' />
+</glyph>
+<glyph id='manualId10b' class='state variable'>
+<state />
+<bbox y='480.76147' x='541.2739' w='20' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId11' class='macromolecule' >
+<label text='JAK2' />
+<bbox y='510.7614699999999' x='506.27393000000006' w='90' h='40' />
+<glyph id='manualId11a' class='state variable'>
+<state value='P' />
+<bbox y='500.7614699999999' x='516.7739' w='24' h='20' />
+</glyph>
+</glyph>
+</glyph>
+<glyph id='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' class='compartment'  compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<label text='nucleus' />
+<bbox y='1468.029' x='963.7185' w='658.1311000000001' h='467.52909999999997' />
+</glyph>
+<glyph id='d2672078-a0a4-aeeb-3521-bf3d1b4d539a' class='macromolecule' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='STAT5' />
+<bbox y='1622.9482' x='1008.1017000000002' w='90' h='40' />
+<glyph id='d2672078-a0a4-aeeb-3521-bf3d1b4d539aa' class='state variable'>
+<state value='P' />
+<bbox y='1612.9482' x='1018.6017000000002' w='24' h='20' />
+</glyph>
+</glyph>
+<glyph id='manualId1' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='socs3RNA1' />
+<bbox y='1903.1262' x='1530.0996' w='90' h='30' />
+</glyph>
+<glyph id='ea850968-a714-4d00-f035-28c3e687ea0e' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='socs3RNA2' />
+<bbox y='1801.7535' x='1530.0996' w='90' h='30' />
+</glyph>
+<glyph id='manualId2' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='socs3RNA3' />
+<bbox y='1676.7535' x='1530.0996' w='90' h='30' />
+</glyph>
+<glyph id='db2d3850-95a6-92dc-0a37-7f57234911f1' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='socs3RNA4' />
+<bbox y='1576.7535' x='1530.0996' w='90' h='30' />
+</glyph>
+<glyph id='manualId3' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='socs3RNA5' />
+<bbox y='1469.779' x='1530.0996' w='90' h='30' />
+</glyph>
+<glyph id='e4284739-d83c-e0fb-a3aa-db31776a7197' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='cisRNA1' />
+<bbox y='1874.479' x='1248.6545' w='90' h='30' />
+</glyph>
+<glyph id='manualId4' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='cisRNA2' />
+<bbox y='1794.479' x='1248.6545' w='90' h='30' />
+</glyph>
+<glyph id='d01b95dd-5f14-f37f-228d-1add3fbd70a8' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='cisRNA3' />
+<bbox y='1714.479' x='1248.6545' w='90' h='30' />
+</glyph>
+<glyph id='manualId5' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='cisRNA4' />
+<bbox y='1614.479' x='1248.6545' w='90' h='30' />
+</glyph>
+<glyph id='a87e1036-1e10-48c8-603c-c6c54e633241' class='nucleic acid feature' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<label text='cisRNA5' />
+<bbox y='1494.479' x='1248.6545' w='90' h='30' />
+</glyph>
+<glyph id='nwtN_97a87116-9b3d-4f45-b677-200705ea9740' class='source and sink' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1875.5387' x='1080.3505' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_585d4e98-d3ee-497b-81c3-6388fecb9769' class='source and sink' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1911.8081' x='965.4685' w='22' h='22' />
+</glyph>
+<glyph id='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1864.6107' x='1567.9568' w='14.285714' h='14.285714' />
+<port id='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.2' y='1886.0393' x='1575.099657' />
+<port id='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.1' y='1857.467814' x='1575.099657' />
+</glyph>
+<glyph id='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1752.6107' x='1567.9568' w='14.285714' h='14.285714' />
+<port id='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.2' y='1774.0393' x='1575.099657' />
+<port id='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.1' y='1745.467814' x='1575.099657' />
+</glyph>
+<glyph id='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1639.6107' x='1567.9568' w='14.285714' h='14.285714' />
+<port id='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.2' y='1661.0393' x='1575.099657' />
+<port id='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.1' y='1632.467814' x='1575.099657' />
+</glyph>
+<glyph id='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1544.6107' x='1567.9568' w='14.285714' h='14.285714' />
+<port id='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.2' y='1566.0393' x='1575.099657' />
+<port id='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.1' y='1537.467814' x='1575.099657' />
+</glyph>
+<glyph id='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1842.3362' x='1286.5117' w='14.285714' h='14.285714' />
+<port id='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.2' y='1863.7648' x='1293.654557' />
+<port id='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.1' y='1835.193314' x='1293.654557' />
+</glyph>
+<glyph id='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1762.3362' x='1286.5117' w='14.285714' h='14.285714' />
+<port id='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.2' y='1783.7648' x='1293.654557' />
+<port id='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.1' y='1755.193314' x='1293.654557' />
+</glyph>
+<glyph id='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1682.3362' x='1286.5117' w='14.285714' h='14.285714' />
+<port id='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.2' y='1703.7648' x='1293.654557' />
+<port id='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.1' y='1675.193314' x='1293.654557' />
+</glyph>
+<glyph id='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1562.3362' x='1286.5117' w='14.285714' h='14.285714' />
+<port id='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.2' y='1583.7648' x='1293.654557' />
+<port id='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.1' y='1555.193314' x='1293.654557' />
+</glyph>
+<glyph id='nwtN_f64a8174-89a8-402f-90ad-d992047b386f' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1879.3959' x='1147.3289' w='14.285714' h='14.285714' />
+<port id='nwtN_f64a8174-89a8-402f-90ad-d992047b386f.2' y='1886.538757' x='1168.7574' />
+<port id='nwtN_f64a8174-89a8-402f-90ad-d992047b386f.1' y='1886.538757' x='1140.186114' />
+</glyph>
+<glyph id='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf' class='process' compartmentRef='nwtN_38bffecd-5ee2-4034-bfc6-2299af48ac90' >
+<bbox y='1915.6653' x='1045.9589' w='14.285714' h='14.285714' />
+<port id='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.2' y='1922.808157' x='1067.3875' />
+<port id='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.1' y='1922.808157' x='1038.8160140000002' />
+</glyph>
+<glyph id='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1477.6362' x='1950.7726' w='14.285714' h='14.285714' />
+<port id='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.2' y='1484.779057' x='1972.2012' />
+<port id='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.1' y='1484.779057' x='1943.6297140000001' />
+</glyph>
+<glyph id='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1100.7554' x='876.24994' w='14.285714' h='14.285714' />
+<port id='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.2' y='1107.898257' x='897.6785' />
+<port id='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.1' y='1107.898257' x='869.1070940000002' />
+</glyph>
+<glyph id='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='115.17159' x='1304.063' w='14.285714' h='14.285714' />
+<port id='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.1' y='122.314447' x='1296.92' />
+<port id='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.2' y='122.314447' x='1325.4917140000002' />
+</glyph>
+<glyph id='nwtN_fa380867-57bf-4316-8549-9dc573aee386' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='382.19504' x='1731.636' w='14.285714' h='14.285714' />
+<port id='nwtN_fa380867-57bf-4316-8549-9dc573aee386.2' y='403.6236' x='1738.778857' />
+<port id='nwtN_fa380867-57bf-4316-8549-9dc573aee386.1' y='375.052194' x='1738.778857' />
+</glyph>
+<glyph id='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='101.42379' x='939.62695' w='14.285714' h='14.285714' />
+<port id='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.2' y='108.566647' x='961.05554' />
+<port id='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.1' y='108.566647' x='932.4840740000001' />
+</glyph>
+<glyph id='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1220.8009' x='1663.75' w='14.285714' h='14.285714' />
+<port id='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.1' y='1227.943757' x='1656.607' />
+<port id='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.2' y='1227.943757' x='1685.1787140000001' />
+</glyph>
+<glyph id='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='166.09836' x='411.15237' w='14.285714' h='14.285714' />
+<port id='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.1' y='173.241217' x='404.00952' />
+<port id='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.2' y='173.241217' x='432.580934' />
+</glyph>
+<glyph id='nwtN_89ad11ba-c238-4125-8778-e07da137a458' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='630.4117' x='1290.2228' w='21.428572' h='21.428572' />
+<port id='nwtN_89ad11ba-c238-4125-8778-e07da137a458.2' y='641.125986' x='1322.3656' />
+<port id='nwtN_89ad11ba-c238-4125-8778-e07da137a458.1' y='641.125986' x='1279.5085719999997' />
+</glyph>
+<glyph id='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='259.13547' x='941.69836' w='14.285714' h='14.285714' />
+<port id='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.2' y='266.278327' x='963.12695' />
+<port id='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.1' y='266.278327' x='934.5554840000001' />
+</glyph>
+<glyph id='nwtN_00458032-42ea-43fe-a080-ba70a662206e' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='998.46173' x='1983.9193' w='14.285714' h='14.285714' />
+<port id='nwtN_00458032-42ea-43fe-a080-ba70a662206e.2' y='1005.604587' x='2005.3479' />
+<port id='nwtN_00458032-42ea-43fe-a080-ba70a662206e.1' y='1005.604587' x='1976.7764140000002' />
+</glyph>
+<glyph id='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='632.3437' x='1377.6909' w='14.285714' h='14.285714' />
+<port id='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.1' y='625.20087' x='1384.833757' />
+<port id='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.2' y='653.7722440000001' x='1384.833757' />
+</glyph>
+<glyph id='nwtN_aac7a54a-9331-4678-887f-2856de398b2e' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='246.67673' x='1303.4216' w='14.285714' h='14.285714' />
+<port id='nwtN_aac7a54a-9331-4678-887f-2856de398b2e.2' y='253.81958699999998' x='1324.8502' />
+<port id='nwtN_aac7a54a-9331-4678-887f-2856de398b2e.1' y='253.81958699999998' x='1296.2787139999998' />
+</glyph>
+<glyph id='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1281.7476' x='1548.6299' w='14.285714' h='14.285714' />
+<port id='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.2' y='1303.1761' x='1555.772757' />
+<port id='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.1' y='1274.604814' x='1555.772757' />
+</glyph>
+<glyph id='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1158.9578' x='1662.0785' w='14.285714' h='14.285714' />
+<port id='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.2' y='1166.100657' x='1683.5071' />
+<port id='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.1' y='1166.100657' x='1654.9356140000002' />
+</glyph>
+<glyph id='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='344.1628' x='939.1944' w='14.285714' h='14.285714' />
+<port id='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.1' y='351.305657' x='932.0515' />
+<port id='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.2' y='351.305657' x='960.623014' />
+</glyph>
+<glyph id='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1259.3' x='1878.4056' w='14.285714' h='14.285714' />
+<port id='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.1' y='1252.1571' x='1885.548457' />
+<port id='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.2' y='1280.728614' x='1885.548457' />
+</glyph>
+<glyph id='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1370.3523' x='1625.6069' w='14.285714' h='14.285714' />
+<port id='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.1' y='1377.495157' x='1618.4641' />
+<port id='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.2' y='1377.495157' x='1647.0354140000002' />
+</glyph>
+<glyph id='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1429.6564' x='1286.5117' w='14.285714' h='14.285714' />
+<port id='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.2' y='1451.085' x='1293.654557' />
+<port id='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.1' y='1422.5135140000002' x='1293.654557' />
+</glyph>
+<glyph id='nwtN_4a2ea381-8769-4085-9921-03688def94b9' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1477.6362' x='1723.8982' w='14.285714' h='14.285714' />
+<port id='nwtN_4a2ea381-8769-4085-9921-03688def94b9.1' y='1484.779057' x='1716.7554' />
+<port id='nwtN_4a2ea381-8769-4085-9921-03688def94b9.2' y='1484.779057' x='1745.3267140000003' />
+</glyph>
+<glyph id='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1429.1503' x='1044.3982' w='14.285714' h='14.285714' />
+<port id='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.2' y='1450.5789' x='1051.5410570000001' />
+<port id='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.1' y='1422.0074140000002' x='1051.5410570000001' />
+</glyph>
+<glyph id='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1635.8431' x='941.92694' w='14.285714' h='14.285714' />
+<port id='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.2' y='1642.985957' x='963.3555' />
+<port id='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.1' y='1642.985957' x='934.784094' />
+</glyph>
+<glyph id='nwtN_b1002eee-8088-45e9-943a-804c34e42c98' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='971.73346' x='876.24994' w='14.285714' h='14.285714' />
+<port id='nwtN_b1002eee-8088-45e9-943a-804c34e42c98.2' y='978.8763170000001' x='897.6785' />
+<port id='nwtN_b1002eee-8088-45e9-943a-804c34e42c98.1' y='978.8763170000001' x='869.1070940000002' />
+</glyph>
+<glyph id='nwtN_abf49e76-d207-458e-b91b-988537476335' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='910.82196' x='875.39056' w='21.428572' h='21.428572' />
+<port id='nwtN_abf49e76-d207-458e-b91b-988537476335.2' y='921.536246' x='907.53345' />
+<port id='nwtN_abf49e76-d207-458e-b91b-988537476335.1' y='921.536246' x='864.6762420000001' />
+</glyph>
+<glyph id='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1038.582' x='872.6785' w='21.428572' h='21.428572' />
+<port id='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.2' y='1070.7249' x='883.392786' />
+<port id='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1' y='1027.867672' x='883.392786' />
+</glyph>
+<glyph id='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='1181.0424' x='1130.2279' w='21.428572' h='21.428572' />
+<port id='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.1' y='1191.756686' x='1119.5137' />
+<port id='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2' y='1191.756686' x='1162.370672' />
+</glyph>
+<glyph id='nwtN_923069d5-14d3-416d-9a83-b83e559835a9' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='173.54465' x='940.85077' w='14.285714' h='14.285714' />
+<port id='nwtN_923069d5-14d3-416d-9a83-b83e559835a9.1' y='180.68750699999998' x='933.70795' />
+<port id='nwtN_923069d5-14d3-416d-9a83-b83e559835a9.2' y='180.68750699999998' x='962.2793040000001' />
+</glyph>
+<glyph id='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='733.72003' x='1289.2362' w='21.428572' h='21.428572' />
+<port id='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.2' y='744.434316' x='1321.379' />
+<port id='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.1' y='744.434316' x='1278.521972' />
+</glyph>
+<glyph id='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='737.3443' x='1143.334' w='14.285714' h='14.285714' />
+<port id='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.2' y='744.487157' x='1164.7626' />
+<port id='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.1' y='744.487157' x='1136.1911140000002' />
+</glyph>
+<glyph id='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='810.8973' x='1142.9646' w='14.285714' h='14.285714' />
+<port id='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.2' y='818.040157' x='1164.3932' />
+<port id='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.1' y='818.040157' x='1135.8217140000002' />
+</glyph>
+<glyph id='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='879.2597' x='1146.7457' w='14.285714' h='14.285714' />
+<port id='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.1' y='886.402557' x='1139.6029' />
+<port id='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.2' y='886.402557' x='1168.174214' />
+</glyph>
+<glyph id='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='807.80804' x='1292.7991' w='21.428572' h='21.428572' />
+<port id='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.2' y='818.522326' x='1324.9419' />
+<port id='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.1' y='818.522326' x='1282.0848719999997' />
+</glyph>
+<glyph id='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03' class='process' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='945.31256' x='1983.9193' w='14.285714' h='14.285714' />
+<port id='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.2' y='952.455417' x='2005.3479' />
+<port id='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.1' y='952.455417' x='1976.7764140000002' />
+</glyph>
+<glyph id='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807' class='or' compartmentRef='nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d' >
+<bbox y='333.60284' x='1301.4523' w='21.428572' h='21.428572' />
+<port id='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' y='344.31712600000003' x='1290.7379' />
+<port id='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.2' y='344.31712600000003' x='1333.5952719999996' />
+</glyph>
+<glyph id='nwtN_88547560-20ea-4f40-8fc8-6513b2072f69' class='compartment'  >
+<bbox y='149.64648' x='31.588257' w='93.5' h='43.5' />
+</glyph>
+<glyph id='nwtN_7a3c8b46-083f-4ed1-8e7e-b659a05afeff' class='macromolecule' compartmentRef='nwtN_88547560-20ea-4f40-8fc8-6513b2072f69' >
+<label text='Epo' />
+<bbox y='151.39648' x='33.338257' w='90' h='40' />
+</glyph>
+<arc id='e08d1628-0d6a-e2e7-8532-ece8f502e322-nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' target='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' source='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='logic arc'>
+<start y='829.1763645246988' x='602.6175499999999'/>
+<end y='350.7946237332909' x='1302.7076285201815'/>
+</arc>
+<arc id='manualId7-nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' target='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' source='manualId7' class='logic arc'>
+<start y='320.9963489241768' x='603.7739300000001'/>
+<end y='343.9391071368231' x='1300.708534017709'/>
+</arc>
+<arc id='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.2-nwtN_aac7a54a-9331-4678-887f-2856de398b2e' target='nwtN_aac7a54a-9331-4678-887f-2856de398b2e' source='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.2' class='catalysis'>
+<start y='332.85463612422217' x='1311.9636590735317'/>
+<end y='263.8697733201445' x='1313.1221396111787'/>
+</arc>
+<arc id='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.2-nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3' target='nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3' source='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.2' class='production'>
+<start y='952.4554232826081' x='2004.3479000000198'/>
+<next y='952.45544' x='2001.687'/>
+<end y='952.45544' x='2039.54'/>
+</arc>
+<arc id='a4654a8c-1e3c-ae08-59c3-60671c6d080e-nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.2' target='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.2' source='a4654a8c-1e3c-ae08-59c3-60671c6d080e' class='logic arc'>
+<start y='681.5652338579756' x='1485.0093'/>
+<next y='818.5223399999999' x='1319.1383'/>
+<end y='818.5223362720567' x='1314.9776719999952'/>
+</arc>
+<arc id='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.2-nwtN_34153a1f-cf3f-4447-853f-f667002d4691' target='nwtN_34153a1f-cf3f-4447-853f-f667002d4691' source='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.2' class='production'>
+<start y='1484.7790414296328' x='1971.2012000001212'/>
+<next y='1484.779' x='1968.5404000000003'/>
+<end y='1484.779' x='2006.1641'/>
+</arc>
+<arc id='manualId13-nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.1' target='nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f.1' source='manualId13' class='consumption'>
+<start y='1484.779' x='1931.2985'/>
+<next y='1484.779' x='1947.2903999999985'/>
+<end y='1484.779041429148' x='1944.629713999879'/>
+</arc>
+<arc id='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.2-c0aa1740-3f0a-959d-ec2a-92e8f7f85134' target='c0aa1740-3f0a-959d-ec2a-92e8f7f85134' source='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.2' class='production'>
+<start y='1107.8982414292077' x='896.6785000001212'/>
+<next y='1107.8982' x='894.0178'/>
+<end y='1107.8982' x='1004.3517000000002'/>
+</arc>
+<arc id='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.1-nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0' target='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0' source='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.1' class='inhibition'>
+<start y='1191.756696272075' x='1129.4779000000046'/>
+<next y='1191.7567' x='1125.3173'/>
+<next y='1194.4315' x='882.8638'/>
+<end y='1116.0410953147768' x='883.343018014599'/>
+</arc>
+<arc id='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.2-nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0' target='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0' source='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.2' class='catalysis'>
+<start y='1060.7605719999954' x='883.3927962795428'/>
+<next y='1064.9213002687704' x='883.3928000102928'/>
+<end y='1097.7554' x='883.3927977104499'/>
+</arc>
+<arc id='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884-nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.1' target='nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0.1' source='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884' class='consumption'>
+<start y='1107.8982' x='756.20715'/>
+<next y='1107.8982' x='872.7678'/>
+<end y='1107.8982414292332' x='870.107093999879'/>
+</arc>
+<arc id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245-nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.1' target='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.1' source='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='consumption'>
+<start y='166.50293' x='1250.0976482120307'/>
+<next y='122.31444999999911' x='1300.5808000000004'/>
+<end y='122.31444781949277' x='1297.9199999999998'/>
+</arc>
+<arc id='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.2-manualId12' target='manualId12' source='nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee.2' class='production'>
+<start y='122.31444781946747' x='1324.4917140000005'/>
+<next y='122.31444999999997' x='1321.8308000000002'/>
+<end y='165.2716811408816' x='1375.9311229122711'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae' target='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='inhibition'>
+<start y='NaN' x='NaN'/>
+<next y='955.7245999999998' x='1909.8145'/>
+<next y='45.48095699999965' x='1914.9971000000007'/>
+<next y='42.35962000000002' x='418.34850000000006'/>
+<end y='165.09836008283753' x='418.2985414034493'/>
+</arc>
+<arc id='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.1-manualId7' target='manualId7' source='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.1' class='production'>
+<start y='173.94520258965701' x='404.7197342560913'/>
+<end y='265.331170730611' x='496.9142597321442'/>
+</arc>
+<arc id='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c-nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.2' target='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae.2' source='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' class='consumption'>
+<start y='137.93352874506542' x='597.2796'/>
+<end y='173.03160210565363' x='433.558718023222'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_fa380867-57bf-4316-8549-9dc573aee386' target='nwtN_fa380867-57bf-4316-8549-9dc573aee386' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='inhibition'>
+<start y='955.70544' x='1885.7258186887395'/>
+<next y='389.39648000000034' x='1890.5652'/>
+<end y='389.3410397925454' x='1746.9217139255186'/>
+</arc>
+<arc id='nwtN_fa380867-57bf-4316-8549-9dc573aee386.2-a0eb5581-288d-95d4-25af-081d9b9eb23b' target='a0eb5581-288d-95d4-25af-081d9b9eb23b' source='nwtN_fa380867-57bf-4316-8549-9dc573aee386.2' class='production'>
+<start y='402.62360000012126' x='1738.7788414292077'/>
+<next y='399.9629' x='1738.7788000000003'/>
+<next y='490.48755000000017' x='1736.3317'/>
+<end y='500.2803108394924' x='606.7738172646564'/>
+</arc>
+<arc id='manualId7-nwtN_fa380867-57bf-4316-8549-9dc573aee386.1' target='nwtN_fa380867-57bf-4316-8549-9dc573aee386.1' source='manualId7' class='consumption'>
+<start y='318.9932735762255' x='603.7739300000001'/>
+<next y='314.23853' x='1734.1823'/>
+<next y='378.7129' x='1738.7788'/>
+<end y='376.05219399987874' x='1738.7788414292331'/>
+</arc>
+<arc id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245-nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4' target='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4' source='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='catalysis'>
+<start y='174.39075521640552' x='1180.6843804831444'/>
+<end y='111.38930807639142' x='956.8005021307396'/>
+</arc>
+<arc id='manualId7-nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.2' target='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.2' source='manualId7' class='consumption'>
+<start y='292.2265753951257' x='603.7739300000001'/>
+<end y='109.02382787086196' x='960.1661662589227'/>
+</arc>
+<arc id='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.1-nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' target='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' source='nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4.1' class='production'>
+<start y='108.63058304398453' x='931.4861200019222'/>
+<end y='123.12337778211347' x='705.2734619942336'/>
+</arc>
+<arc id='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.1-nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' target='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' source='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.1' class='production'>
+<start y='1227.9437414296328' x='1657.6069999998788'/>
+<next y='1227.9437' x='1660.2678'/>
+<end y='1209.5105902249077' x='1603.9099725035694'/>
+</arc>
+<arc id='nwtN_74036716-c607-4c1d-95ab-6c8a6534703d-nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.2' target='nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7.2' source='nwtN_74036716-c607-4c1d-95ab-6c8a6534703d' class='consumption'>
+<start y='1231.351001415142' x='1733.3128422867446'/>
+<next y='1227.9437' x='1681.5178'/>
+<end y='1227.9437414301178' x='1684.1787140001213'/>
+</arc>
+<arc id='a4654a8c-1e3c-ae08-59c3-60671c6d080e-nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.2' target='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.2' source='a4654a8c-1e3c-ae08-59c3-60671c6d080e' class='logic arc'>
+<start y='663.3433202161544' x='1485.0093'/>
+<next y='744.43445' x='1315.5754'/>
+<end y='744.4344143182578' x='1311.4147719995783'/>
+</arc>
+<arc id='nwtN_7a3c8b46-083f-4ed1-8e7e-b659a05afeff-nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae' target='nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae' source='nwtN_7a3c8b46-083f-4ed1-8e7e-b659a05afeff' class='stimulation'>
+<start y='171.64473705956257' x='124.08825699999994'/>
+<end y='173.18617820460125' x='408.1524141674866'/>
+</arc>
+<arc id='nwtN_89ad11ba-c238-4125-8778-e07da137a458.2-nwtN_45a89a92-3fee-411d-b961-01973a7b0c70' target='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70' source='nwtN_89ad11ba-c238-4125-8778-e07da137a458.2' class='catalysis'>
+<start y='641.1259962719913' x='1312.4013719999953'/>
+<next y='641.1260000000003' x='1316.5620999999999'/>
+<next y='639.90576' x='1363.3771000000008'/>
+<end y='639.6847088433001' x='1374.6914723894217'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_89ad11ba-c238-4125-8778-e07da137a458.1' target='nwtN_89ad11ba-c238-4125-8778-e07da137a458.1' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='logic arc'>
+<start y='510.8006452447968' x='603.7739300000001'/>
+<next y='641.126' x='1285.3121'/>
+<end y='641.1259962720095' x='1289.4728000000046'/>
+</arc>
+<arc id='e08d1628-0d6a-e2e7-8532-ece8f502e322-nwtN_89ad11ba-c238-4125-8778-e07da137a458.1' target='nwtN_89ad11ba-c238-4125-8778-e07da137a458.1' source='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='logic arc'>
+<start y='850.0983822596753' x='602.6175499999999'/>
+<next y='641.126' x='1285.3121'/>
+<end y='641.1259962720095' x='1289.4728000000046'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.2' target='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.2' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='consumption'>
+<start y='470.87128003004415' x='603.7739300000001'/>
+<end y='266.7730950770695' x='962.2579249428738'/>
+</arc>
+<arc id='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.1-nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' target='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' source='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6.1' class='production'>
+<start y='265.8381606427174' x='933.6575677578502'/>
+<end y='153.73516602703705' x='704.9733487264497'/>
+</arc>
+<arc id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245-nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6' target='nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6' source='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='catalysis'>
+<start y='200.26243084854' x='1180.7002289086045'/>
+<end y='263.42305979892205' x='958.8693991587047'/>
+</arc>
+<arc id='nwtN_079d5024-c071-46f6-9b0b-5743645f607e-nwtN_00458032-42ea-43fe-a080-ba70a662206e.2' target='nwtN_00458032-42ea-43fe-a080-ba70a662206e.2' source='nwtN_079d5024-c071-46f6-9b0b-5743645f607e' class='consumption'>
+<start y='1005.6046' x='2042.54'/>
+<next y='1005.6046' x='2001.687'/>
+<end y='1005.6045905510393' x='2004.3479000000063'/>
+</arc>
+<arc id='nwtN_00458032-42ea-43fe-a080-ba70a662206e.1-nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' target='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' source='nwtN_00458032-42ea-43fe-a080-ba70a662206e.1' class='production'>
+<start y='1005.604590551344' x='1977.7764139999938'/>
+<next y='1005.6046000000002' x='1980.4370000000001'/>
+<end y='991.3204927165856' x='1933.9383182554052'/>
+</arc>
+<arc id='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.1-nwtN_444ba2bc-b306-4dbf-954d-5bbf0f9d9647' target='nwtN_444ba2bc-b306-4dbf-954d-5bbf0f9d9647' source='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.1' class='production'>
+<start y='626.2008699996254' x='1384.8337296265559'/>
+<next y='628.861599988716' x='1384.8336567932122'/>
+<end y='583.2267999998804' x='1384.8338405926638'/>
+</arc>
+<arc id='a4654a8c-1e3c-ae08-59c3-60671c6d080e-nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.2' target='nwtN_45a89a92-3fee-411d-b961-01973a7b0c70.2' source='a4654a8c-1e3c-ae08-59c3-60671c6d080e' class='consumption'>
+<start y='642.3070267162882' x='1485.0093'/>
+<next y='650.1115999999997' x='1384.8338999999994'/>
+<end y='652.7722440007631' x='1384.8337960641645'/>
+</arc>
+<arc id='manualId12-nwtN_aac7a54a-9331-4678-887f-2856de398b2e.2' target='nwtN_aac7a54a-9331-4678-887f-2856de398b2e.2' source='manualId12' class='consumption'>
+<start y='208.6372' x='1378.221365165255'/>
+<next y='253.81981999999994' x='1321.1895000000002'/>
+<end y='253.81965064902872' x='1323.8502000020258'/>
+</arc>
+<arc id='nwtN_aac7a54a-9331-4678-887f-2856de398b2e.1-nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' target='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' source='nwtN_aac7a54a-9331-4678-887f-2856de398b2e.1' class='production'>
+<start y='253.81965064753345' x='1297.2787139979744'/>
+<next y='253.8198199999999' x='1299.9394999999997'/>
+<end y='210.01606460539628' x='1251.5420840979548'/>
+</arc>
+<arc id='nwtN_edf59ed3-fe0d-46cf-bf8c-b4a9f7117278-nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.2' target='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.2' source='nwtN_edf59ed3-fe0d-46cf-bf8c-b4a9f7117278' class='consumption'>
+<start y='1301.5666823650995' x='1642.1320132688654'/>
+<next y='1299.5154' x='1555.7727'/>
+<end y='1302.176100000121' x='1555.7727414292076'/>
+</arc>
+<arc id='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.1-nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' target='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' source='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335.1' class='production'>
+<start y='1275.6048139998788' x='1555.7727414285625'/>
+<next y='1278.265399767871' x='1555.772699999418'/>
+<end y='1217.5162' x='1555.7726999998363'/>
+</arc>
+<arc id='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4-nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335' target='nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335' source='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4' class='necessary stimulation'>
+<start y='1361.7451' x='1555.7727101320875'/>
+<end y='1299.0333139999993' x='1555.7727504750276'/>
+</arc>
+<arc id='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.2-nwtN_b4ce0455-9bf6-4853-bcf0-ab0d8b31666b' target='nwtN_b4ce0455-9bf6-4853-bcf0-ab0d8b31666b' source='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.2' class='production'>
+<start y='1166.1006414292076' x='1682.5071000001212'/>
+<next y='1166.1006' x='1679.8463999999994'/>
+<end y='1159.877327218191' x='1730.398016503168'/>
+</arc>
+<arc id='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc-nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.1' target='nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40.1' source='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' class='consumption'>
+<start y='1181.456769392076' x='1601.5227'/>
+<next y='1166.1006' x='1658.5963999999997'/>
+<end y='1166.1006414295732' x='1655.935613999879'/>
+</arc>
+<arc id='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.1-nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' target='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' source='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.1' class='production'>
+<start y='350.682976433112' x='931.2690238587535'/>
+<end y='170.32531597681046' x='704.6270284237396'/>
+</arc>
+<arc id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245-nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362' target='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362' source='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='catalysis'>
+<start y='208.00293' x='1190.9694582107654'/>
+<end y='345.6051012607986' x='956.0686803148228'/>
+</arc>
+<arc id='e08d1628-0d6a-e2e7-8532-ece8f502e322-nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.2' target='nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362.2' source='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='consumption'>
+<start y='808.6686' x='595.9628851535924'/>
+<end y='352.0875506861263' x='959.9996022070445'/>
+</arc>
+<arc id='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.1-nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' target='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' source='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.1' class='production'>
+<start y='1253.1570999999406' x='1885.5484461017293'/>
+<next y='1255.8178947482668' x='1885.5484171036674'/>
+<end y='1000.2054399999998' x='1885.548492952568'/>
+</arc>
+<arc id='nwtN_27755964-e20c-4f03-8550-f753824ad702-nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.2' target='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916.2' source='nwtN_27755964-e20c-4f03-8550-f753824ad702' class='consumption'>
+<start y='1278.194982345012' x='1938.9544157449268'/>
+<next y='1277.0678999999996' x='1885.548500000001'/>
+<end y='1279.728614000069' x='1885.5484687463427'/>
+</arc>
+<arc id='manualId13-nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916' target='nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916' source='manualId13' class='necessary stimulation'>
+<start y='1469.029' x='1885.5484968981316'/>
+<end y='1276.585714' x='1885.5484589975752'/>
+</arc>
+<arc id='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4-nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.1' target='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.1' source='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4' class='consumption'>
+<start y='1377.4951' x='1586.5227'/>
+<next y='1377.4951' x='1622.1248'/>
+<end y='1377.4951414292077' x='1619.4640999998787'/>
+</arc>
+<arc id='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.2-nwtN_a3bfd34c-6ac9-4d87-a03a-37c7c7e2e2f2' target='nwtN_a3bfd34c-6ac9-4d87-a03a-37c7c7e2e2f2' source='nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449.2' class='production'>
+<start y='1377.4951414288419' x='1646.0354140001214'/>
+<next y='1377.4951000000003' x='1643.3748000000003'/>
+<end y='1377.4951' x='1675.9336'/>
+</arc>
+<arc id='d2672078-a0a4-aeeb-3521-bf3d1b4d539a-nwtN_818a6bfa-593b-41c9-ba12-f027102927cf' target='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf' source='d2672078-a0a4-aeeb-3521-bf3d1b4d539a' class='necessary stimulation'>
+<start y='1663.6982' x='1053.101704226221'/>
+<end y='1912.6653' x='1053.101754934171'/>
+</arc>
+<arc id='d2672078-a0a4-aeeb-3521-bf3d1b4d539a-nwtN_f64a8174-89a8-402f-90ad-d992047b386f' target='nwtN_f64a8174-89a8-402f-90ad-d992047b386f' source='d2672078-a0a4-aeeb-3521-bf3d1b4d539a' class='necessary stimulation'>
+<start y='1642.191219745653' x='1098.8517000000002'/>
+<next y='1641.3383999999999' x='1150.3939999999998'/>
+<end y='1876.3963147645923' x='1154.3030850807233'/>
+</arc>
+<arc id='d2672078-a0a4-aeeb-3521-bf3d1b4d539a-nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.2' target='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.2' source='d2672078-a0a4-aeeb-3521-bf3d1b4d539a' class='consumption'>
+<start y='1642.966714156877' x='1007.3517000000002'/>
+<next y='1642.986' x='959.6948'/>
+<end y='1642.9859687463875' x='962.355500000069'/>
+</arc>
+<arc id='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.2-d2672078-a0a4-aeeb-3521-bf3d1b4d539a' target='d2672078-a0a4-aeeb-3521-bf3d1b4d539a' source='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.2' class='production'>
+<start y='1449.5789000001212' x='1051.5410414292076'/>
+<next y='1446.9182000000083' x='1051.541'/>
+<end y='1619.1982950745755' x='1052.9126142650764'/>
+</arc>
+<arc id='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.2-manualId1' target='manualId1' source='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.2' class='production'>
+<start y='1922.8081414296328' x='1066.3875000001212'/>
+<next y='1922.8081' x='1063.7267'/>
+<end y='1918.572531896651' x='1526.349725728231'/>
+</arc>
+<arc id='manualId1-nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.2' target='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.2' source='manualId1' class='consumption'>
+<start y='1902.3762' x='1575.0995999996373'/>
+<next y='1882.3785001170115' x='1575.099599999177'/>
+<end y='1885.039300000121' x='1575.0996414294075'/>
+</arc>
+<arc id='ea850968-a714-4d00-f035-28c3e687ea0e-nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.2' target='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.2' source='ea850968-a714-4d00-f035-28c3e687ea0e' class='consumption'>
+<start y='1801.0035' x='1575.0995999998058'/>
+<next y='1770.3785001827412' x='1575.0995999994282'/>
+<end y='1773.039300000121' x='1575.099641429476'/>
+</arc>
+<arc id='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.1-ea850968-a714-4d00-f035-28c3e687ea0e' target='ea850968-a714-4d00-f035-28c3e687ea0e' source='nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5.1' class='production'>
+<start y='1858.467813999879' x='1575.0996414286344'/>
+<next y='1861.128500660997' x='1575.0995999981094'/>
+<end y='1835.5035' x='1575.0995999992012'/>
+</arc>
+<arc id='manualId2-nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.2' target='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.2' source='manualId2' class='consumption'>
+<start y='1676.0035' x='1575.099599999612'/>
+<next y='1657.378500113793' x='1575.0995999991535'/>
+<end y='1660.039300000121' x='1575.0996414294011'/>
+</arc>
+<arc id='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.1-manualId2' target='manualId2' source='nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603.1' class='production'>
+<start y='1746.467813999879' x='1575.099641428848'/>
+<next y='1749.1285008194725' x='1575.0995999988888'/>
+<end y='1710.5035' x='1575.099599999637'/>
+</arc>
+<arc id='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.1-db2d3850-95a6-92dc-0a37-7f57234911f1' target='db2d3850-95a6-92dc-0a37-7f57234911f1' source='nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453.1' class='production'>
+<start y='1633.467813999879' x='1575.0996414286344'/>
+<next y='1636.128500660997' x='1575.0995999981094'/>
+<end y='1610.5035' x='1575.0995999992012'/>
+</arc>
+<arc id='db2d3850-95a6-92dc-0a37-7f57234911f1-nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.2' target='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.2' source='db2d3850-95a6-92dc-0a37-7f57234911f1' class='consumption'>
+<start y='1576.0035' x='1575.099599999912'/>
+<next y='1562.3785000669964' x='1575.0995999998358'/>
+<end y='1565.039300000121' x='1575.0996414295878'/>
+</arc>
+<arc id='manualId3-nwtN_4a2ea381-8769-4085-9921-03688def94b9.1' target='nwtN_4a2ea381-8769-4085-9921-03688def94b9.1' source='manualId3' class='consumption'>
+<start y='1484.7790000000002' x='1620.8496'/>
+<next y='1484.7790000000007' x='1720.4161'/>
+<end y='1484.7790414292076' x='1717.7553999998788'/>
+</arc>
+<arc id='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.1-manualId3' target='manualId3' source='nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5.1' class='production'>
+<start y='1538.467813999879' x='1575.0996414287658'/>
+<next y='1541.1285007752342' x='1575.099599998589'/>
+<end y='1503.529' x='1575.0995999995305'/>
+</arc>
+<arc id='nwtN_f64a8174-89a8-402f-90ad-d992047b386f.2-e4284739-d83c-e0fb-a3aa-db31776a7197' target='e4284739-d83c-e0fb-a3aa-db31776a7197' source='nwtN_f64a8174-89a8-402f-90ad-d992047b386f.2' class='production'>
+<start y='1886.5387414292077' x='1167.7574000001212'/>
+<next y='1886.5387000000007' x='1165.0967'/>
+<end y='1888.3640360010108' x='1244.905284345373'/>
+</arc>
+<arc id='e4284739-d83c-e0fb-a3aa-db31776a7197-nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.2' target='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.2' source='e4284739-d83c-e0fb-a3aa-db31776a7197' class='consumption'>
+<start y='1873.729' x='1293.6544999999387'/>
+<next y='1860.1040000669964' x='1293.6544999998855'/>
+<end y='1862.764800000121' x='1293.6545414296013'/>
+</arc>
+<arc id='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.1-manualId4' target='manualId4' source='nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7.1' class='production'>
+<start y='1836.193313999879' x='1293.654541429114'/>
+<next y='1838.854000042065' x='1293.654499999875'/>
+<end y='1828.229' x='1293.6544999999203'/>
+</arc>
+<arc id='manualId4-nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.2' target='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.2' source='manualId4' class='consumption'>
+<start y='1793.729' x='1293.6544999999387'/>
+<next y='1780.1040000669964' x='1293.6544999998855'/>
+<end y='1782.764800000121' x='1293.6545414296013'/>
+</arc>
+<arc id='d01b95dd-5f14-f37f-228d-1add3fbd70a8-nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.2' target='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.2' source='d01b95dd-5f14-f37f-228d-1add3fbd70a8' class='consumption'>
+<start y='1713.729' x='1293.6544999999387'/>
+<next y='1700.1040000669964' x='1293.6544999998855'/>
+<end y='1702.764800000121' x='1293.6545414296013'/>
+</arc>
+<arc id='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.1-d01b95dd-5f14-f37f-228d-1add3fbd70a8' target='d01b95dd-5f14-f37f-228d-1add3fbd70a8' source='nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3.1' class='production'>
+<start y='1756.193313999879' x='1293.654541429114'/>
+<next y='1758.854000042065' x='1293.654499999875'/>
+<end y='1748.229' x='1293.6544999999203'/>
+</arc>
+<arc id='manualId5-nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.2' target='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.2' source='manualId5' class='consumption'>
+<start y='1613.729' x='1293.6544999997666'/>
+<next y='1580.1039992899148' x='1293.6544999992684'/>
+<end y='1582.764800000121' x='1293.654541429436'/>
+</arc>
+<arc id='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.1-manualId5' target='manualId5' source='nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3.1' class='production'>
+<start y='1676.193313999879' x='1293.654541429055'/>
+<next y='1678.8539999830048' x='1293.6544999996597'/>
+<end y='1648.229' x='1293.6544999998707'/>
+</arc>
+<arc id='a87e1036-1e10-48c8-603c-c6c54e633241-nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.2' target='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.2' source='a87e1036-1e10-48c8-603c-c6c54e633241' class='consumption'>
+<start y='1493.729' x='1293.6544999999016'/>
+<next y='1447.4241990712185' x='1293.654499999612'/>
+<end y='1450.0850000001212' x='1293.6545414295308'/>
+</arc>
+<arc id='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.1-a87e1036-1e10-48c8-603c-c6c54e633241' target='a87e1036-1e10-48c8-603c-c6c54e633241' source='nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa.1' class='production'>
+<start y='1556.193313999879' x='1293.654541429055'/>
+<next y='1558.853999983005' x='1293.6544999996597'/>
+<end y='1528.229' x='1293.6544999998707'/>
+</arc>
+<arc id='nwtN_97a87116-9b3d-4f45-b677-200705ea9740-nwtN_f64a8174-89a8-402f-90ad-d992047b386f.1' target='nwtN_f64a8174-89a8-402f-90ad-d992047b386f.1' source='nwtN_97a87116-9b3d-4f45-b677-200705ea9740' class='consumption'>
+<start y='1886.5387' x='1103.1005'/>
+<next y='1886.5387' x='1143.8467000000007'/>
+<end y='1886.5387414287227' x='1141.186113999879'/>
+</arc>
+<arc id='nwtN_585d4e98-d3ee-497b-81c3-6388fecb9769-nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.1' target='nwtN_818a6bfa-593b-41c9-ba12-f027102927cf.1' source='nwtN_585d4e98-d3ee-497b-81c3-6388fecb9769' class='consumption'>
+<start y='1922.8081' x='988.2185'/>
+<next y='1922.8081' x='1042.4767'/>
+<end y='1922.808141429148' x='1039.816013999879'/>
+</arc>
+<arc id='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.1-nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4' target='nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4' source='nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222.1' class='production'>
+<start y='1423.513513999879' x='1293.6545414291481'/>
+<next y='1426.1742' x='1293.6545000000003'/>
+<end y='1383.7535915997635' x='1522.0731338033142'/>
+</arc>
+<arc id='nwtN_4a2ea381-8769-4085-9921-03688def94b9.2-manualId13' target='manualId13' source='nwtN_4a2ea381-8769-4085-9921-03688def94b9.2' class='production'>
+<start y='1484.7790414288418' x='1744.3267140001215'/>
+<next y='1484.779' x='1741.6661'/>
+<end y='1484.779' x='1836.7985'/>
+</arc>
+<arc id='c0aa1740-3f0a-959d-ec2a-92e8f7f85134-nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.1' target='nwtN_f7e75ea7-a592-48b6-8336-354542e10b81.1' source='c0aa1740-3f0a-959d-ec2a-92e8f7f85134' class='consumption'>
+<start y='1128.6482' x='1052.999788161249'/>
+<next y='1425.6681999999973' x='1051.541'/>
+<end y='1423.007413999879' x='1051.5410414295734'/>
+</arc>
+<arc id='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.1-nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884' target='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884' source='nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff.1' class='production'>
+<start y='1642.9859687463681' x='935.784093999931'/>
+<next y='1642.9860000000003' x='938.4448000000001'/>
+<next y='1641.9424000000001' x='713.3573599999997'/>
+<end y='1131.648155762952' x='710.586127824688'/>
+</arc>
+<arc id='nwtN_abf49e76-d207-458e-b91b-988537476335.2-nwtN_b1002eee-8088-45e9-943a-804c34e42c98' target='nwtN_b1002eee-8088-45e9-943a-804c34e42c98' source='nwtN_abf49e76-d207-458e-b91b-988537476335.2' class='catalysis'>
+<start y='932.9877302979658' x='885.5632180250572'/>
+<end y='968.9685101620282' x='887.5640671553249'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_b1002eee-8088-45e9-943a-804c34e42c98' target='nwtN_b1002eee-8088-45e9-943a-804c34e42c98' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='inhibition'>
+<start y='976.5659568811776' x='1839.7985'/>
+<end y='978.8566465554743' x='891.5356510822832'/>
+</arc>
+<arc id='nwtN_b1002eee-8088-45e9-943a-804c34e42c98.2-c0aa1740-3f0a-959d-ec2a-92e8f7f85134' target='c0aa1740-3f0a-959d-ec2a-92e8f7f85134' source='nwtN_b1002eee-8088-45e9-943a-804c34e42c98.2' class='production'>
+<start y='978.8763232829514' x='896.6785000000198'/>
+<next y='978.8763399999999' x='894.0178000000002'/>
+<end y='1079.5175065984445' x='1018.1083167777791'/>
+</arc>
+<arc id='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884-nwtN_b1002eee-8088-45e9-943a-804c34e42c98.1' target='nwtN_b1002eee-8088-45e9-943a-804c34e42c98.1' source='nwtN_f6791283-edf3-4055-b6eb-26c7cf8bc884' class='consumption'>
+<start y='1087.1482' x='736.5608349685781'/>
+<next y='978.8763400000001' x='872.7677999999999'/>
+<end y='978.8763232829411' x='870.1070939999804'/>
+</arc>
+<arc id='e08d1628-0d6a-e2e7-8532-ece8f502e322-nwtN_abf49e76-d207-458e-b91b-988537476335.1' target='nwtN_abf49e76-d207-458e-b91b-988537476335.1' source='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='logic arc'>
+<start y='875.409487277723' x='602.6175499999999'/>
+<end y='919.6721769183008' x='874.7931219957446'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_abf49e76-d207-458e-b91b-988537476335.1' target='nwtN_abf49e76-d207-458e-b91b-988537476335.1' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='logic arc'>
+<start y='558.2614699999999' x='594.1011952446258'/>
+<end y='912.5655687351896' x='878.9664426140594'/>
+</arc>
+<arc id='manualId7-nwtN_abf49e76-d207-458e-b91b-988537476335.1' target='nwtN_abf49e76-d207-458e-b91b-988537476335.1' source='manualId7' class='logic arc'>
+<start y='376.71410000000003' x='581.1925259866732'/>
+<end y='911.5161227788694' x='880.5346589184778'/>
+</arc>
+<arc id='manualId18-nwtN_abf49e76-d207-458e-b91b-988537476335.1' target='nwtN_abf49e76-d207-458e-b91b-988537476335.1' source='manualId18' class='logic arc'>
+<start y='728.1590716969619' x='603.7739300000001'/>
+<end y='915.001469651146' x='876.6853687554682'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1' target='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='logic arc'>
+<start y='558.2614699999999' x='587.1089511423197'/>
+<next y='1033.6712999999995' x='883.3927999999999'/>
+<end y='1037.8320000000047' x='883.3927962720094'/>
+</arc>
+<arc id='e08d1628-0d6a-e2e7-8532-ece8f502e322-nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1' target='nwtN_89a01bed-66ec-4781-820a-d75804dde8ae.1' source='e08d1628-0d6a-e2e7-8532-ece8f502e322' class='logic arc'>
+<start y='892.5548730580804' x='602.6175499999999'/>
+<next y='1033.6713' x='883.3927999999997'/>
+<end y='1037.8320000000047' x='883.3927962720093'/>
+</arc>
+<arc id='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc-nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2' target='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2' source='nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc' class='logic arc'>
+<start y='1193.5359059583864' x='1510.0227'/>
+<next y='1191.7567' x='1156.5673'/>
+<end y='1191.7566962719252' x='1152.4064719999953'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2' target='nwtN_76e589f1-0618-487d-84bf-fc99a66588b1.2' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='logic arc'>
+<start y='989.9305072657511' x='1839.9237288980196'/>
+<next y='1191.7567' x='1156.5673'/>
+<end y='1191.7566962719252' x='1152.4064719999953'/>
+</arc>
+<arc id='nwtN_923069d5-14d3-416d-9a83-b83e559835a9.1-nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' target='nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c' source='nwtN_923069d5-14d3-416d-9a83-b83e559835a9.1' class='production'>
+<start y='180.50063794342276' x='932.7255651692468'/>
+<end y='137.22585723344844' x='705.2267544922595'/>
+</arc>
+<arc id='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245-nwtN_923069d5-14d3-416d-9a83-b83e559835a9' target='nwtN_923069d5-14d3-416d-9a83-b83e559835a9' source='nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245' class='catalysis'>
+<start y='186.17401450636277' x='1180.6418'/>
+<end y='180.92668483349786' x='958.1356501214204'/>
+</arc>
+<arc id='manualId18-nwtN_923069d5-14d3-416d-9a83-b83e559835a9.2' target='nwtN_923069d5-14d3-416d-9a83-b83e559835a9.2' source='manualId18' class='consumption'>
+<start y='631.7468' x='597.744045344053'/>
+<end y='181.4652642899586' x='961.6507392874079'/>
+</arc>
+<arc id='manualId7-nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.2' target='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.2' source='manualId7' class='consumption'>
+<start y='355.6073319931841' x='603.7739300000001'/>
+<end y='743.917448932458' x='1163.9407528622805'/>
+</arc>
+<arc id='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.1-manualId18' target='manualId18' source='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd.1' class='production'>
+<start y='744.3931340419731' x='1135.1955439706383'/>
+<end y='694.487038717318' x='606.7606400880861'/>
+</arc>
+<arc id='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.1-nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd' target='nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd' source='nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16.1' class='inhibition'>
+<start y='744.4344143171755' x='1288.4862000004216'/>
+<next y='744.43445' x='1284.3254'/>
+<end y='744.4839504984559' x='1158.6197139224685'/>
+</arc>
+<arc id='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.1-nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167' target='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167' source='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.1' class='inhibition'>
+<start y='818.5223362719437' x='1292.0491000000045'/>
+<next y='818.52234' x='1287.8883'/>
+<end y='818.0686540259915' x='1158.2503078763252'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.2' target='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.2' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='consumption'>
+<start y='527.9293178927925' x='603.7739300000001'/>
+<end y='817.5805649205806' x='1163.505069874098'/>
+</arc>
+<arc id='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.1-e08d1628-0d6a-e2e7-8532-ece8f502e322' target='e08d1628-0d6a-e2e7-8532-ece8f502e322' source='nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167.1' class='production'>
+<start y='818.1220529077531' x='1134.825073111669'/>
+<end y='861.6088858231062' x='605.6074726649931'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c' target='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='inhibition'>
+<start y='970.8245189188797' x='1839.7985'/>
+<end y='887.4038600160942' x='1162.0239246115093'/>
+</arc>
+<arc id='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.1-e08d1628-0d6a-e2e7-8532-ece8f502e322' target='e08d1628-0d6a-e2e7-8532-ece8f502e322' source='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.1' class='production'>
+<start y='886.3682524192469' x='1138.6034885753409'/>
+<end y='868.0735648746581' x='605.6157842739775'/>
+</arc>
+<arc id='manualId18-nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.2' target='nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c.2' source='manualId18' class='consumption'>
+<start y='706.0253256563442' x='603.7739300000001'/>
+<end y='886.0981347238123' x='1167.2216768207986'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.2' target='nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb.2' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='logic arc'>
+<start y='963.7078133832154' x='1839.8304982540817'/>
+<next y='818.52234' x='1319.1383'/>
+<end y='818.5223362720568' x='1314.9776719999952'/>
+</arc>
+<arc id='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5-nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.1' target='nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03.1' source='nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5' class='consumption'>
+<start y='964.8839640044894' x='1931.2985'/>
+<next y='952.45544' x='1980.4369999999997'/>
+<end y='952.455423283147' x='1977.7764139999804'/>
+</arc>
+<arc id='manualId18-nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' target='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' source='manualId18' class='logic arc'>
+<start y='664.7576989488697' x='603.7739300000001'/>
+<end y='349.0504949393556' x='1301.7250788303554'/>
+</arc>
+<arc id='a0eb5581-288d-95d4-25af-081d9b9eb23b-nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' target='nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807.1' source='a0eb5581-288d-95d4-25af-081d9b9eb23b' class='logic arc'>
+<start y='489.6543324068052' x='603.7739300000001'/>
+<end y='346.6259591104921' x='1300.937198520814'/>
+</arc>
+</map>
+</sbgn>
