@@ -35,7 +35,7 @@ You can clone this repository or [download the latest version of this archive](h
 
 **[6]** Le Novère, N. Quantitative and logic modelling of molecular and gene networks. _Nat Rev Genet_ **16**, 146–158 (2015). [https://doi.org/10.1038/nrg3885](https://doi.org/10.1038/nrg3885)
 
-**[17]** Touré, V., Le Novère, N., Waltemath, D. & Wolkenhauer, O. Quick tips for creating effective and impactful biological pathways using the Systems Biology Graphical Notation. _PLoS Comput Biol **14**_, e1005740 (2018). https://doi.org/10.1371/journal.pcbi.1005740.g001
+**[7]** Touré, V., Le Novère, N., Waltemath, D. & Wolkenhauer, O. Quick tips for creating effective and impactful biological pathways using the Systems Biology Graphical Notation. _PLoS Comput Biol **14**_, e1005740 (2018). https://doi.org/10.1371/journal.pcbi.1005740.g001
 
 **[8]** Vogt, T., Czauderna, T. & Schreiber, F. Translation of SBGN maps: Process Description to Activity Flow. _BMC Syst Biol_ **7**, 115 (2013). [https://doi.org/10.1186/1752-0509-7-115](https://doi.org/10.1186/1752-0509-7-115)
 
