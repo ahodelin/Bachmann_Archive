@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by libSedML v1.1.7559.26360 see http://libsedml.sf.net -->
+<sedML level="1" version="3" xmlns="http://sed-ml.org/sed-ml/level1/version3">
+  <listOfSimulations>
+    <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="80" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019" />
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfModels>
+    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/Bachmann2011.xml" />
+    <model id="model2" language="urn:sedml:language:sbml.level-2.version-1" source="model1">
+      <listOfChanges>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='SOCS3oe']/@value" newValue="1" />
+      </listOfChanges>
+    </model>
+    <model id="model3" language="urn:sedml:language:sbml.level-2.version-1" source="model1">
+      <listOfChanges>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='CISoe']/@value" newValue="1" />
+      </listOfChanges>
+    </model>
+  </listOfModels>
+  <listOfTasks>
+    <task id="task1" modelReference="model1" simulationReference="sim1" />
+    <task id="task2" modelReference="model2" simulationReference="sim1" />
+    <task id="task3" modelReference="model3" simulationReference="sim1" />
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="plot_0_0_0" name="task1.time">
+      <listOfVariables>
+        <variable id="task1_____time" taskReference="task1" symbol="urn:sedml:symbol:time" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_0_0_1" name="task1.npSTAT5">
+      <listOfVariables>
+        <variable id="task1_____npSTAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='npSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____npSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_0_1_1" name="task2.npSTAT5">
+      <listOfVariables>
+        <variable id="task2_____npSTAT5" taskReference="task2" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='npSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task2_____npSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_0_2_1" name="task3.npSTAT5">
+      <listOfVariables>
+        <variable id="task3_____npSTAT5" taskReference="task3" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='npSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task3_____npSTAT5 </ci>
+      </math>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot_0" name="Figure 5A Nuclear pSTAT5">
+      <listOfCurves>
+        <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_0_1" />
+        <curve id="plot_0__plot_0_0_0__plot_0_1_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_1_1" />
+        <curve id="plot_0__plot_0_0_0__plot_0_2_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_2_1" />
+      </listOfCurves>
+    </plot2D>
+  </listOfOutputs>
+</sedML>

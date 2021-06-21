@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Written by libSedML v1.1.7559.26360 see http://libsedml.sf.net -->
+<sedML level="1" version="3" xmlns="http://sed-ml.org/sed-ml/level1/version3">
+  <listOfSimulations>
+    <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019" />
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfModels>
+    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/Bachmann2011.xml" />
+  </listOfModels>
+  <listOfTasks>
+    <task id="task1" modelReference="model1" simulationReference="sim1" />
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="plot_0_0_0" name="time">
+      <listOfVariables>
+        <variable id="time" taskReference="task1" symbol="urn:sedml:symbol:time" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_0_0_1" name="pSTAT5">
+      <listOfVariables>
+        <variable id="pSTAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> pSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_1_0_1" name="CIS">
+      <listOfVariables>
+        <variable id="CIS" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CIS </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_2_0_1" name="SOCS3">
+      <listOfVariables>
+        <variable id="SOCS3" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_3_0_1" name="SOCS3RNA">
+      <listOfVariables>
+        <variable id="SOCS3RNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3RNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> SOCS3RNA </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot_4_0_1" name="CISRNA">
+      <listOfVariables>
+        <variable id="CISRNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISRNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> CISRNA </ci>
+      </math>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot_0" name="Figure 3A pSTAT5">
+      <listOfCurves>
+        <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_0_1" />
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_1" name="Figure 3A CIS">
+      <listOfCurves>
+        <curve id="plot_1__plot_0_0_0__plot_1_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_1_0_1" />
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_2" name="Figure 3A SOCS3">
+      <listOfCurves>
+        <curve id="plot_2__plot_0_0_0__plot_2_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_2_0_1" />
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_3" name="Figure 3C SOCS mRNA">
+      <listOfCurves>
+        <curve id="plot_3__plot_0_0_0__plot_3_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_3_0_1" />
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot_4" name="Figure 3C CIS mRNA">
+      <listOfCurves>
+        <curve id="plot_4__plot_0_0_0__plot_4_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_4_0_1" />
+      </listOfCurves>
+    </plot2D>
+  </listOfOutputs>
+</sedML>

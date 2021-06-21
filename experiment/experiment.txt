@@ -1,0 +1,6 @@
+DefaultSimulation.sedml	generated in SED-ML WebTools
+Fig3.sedml	generated in tellurium (SEDML_Fig3_v1.ipynb)
+Fig4.sedml	generated in tellurium (SEDML_Fig4_v2.ipynb)
+Fig5.sedml	generated in tellurium (SEDML_Fig5_v1.ipynb)
+SuppFig9.sedml	generated in tellurium (SEDML_SuppFig9_v2.ipynb)
+SuppFig9_COPASI.sedml	generated in Copasi 4.31
