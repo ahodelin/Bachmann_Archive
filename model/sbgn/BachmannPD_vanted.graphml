@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- Created by the Gravisto/VANTED graphML writer plugin on Mon Jun 21 13:49:56 CEST 2021. --><graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://graphml.graphdrawing.org/xmlns/graphml/graphml-structure-1.0rc.xsd">
+<?xml version="1.0" encoding="UTF-8"?><!-- Created by the Gravisto/VANTED graphML writer plugin on Mon Jun 21 17:58:45 CEST 2021. --><graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://graphml.graphdrawing.org/xmlns/graphml/graphml-structure-1.0rc.xsd">
 <key attr.name=".directed" attr.type="boolean" for="graph" id="ga0"/>
 <key attr.name=".graphbackgroundcolor" attr.type="string" for="graph" id="ga1"/>
 <key attr.name=".sbgn.role" attr.type="string" for="graph" id="ga2"/>
@@ -120,11 +120,11 @@
 <data key="na6">255</data>
 <data key="na5">255</data>
 <data key="na4">255</data>
-<data key="na3">1856.83935546875</data>
-<data key="na2">2051.509765625</data>
-<data key="na1">1037.52734375</data>
+<data key="na3">1866.83935546875</data>
+<data key="na2">2061.509765625</data>
+<data key="na1">1046.4434814453125</data>
 <data key="na29">cytoplasm</data>
-<data key="na0">1265.2662353515625</data>
+<data key="na0">1264.9869384765625</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
@@ -156,11 +156,11 @@
 <data key="na6">255</data>
 <data key="na5">255</data>
 <data key="na4">255</data>
-<data key="na3">782.7342529296875</data>
-<data key="na2">495.27911376953125</data>
+<data key="na3">792.7342529296875</data>
+<data key="na2">505.27911376953125</data>
 <data key="na1">1701.7935791015625</data>
 <data key="na29">nucleus</data>
-<data key="na0">1340.270751953125</data>
+<data key="na0">1340.2705078125</data>
 <data key="na28">0.0</data>
 <data key="na27">0.0</data>
 <data key="na26">0.0</data>
@@ -187,8 +187,8 @@
 <data key="na6">255</data>
 <data key="na5">255</data>
 <data key="na4">255</data>
-<data key="na3">228.1016387939453</data>
-<data key="na2">81.46932220458984</data>
+<data key="na3">238.1016387939453</data>
+<data key="na2">91.46932220458984</data>
 <data key="na1">175.4162139892578</data>
 <data key="na0">129.4340362548828</data>
 </node>
@@ -828,54 +828,41 @@
 <data key="na22">14</data>
 </node>
 <node id="n22">
-<data key="na29">EpoRJAK2</data>
-<data key="na9">0.0</data>
-<data key="na28">0.0</data>
-<data key="na8">2.0</data>
-<data key="na27">0.0</data>
-<data key="na7">255</data>
-<data key="na26">0.0</data>
-<data key="na6">255</data>
-<data key="na25">0.0</data>
-<data key="na5">255</data>
-<data key="na24">0.0</data>
-<data key="na4">255</data>
-<data key="na23">plain</data>
-<data key="na3">113.25</data>
-<data key="na22">14</data>
-<data key="na2">123.25</data>
-<data key="na1">126.6787109375</data>
 <data key="na21">Arial</data>
-<data key="na0">649.7796020507812</data>
 <data key="na20">#000000</data>
-<data key="na19">c</data>
-<data key="na18">center</data>
-<data key="na17">de.ipk_gatersleben.ag_nw.graffiti.plugins.shapes.ComplexShape</data>
-<data key="na16">0.0</data>
-<data key="na47">text</data>
-<data key="na15">0</data>
-<data key="na46">&lt;html&gt;&amp;nbsp;</data>
-<data key="na14">255</data>
-<data key="na45">0.0</data>
-<data key="na13">0</data>
-<data key="na44">0.0</data>
-<data key="na12">0</data>
-<data key="na43">0.0</data>
-<data key="na11">1.0</data>
-<data key="na42">0.0</data>
-<data key="na10"> 0.0</data>
-<data key="na41">0.0</data>
-<data key="na40">plain,oval</data>
-<data key="na39">10</data>
-<data key="na38">Arial</data>
-<data key="na37">#000000</data>
-<data key="na36">btl</data>
-<data key="na35">center</data>
 <data key="na34">cytoplasm</data>
 <data key="na33">-1</data>
 <data key="na32">COMPLEX</data>
 <data key="na31">nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c</data>
 <data key="na30">text</data>
+<data key="na19">c</data>
+<data key="na18">center</data>
+<data key="na17">de.ipk_gatersleben.ag_nw.graffiti.plugins.shapes.ComplexShape</data>
+<data key="na16">0.0</data>
+<data key="na15">0</data>
+<data key="na14">255</data>
+<data key="na13">0</data>
+<data key="na9">0.0</data>
+<data key="na12">0</data>
+<data key="na8">2.0</data>
+<data key="na11">1.0</data>
+<data key="na7">255</data>
+<data key="na10"> 0.0</data>
+<data key="na6">255</data>
+<data key="na5">255</data>
+<data key="na4">255</data>
+<data key="na3">113.25</data>
+<data key="na2">123.25</data>
+<data key="na1">126.6787109375</data>
+<data key="na29">EpoRJAK2</data>
+<data key="na0">649.7796020507812</data>
+<data key="na28">0.0</data>
+<data key="na27">0.0</data>
+<data key="na26">0.0</data>
+<data key="na25">0.0</data>
+<data key="na24">0.0</data>
+<data key="na23">plain</data>
+<data key="na22">14</data>
 </node>
 <node id="n23">
 <data key="na29">EpoR</data>
