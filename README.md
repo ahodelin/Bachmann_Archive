@@ -51,8 +51,4 @@ You can clone this repository or [download the latest version of this archive](h
 
 **[14]** Rougny, A., Froidevaux, C., Calzone, L. _et al._ Qualitative dynamics semantics for SBGN process description. _BMC Syst Biol_ **10**, 42 (2016). [https://doi.org/10.1186/s12918-016-0285-0](https://doi.org/10.1186/s12918-016-0285-0)
 
-**[15]** Balci, H. _et al._ Newt: a comprehensive web-based tool for viewing, constructing and analyzing biological maps. _Bioinformatics **37**_, 1475–1477 (2021). https://doi.org/10.1093/bioinformatics/btaa850
-
-**[16]** Sari, M. _et al._ SBGNViz: A Tool for Visualization and Complexity Management of SBGN Process Description Maps. _PLoS ONE **10**_, e0128985 (2015). https://doi.org/10.1371/journal.pone.0128985
-
-**[17]** Bergmann, F. T. _et al._ Systems biology graphical notation markup language (SBGNML) version 0.3. _Journal of Integrative Bioinformatics **17**_, 20200016 (2020). https://doi.org/10.1515/jib-2020-0016
+**[15]** Bergmann, F. T. _et al._ Systems biology graphical notation markup language (SBGNML) version 0.3. _Journal of Integrative Bioinformatics **17**_, 20200016 (2020). https://doi.org/10.1515/jib-2020-0016
