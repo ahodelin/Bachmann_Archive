@@ -1,3 +1,0 @@
-2021-06-19
-results from simulating SED-ML file ../experiment/DefaultSimulation.sedml in SED-ML WebTools (SWT, http://sysbioapps.spdns.org/SED-ML_Web_Tools)
-using ../model/Bachmann2011.xml (from BIOMD0000000861)

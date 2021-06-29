@@ -231,7 +231,7 @@
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot1">
+    <plot2D id="DefaultSimulation">
       <listOfCurves>
         <curve id="curve_0" logX="false" logY="false" xDataReference="time" yDataReference="EpoRJAK2_1" />
         <curve id="curve_1" logX="false" logY="false" xDataReference="time" yDataReference="EpoRpJAK2_1" />
@@ -261,7 +261,7 @@
         <curve id="curve_25" logX="false" logY="false" xDataReference="time" yDataReference="Epo_1" />
       </listOfCurves>
     </plot2D>
-    <report id="report1">
+    <report id="DefaultSimulation">
       <listOfDataSets>
         <dataSet id="col_0" dataReference="time" label="time" />
         <dataSet id="col_1" dataReference="EpoRJAK2_1" label="EpoRJAK2_1" />
