@@ -59,7 +59,15 @@
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_0" name="Figure 5A Nuclear pSTAT5">
+    <report id="Fig5_Report" name="Report Figure 5A">
+      <listOfDataSets>
+        <dataSet id="plot_0_0_0_dataset" dataReference="plot_0_0_0" label="task1.time" />
+        <dataSet id="plot_0_0_1_dataset" dataReference="plot_0_0_1" label="task1.npSTAT5" />
+        <dataSet id="plot_0_1_1_dataset" dataReference="plot_0_1_1" label="task2.npSTAT5" />
+        <dataSet id="plot_0_2_1_dataset" dataReference="plot_0_2_1" label="task3.npSTAT5" />
+      </listOfDataSets>
+    </report>
+    <plot2D id="Fig5A_npSTAT5" name="Figure 5A Nuclear pSTAT5">
       <listOfCurves>
         <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_0_1" />
         <curve id="plot_0__plot_0_0_0__plot_0_1_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_1_1" />

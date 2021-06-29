@@ -7,7 +7,7 @@
     </uniformTimeCourse>
   </listOfSimulations>
   <listOfModels>
-    <model id="model3" language="urn:sedml:language:sbml" source="Bachmann2011.xml" />
+    <model id="model3" language="urn:sedml:language:sbml" source="../model/Bachmann2011.xml" />
   </listOfModels>
   <listOfTasks>
     <task id="task1" modelReference="model3" simulationReference="sim1" />

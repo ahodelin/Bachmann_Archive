@@ -135,72 +135,91 @@
     </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_0" name="Supplementary Figure 9 EpoRJAK2">
+    <report id="SuppFig9_Report" name="Report Supplementary Figure 9">
+      <listOfDataSets>
+        <dataSet id="plot_0_0_0_dataset" dataReference="plot_0_0_0" label="task1.time" />
+        <dataSet id="plot_0_0_1_dataset" dataReference="plot_0_0_1" label="task1.EpoRJAK2" />
+        <dataSet id="plot_1_0_1_dataset" dataReference="plot_1_0_1" label="task1.EpoRpJAK2" />
+        <dataSet id="plot_2_0_1_dataset" dataReference="plot_2_0_1" label="task1.p1EpoRpJAK2" />
+        <dataSet id="plot_3_0_1_dataset" dataReference="plot_3_0_1" label="task1.p2EpoRpJAK2" />
+        <dataSet id="plot_4_0_1_dataset" dataReference="plot_4_0_1" label="task1.p12EpoRpJAK2" />
+        <dataSet id="plot_5_0_1_dataset" dataReference="plot_5_0_1" label="task1.SHP1" />
+        <dataSet id="plot_6_0_1_dataset" dataReference="plot_6_0_1" label="task1.SHP1Act" />
+        <dataSet id="plot_7_0_1_dataset" dataReference="plot_7_0_1" label="task1.STAT5" />
+        <dataSet id="plot_8_0_1_dataset" dataReference="plot_8_0_1" label="task1.pSTAT5" />
+        <dataSet id="plot_9_0_1_dataset" dataReference="plot_9_0_1" label="task1.npSTAT5" />
+        <dataSet id="plot_10_0_1_dataset" dataReference="plot_10_0_1" label="task1.CISRNA" />
+        <dataSet id="plot_11_0_1_dataset" dataReference="plot_11_0_1" label="task1.CIS" />
+        <dataSet id="plot_12_0_1_dataset" dataReference="plot_12_0_1" label="task1.SOCS3RNA" />
+        <dataSet id="plot_13_0_1_dataset" dataReference="plot_13_0_1" label="task1.SOCS3" />
+      </listOfDataSets>
+    </report>
+    <plot2D id="SuppFig9_EpoRJAK2" name="Supplementary Figure 9 EpoRJAK2">
       <listOfCurves>
         <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_1" name="Supplementary Figure 9 EpoRpJAK2">
+    <plot2D id="SuppFig9_EpoRpJAK2" name="Supplementary Figure 9 EpoRpJAK2">
       <listOfCurves>
         <curve id="plot_1__plot_0_0_0__plot_1_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_1_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_2" name="Supplementary Figure 9 p1EpoRpJAK2">
+    <plot2D id="SuppFig9_p1EpoRpJAK2" name="Supplementary Figure 9 p1EpoRpJAK2">
       <listOfCurves>
         <curve id="plot_2__plot_0_0_0__plot_2_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_2_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_3" name="Supplementary Figure 9 p2EpoRpJAK2">
+    <plot2D id="SuppFig9_p2EpoRpJAK2" name="Supplementary Figure 9 p2EpoRpJAK2">
       <listOfCurves>
         <curve id="plot_3__plot_0_0_0__plot_3_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_3_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_4" name="Supplementary Figure 9 p12EpoRpJAK2">
+    <plot2D id="SuppFig9_p12EpoRpJAK2" name="Supplementary Figure 9 p12EpoRpJAK2">
       <listOfCurves>
         <curve id="plot_4__plot_0_0_0__plot_4_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_4_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_5" name="Supplementary Figure 9 SHP1">
+    <plot2D id="SuppFig9_SHP1" name="Supplementary Figure 9 SHP1">
       <listOfCurves>
         <curve id="plot_5__plot_0_0_0__plot_5_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_5_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_6" name="Supplementary Figure 9 SHP1Act">
+    <plot2D id="SuppFig9_SHP1Act" name="Supplementary Figure 9 SHP1Act">
       <listOfCurves>
         <curve id="plot_6__plot_0_0_0__plot_6_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_6_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_7" name="Supplementary Figure 9 STAT5">
+    <plot2D id="SuppFig9_STAT5" name="Supplementary Figure 9 STAT5">
       <listOfCurves>
         <curve id="plot_7__plot_0_0_0__plot_7_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_7_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_8" name="Supplementary Figure 9 pSTAT5">
+    <plot2D id="SuppFig9_pSTAT5" name="Supplementary Figure 9 pSTAT5">
       <listOfCurves>
         <curve id="plot_8__plot_0_0_0__plot_8_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_8_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_9" name="Supplementary Figure 9 npSTAT5">
+    <plot2D id="SuppFig9_npSTAT5" name="Supplementary Figure 9 npSTAT5">
       <listOfCurves>
         <curve id="plot_9__plot_0_0_0__plot_9_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_9_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_10" name="Supplementary Figure 9 CISRNA">
+    <plot2D id="SuppFig9_CISRNA" name="Supplementary Figure 9 CISRNA">
       <listOfCurves>
         <curve id="plot_10__plot_0_0_0__plot_10_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_10_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_11" name="Supplementary Figure 9 CIS">
+    <plot2D id="SuppFig9_CIS" name="Supplementary Figure 9 CIS">
       <listOfCurves>
         <curve id="plot_11__plot_0_0_0__plot_11_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_11_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_12" name="Supplementary Figure 9 SOCS3RNA">
+    <plot2D id="SuppFig9_SOCS3RNA" name="Supplementary Figure 9 SOCS3RNA">
       <listOfCurves>
         <curve id="plot_12__plot_0_0_0__plot_12_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_12_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_13" name="Supplementary Figure 9 SOCS3">
+    <plot2D id="SuppFig9_SOCS3" name="Supplementary Figure 9 SOCS3">
       <listOfCurves>
         <curve id="plot_13__plot_0_0_0__plot_13_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_13_0_1" />
       </listOfCurves>

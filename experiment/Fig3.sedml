@@ -61,29 +61,87 @@
         <ci> CISRNA </ci>
       </math>
     </dataGenerator>
+    <dataGenerator id="report_5_0_0" name="task1.time">
+      <listOfVariables>
+        <variable id="task1_____time" taskReference="task1" symbol="urn:sedml:symbol:time" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="report_5_0_1" name="task1.pSTAT5">
+      <listOfVariables>
+        <variable id="task1_____pSTAT5" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pSTAT5']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____pSTAT5 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="report_5_0_2" name="task1.CIS">
+      <listOfVariables>
+        <variable id="task1_____CIS" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CIS']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____CIS </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="report_5_0_3" name="task1.SOCS3">
+      <listOfVariables>
+        <variable id="task1_____SOCS3" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____SOCS3 </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="report_5_0_4" name="task1.SOCS3RNA">
+      <listOfVariables>
+        <variable id="task1_____SOCS3RNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='SOCS3RNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____SOCS3RNA </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="report_5_0_5" name="task1.CISRNA">
+      <listOfVariables>
+        <variable id="task1_____CISRNA" taskReference="task1" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='CISRNA']" />
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task1_____CISRNA </ci>
+      </math>
+    </dataGenerator>
   </listOfDataGenerators>
   <listOfOutputs>
-    <plot2D id="plot_0" name="Figure 3A pSTAT5">
+    <report id="Fig3_Report" name="Report Figure 3">
+      <listOfDataSets>
+        <dataSet id="report_5_0_0_dataset" dataReference="report_5_0_0" label="task1.time" />
+        <dataSet id="report_5_0_1_dataset" dataReference="report_5_0_1" label="task1.pSTAT5" />
+        <dataSet id="report_5_0_2_dataset" dataReference="report_5_0_2" label="task1.CIS" />
+        <dataSet id="report_5_0_3_dataset" dataReference="report_5_0_3" label="task1.SOCS3" />
+        <dataSet id="report_5_0_4_dataset" dataReference="report_5_0_4" label="task1.SOCS3RNA" />
+        <dataSet id="report_5_0_5_dataset" dataReference="report_5_0_5" label="task1.CISRNA" />
+      </listOfDataSets>
+    </report>
+    <plot2D id="Fig3A_pSTAT5" name="Figure 3A pSTAT5">
       <listOfCurves>
         <curve id="plot_0__plot_0_0_0__plot_0_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_0_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_1" name="Figure 3A CIS">
+    <plot2D id="Fig3A_CIS" name="Figure 3A CIS">
       <listOfCurves>
         <curve id="plot_1__plot_0_0_0__plot_1_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_1_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_2" name="Figure 3A SOCS3">
+    <plot2D id="Fig3A_SOCS3" name="Figure 3A SOCS3">
       <listOfCurves>
         <curve id="plot_2__plot_0_0_0__plot_2_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_2_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_3" name="Figure 3C SOCS mRNA">
+    <plot2D id="Fig3C_SOCS3RNA" name="Figure 3C SOCS mRNA">
       <listOfCurves>
         <curve id="plot_3__plot_0_0_0__plot_3_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_3_0_1" />
       </listOfCurves>
     </plot2D>
-    <plot2D id="plot_4" name="Figure 3C CIS mRNA">
+    <plot2D id="Fig3C_CISRNA" name="Figure 3C CIS mRNA">
       <listOfCurves>
         <curve id="plot_4__plot_0_0_0__plot_4_0_1" logX="false" logY="false" xDataReference="plot_0_0_0" yDataReference="plot_4_0_1" />
       </listOfCurves>
