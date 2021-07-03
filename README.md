@@ -52,3 +52,5 @@ You can clone this repository or [download the latest version of this archive](h
 **[14]** Rougny, A., Froidevaux, C., Calzone, L. _et al._ Qualitative dynamics semantics for SBGN process description. _BMC Syst Biol_ **10**, 42 (2016). [https://doi.org/10.1186/s12918-016-0285-0](https://doi.org/10.1186/s12918-016-0285-0)
 
 **[15]** Bergmann, F. T. _et al._ Systems biology graphical notation markup language (SBGNML) version 0.3. _Journal of Integrative Bioinformatics **17**_, 20200016 (2020). https://doi.org/10.1515/jib-2020-0016
+
+**[16]** van Iersel, M.P., Villéger, A. C., Czauderna, T. _et al._ Software support for SBGN maps: SBGN-ML and LibSBGN. _Bioinformatics **28**_, 2016-2021 (2012). https://doi.org/10.1093/bioinformatics/bts270
