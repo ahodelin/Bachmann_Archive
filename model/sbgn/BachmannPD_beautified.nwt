@@ -5,23 +5,23 @@
       <renderInformation 
         xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" program-name="sbgnviz" program-version="6.0.4" background-color="#00000000">
         <listOfColorDefinitions>
-          <colorDefinition id="color_1" value="#d3d3d37f"/>
+          <colorDefinition id="color_1" value="#eeeeee7f"/>
           <colorDefinition id="color_2" value="#000000"/>
           <colorDefinition id="color_3" value="#ffffffff"/>
           <colorDefinition id="color_4" value="#555555"/>
           <colorDefinition id="color_5" value="#ffffff"/>
-          <colorDefinition id="color_6" value="#ffddb9ff"/>
-          <colorDefinition id="color_7" value="#e0f2d1ff"/>
+          <colorDefinition id="color_6" value="#9dc9ffff"/>
+          <colorDefinition id="color_7" value="#ffe28cff"/>
           <colorDefinition id="color_8" value="#ffffff7f"/>
-          <colorDefinition id="color_9" value="#b8ec87ff"/>
-          <colorDefinition id="color_10" value="#ffb362ff"/>
+          <colorDefinition id="color_9" value="#ffc925ff"/>
+          <colorDefinition id="color_10" value="#64a6f7ff"/>
           <colorDefinition id="color_11" value="#8a8a8a7f"/>
-          <colorDefinition id="color_12" value="#ffb362"/>
-          <colorDefinition id="color_13" value="#6dd809"/>
+          <colorDefinition id="color_12" value="#3c94ff"/>
+          <colorDefinition id="color_13" value="#ffc925"/>
         </listOfColorDefinitions>
         <listOfBackgroundImages/>
         <listOfStyles>
-          <style id="noded3d3d30.50000003.2518boldnormalHelvetica0000001" idList="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d">
+          <style id="nodeeeeeee0.50000003.2518boldnormalHelvetica0000001" idList="nwtN_7476758a-26ea-4e53-8c33-d7326cb5622d">
             <g font-size="18" font-family="Helvetica" font-weight="bold" font-style="normal" font-color="#000000" stroke="color_2" stroke-width="3.25" fill="color_1" background-image-opacity="1" background-opacity="0.5"/>
           </style>
           <style id="nodeffffff15555551.251" idList="nwtN_5e6eeb67-ad0f-40d5-a30d-9227abc1212f nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0 nwtN_866d3d29-fc5f-405f-9c7d-faf2ade078ee nwtN_4a2fac2e-7b1a-4767-921a-3a65b65b50ae nwtN_fa380867-57bf-4316-8549-9dc573aee386 nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4 nwtN_f7fbd367-7534-4c8e-a3ea-ff7f2c2a23d7 nwtN_89ad11ba-c238-4125-8778-e07da137a458 nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6 nwtN_00458032-42ea-43fe-a080-ba70a662206e nwtN_45a89a92-3fee-411d-b961-01973a7b0c70 nwtN_aac7a54a-9331-4678-887f-2856de398b2e nwtN_d6de71b3-7066-40de-b81c-ec7f9129c335 nwtN_f1dbdb30-61b0-4c9d-bcff-7297d3fc7b40 nwtN_b23a93a4-6af1-45f3-98d0-326ebf507362 nwtN_e0f80b0b-665c-46e2-9ae4-25d5e4511916 nwtN_2ddc4c50-1d37-4bad-b37c-caa6de7e6449 nwtN_9db29e7b-0fbe-42e9-8956-f048043a17e5 nwtN_f86a926e-8475-4336-aead-5b1ac3bdf603 nwtN_51ecb8fa-8da4-49e5-bca9-42e717b3a453 nwtN_d4185038-63e7-433a-a325-1db76f1ca8f5 nwtN_eb674a7f-4afc-4279-a8ee-080b961594d7 nwtN_1c42b878-4efe-4634-9ac2-9fbe58d76ae3 nwtN_1b9ae700-218b-4105-bbf4-ba200f9413a3 nwtN_79073ba1-bd39-4c26-a367-0790cfec60aa nwtN_f64a8174-89a8-402f-90ad-d992047b386f nwtN_818a6bfa-593b-41c9-ba12-f027102927cf nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222 nwtN_4a2ea381-8769-4085-9921-03688def94b9 nwtN_f7e75ea7-a592-48b6-8336-354542e10b81 nwtN_c0f623e1-799c-47e6-a557-c83947bfaeff nwtN_b1002eee-8088-45e9-943a-804c34e42c98 nwtN_abf49e76-d207-458e-b91b-988537476335 nwtN_89a01bed-66ec-4781-820a-d75804dde8ae nwtN_76e589f1-0618-487d-84bf-fc99a66588b1 nwtN_923069d5-14d3-416d-9a83-b83e559835a9 nwtN_a64979d1-ab09-422d-82fb-a840e8cc45bd nwtN_38a0bb2c-d5a5-4522-8015-0f705d537167 nwtN_042e2497-c05a-4c4d-9ef0-a60ef95ea14c nwtN_c2f1744b-ad0b-4a66-bd4a-216e3e9eac03 nwtN_4f2e2e03-b3b3-4195-9408-3ad001cfed16 nwtN_cc5fed2c-e3b6-4c40-9967-204d4b21c6fb nwtN_de0b9f2c-dcfb-4cd6-b4d8-fbcbfbb8c807">
@@ -39,10 +39,10 @@
           <style id="nodeffffff15555552.2518normalnormalHelvetica0000001" idList="nwtN_b9bc5d99-f02d-4771-b9ec-22253ed4aabb nwtN_3fa398bc-c108-4606-8bdf-e99f72d2f738">
             <g font-size="18" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="2.25" fill="color_3" background-image-opacity="1" background-opacity="1"/>
           </style>
-          <style id="nodeffddb915555551.2522normalnormalHelvetica0000001" idList="2c837646-ac34-039d-c363-482176c80d4a ea850968-a714-4d00-f035-28c3e687ea0e 394cad75-eb38-51e6-c72e-17fa9453483d db2d3850-95a6-92dc-0a37-7f57234911f1 8a235ab7-a269-d7ee-818f-16de87f15aa3 143a9049-88a6-3be1-b037-71803cee98ec">
+          <style id="node9dc9ff15555551.2522normalnormalHelvetica0000001" idList="2c837646-ac34-039d-c363-482176c80d4a ea850968-a714-4d00-f035-28c3e687ea0e 394cad75-eb38-51e6-c72e-17fa9453483d db2d3850-95a6-92dc-0a37-7f57234911f1 8a235ab7-a269-d7ee-818f-16de87f15aa3 143a9049-88a6-3be1-b037-71803cee98ec">
             <g font-size="22" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="1.25" fill="color_6" background-image-opacity="1" background-opacity="1"/>
           </style>
-          <style id="nodee0f2d115555551.2522normalnormalHelvetica0000001" idList="e4284739-d83c-e0fb-a3aa-db31776a7197 553002a0-f5e9-6f6d-6356-1cba78f0e950 d01b95dd-5f14-f37f-228d-1add3fbd70a8 932b8b62-193f-438b-58db-8c6fcc1b4e19 a87e1036-1e10-48c8-603c-c6c54e633241 nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4">
+          <style id="nodeffe28c15555551.2522normalnormalHelvetica0000001" idList="e4284739-d83c-e0fb-a3aa-db31776a7197 553002a0-f5e9-6f6d-6356-1cba78f0e950 d01b95dd-5f14-f37f-228d-1add3fbd70a8 932b8b62-193f-438b-58db-8c6fcc1b4e19 a87e1036-1e10-48c8-603c-c6c54e633241 nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4">
             <g font-size="22" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="1.25" fill="color_7" background-image-opacity="1" background-opacity="1"/>
           </style>
           <style id="nodeffffff15555551.2511normalnormalHelvetica0001" idList="nwtN_97a87116-9b3d-4f45-b677-200705ea9740 nwtN_585d4e98-d3ee-497b-81c3-6388fecb9769 nwtN_74036716-c607-4c1d-95ab-6c8a6534703d nwtN_edf59ed3-fe0d-46cf-bf8c-b4a9f7117278 nwtN_079d5024-c071-46f6-9b0b-5743645f607e nwtN_27755964-e20c-4f03-8550-f753824ad702 nwtN_b4ce0455-9bf6-4853-bcf0-ab0d8b31666b nwtN_a3bfd34c-6ac9-4d87-a03a-37c7c7e2e2f2 nwtN_34153a1f-cf3f-4447-853f-f667002d4691 nwtN_444ba2bc-b306-4dbf-954d-5bbf0f9d9647 nwtN_1bb08ebc-c511-43f8-8bd0-d9fa5ef540f3">
@@ -51,10 +51,10 @@
           <style id="nodeffffff0.55555551.2514normalnormalHelvetica0000001" idList="nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c 4318b000-7413-a7d1-def5-095077bc4f8c a0eb5581-288d-95d4-25af-081d9b9eb23b e08d1628-0d6a-e2e7-8532-ece8f502e322 a4654a8c-1e3c-ae08-59c3-60671c6d080e 5d75f49f-297c-3ca0-3f1e-20780cd2babd">
             <g font-size="14" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="1.25" fill="color_8" background-image-opacity="1" background-opacity="0.5"/>
           </style>
-          <style id="nodeb8ec8715555551.2522normalnormalHelvetica0000001" idList="nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc nwtN_2e6bca99-7c8c-446e-9ca9-8eb3de6c3693">
+          <style id="nodeffc92515555551.2522normalnormalHelvetica0000001" idList="nwtN_0b0492f1-93ac-457b-9782-7fc007fe7abc nwtN_2e6bca99-7c8c-446e-9ca9-8eb3de6c3693">
             <g font-size="22" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="1.25" fill="color_9" background-image-opacity="1" background-opacity="1"/>
           </style>
-          <style id="nodeffb36215555551.2522normalnormalHelvetica0000001" idList="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5">
+          <style id="node64a6f715555551.2522normalnormalHelvetica0000001" idList="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5">
             <g font-size="22" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000000" stroke="color_4" stroke-width="1.25" fill="color_10" background-image-opacity="1" background-opacity="1"/>
           </style>
           <style id="node8a8a8a0.50000003.2518boldnormalHelvetica0000001" idList="nwtN_88547560-20ea-4f40-8fc8-6513b2072f69">
@@ -63,13 +63,13 @@
           <style id="edge5555551.25" idList="nwtE_6636b82a-0c14-4c5d-9cd2-eac3505e14c6 nwtE_11265350-0288-4bbd-bb10-b3ac8df60985 nwtE_c384b26a-d609-4754-8f9c-d2c2bb931a58 nwtE_1a43c84d-b892-4593-b85a-cb59afc01528 nwtE_e473f1da-d965-499b-85a2-bf3fb89a0b65 nwtE_a032de90-01a8-4dfe-b499-816050c985f5 nwtE_9cfa1cfe-77b1-47d1-95c7-b15c73967c84 nwtE_4ccb8bfb-18e6-4adf-a4d0-6cac909dd81a nwtE_4ff12a9c-49e2-4f1c-bdb3-ecefabfe647e nwtE_e0808d85-13eb-492d-9a7d-626adb93c35a nwtE_e270b727-3582-4876-ade0-cb0fc3d706f4 nwtE_63a624dc-7ea3-4e6d-87fd-7c065910ce59 nwtE_3d49e248-020f-4200-a194-37a6682c1779 nwtE_c26f87b0-9934-4d2a-80db-b03bb5f25fe6 nwtE_803a7fb5-87e4-4f85-ba16-91dc92c2f064 nwtE_9813f06e-710d-430d-92f9-e77bbe9af030 nwtE_5d95b3d5-deab-410a-b0e8-2e0f7b2e2b0f nwtE_42348cda-581d-46c0-a848-79e98f46f3da nwtE_da6c695c-6193-4ba2-9d31-0ce15b5fb874 nwtE_b1ce2676-c469-4f61-90b7-0bed84c4acd5 nwtE_54a57d9d-87f1-40b3-acd8-502b8d86d42e nwtE_bf804109-5ea3-471f-a805-9e586613fc5f nwtE_c6daefab-91f4-4307-b86a-c99ca3167d57 nwtE_672267fc-f300-477f-afa7-a5f3ff780783 nwtE_f4112ec0-1b3e-4415-a8f2-9f2bc2437d37 nwtE_3a860da6-1536-4ff3-b12f-633d2ce5e0ae nwtE_cc828635-57aa-4724-a01a-28b3f3437077 nwtE_f83fd02b-5a0c-4e93-9ec1-9d1053595341 nwtE_65e557ff-be38-4c5c-b740-8c7f01acf61c nwtE_e764aca0-7d5c-4d90-ac26-33c04c287fa4 nwtE_3fc22767-2e98-4fe8-b9e5-93ed2d3defe3 nwtE_c8a15d8f-a127-4b67-94e6-ac5aba17f555 nwtE_128ec2ff-4501-4a7e-be95-f71b38ab6be3 nwtE_2aa6af5f-07fc-4020-b52b-1b7e133f0e85 nwtE_48812ab9-0533-4654-ba4e-def6f94bae5a nwtE_f4f592c9-e8af-453e-8769-ff9abe82ee1e nwtE_59dd251f-dd5d-4480-a115-1749b791bfaf nwtE_a36da578-72c3-475e-a01c-2a71c89005b0 nwtE_65250ccb-a0a2-4563-b0ad-c91e80bf5d78 nwtE_2455d240-9cc1-4170-a853-b944f00d5ab7 nwtE_0a5e66e8-c3ed-4323-b7f0-8d22b9574b4c nwtE_7ec6e7dc-d717-4f2b-a0ae-78f06c22dcc1 nwtE_3180327d-62dc-440b-8f64-6ed2ac35dffe nwtE_10338c8d-a15f-4808-b492-0e6d83ec8f3f nwtE_01623ae2-de87-47e2-a702-952615ac5e39 nwtE_457d967e-0877-430d-86ae-2e91f62f9db6 nwtE_d6121c6f-1ef5-4be5-9622-47849d8da480 nwtE_e70b012c-9226-42df-aa76-10c0fbe254b1 nwtE_e6409a3e-b745-4513-82f1-28b24a8ca5c7 nwtE_f6704e1e-7a9d-413e-9f95-e93f200083ee nwtE_7f78c6d2-4659-4881-a766-ed0cd3dbd16a nwtE_2b52f9fe-33e4-468d-96c9-a2b46f039d1c nwtE_975dd6b2-03e5-4443-ae3d-368cb0c61224 nwtE_994df046-3f6a-40ff-89fd-4252ad61d3f1 nwtE_23aa46d4-2cc2-4424-8825-cadc3d80f3c7 nwtE_3ea35b9a-bc97-4266-a6d7-b65fbaa2961a nwtE_159372f1-a395-4744-b05e-4dbc2262a3b2 nwtE_9d46dd1d-fb52-49ef-9f65-33f7378ae56f nwtE_34abd756-d57a-4687-ae32-53a898e6d352 nwtE_8a8d3739-7658-4038-a92a-4ba6aa23a489 nwtE_a8171ae9-e33e-4dac-810f-c009e5fe0df4 nwtE_c173a7c4-c85b-4cc5-91b9-11741aa9a463 nwtE_3e50b71f-b675-49d8-8214-bb1a1c9a7bc5 nwtE_e452b6c9-a8f0-4583-808d-204e8523cfc5 nwtE_0fe7644d-8762-4706-b4f7-59a227f6123a nwtE_564c05b3-615b-4633-bf96-c6e1d3acaa26 nwtE_1c522265-f885-44d3-b304-3aa51421c1c2 nwtE_fd29f465-6a0c-4e9f-a66b-074aa3cdfd8d nwtE_8f6a47dc-6e7c-492e-99f9-27c0559d7e60 nwtE_5cf441bb-7bf3-4437-9ad0-8019bd91ee3a nwtE_00395f72-25ef-4f62-b129-2133b1ad4e65 nwtE_5583c9db-ae7c-416e-a27d-364168bf1281 nwtE_42b49322-b896-462a-aa7a-a5e2b2a0f144 nwtE_cb73aec2-24c0-4f18-a566-d537e8e42266 nwtE_10fbe951-8acf-451a-a1dd-e29773c9a579 nwtE_cf4b5952-df43-4fb3-8f67-abc6e69cb0ff nwtE_6ae874a7-25dc-4687-8ac3-464ff4752cd9 nwtE_29d19b6f-a672-4efc-b9d9-8cfca6e13864 nwtE_6f0f6267-a5f5-4ca3-b234-0d44a9a7b0b0 nwtE_7ac47d05-d8c5-45bc-abb0-68ce3252cc2f nwtE_c0838c72-bf4d-4d18-bc81-4f696761d9fe">
             <g stroke="color_4" stroke-width="1.25"/>
           </style>
-          <style id="edgeffb3621.75" idList="nwtE_bad4659f-90e2-4940-b44f-28f5ae9bcc30 nwtE_61106ae5-1c61-4392-95bc-827b9fd54fad nwtE_b7b6b273-8531-4fec-bdb5-943bdd8a80b8 nwtE_3d4edd18-e61f-4506-ac4c-3f97b0b2a5b6 nwtE_5b6b856f-d4c8-4aab-9cdd-77545eccfdb6 nwtE_548f2a46-8cc3-4e7f-b855-29717370d1d3">
+          <style id="edge3c94ff1.75" idList="nwtE_bad4659f-90e2-4940-b44f-28f5ae9bcc30 nwtE_61106ae5-1c61-4392-95bc-827b9fd54fad nwtE_b7b6b273-8531-4fec-bdb5-943bdd8a80b8 nwtE_3d4edd18-e61f-4506-ac4c-3f97b0b2a5b6 nwtE_5b6b856f-d4c8-4aab-9cdd-77545eccfdb6 nwtE_548f2a46-8cc3-4e7f-b855-29717370d1d3">
             <g stroke="color_12" stroke-width="1.75"/>
           </style>
           <style id="edge5555551.75" idList="nwtE_2b52dfce-3e82-4703-93ec-dad93e909fcd nwtE_ab9e24ec-1ea5-4d50-a460-e6cfd08f30f2 nwtE_6d834280-417c-476b-9ee6-30f878871466 nwtE_25e3b92e-8979-4758-8bfd-b973bfb6608f nwtE_69431fd8-b31d-4ecd-84d3-75cd5f584c2e nwtE_9205bb62-8d9c-4d49-b7f3-3c88e3a143fc nwtE_059f487c-01b4-4b55-86fd-646e7f1cc341 nwtE_6a429355-3d17-4f27-afba-cf408c3a904c nwtE_a25d88f7-74e0-4983-8b3d-8895e805b73f nwtE_ec497e9c-1aa0-4f23-b6f6-20e7b478a890 nwtE_fb2965be-44e5-4150-b63a-0ae448226c34 nwtE_71283c42-18fe-461e-a91b-681a85431c4c nwtE_4c51435b-127d-4ef1-b834-23b4b7c46724 nwtE_9f659bb7-46c6-45cd-b0b3-3916fb7b9ebf nwtE_45856a5e-f62c-46dd-ad38-b926c4358dce nwtE_de926cb7-17d9-4674-a7b4-4f88502471d9 nwtE_24daf4e4-9bea-4915-b715-80ab8d2d1774 nwtE_960607be-77da-4495-810e-29ffce8bf973 nwtE_8e315bba-0aec-4d76-9d0e-d7a64a359242 nwtE_d2ddd8c2-90a3-49e8-a376-7b0fcf576183">
             <g stroke="color_4" stroke-width="1.75"/>
           </style>
-          <style id="edge6dd8091.75" idList="nwtE_fe536189-d1ad-48a5-be5c-7e61dd5f1073 nwtE_47143465-a039-4bd1-96db-57c318f1472e">
+          <style id="edgeffc9251.75" idList="nwtE_fe536189-d1ad-48a5-be5c-7e61dd5f1073 nwtE_47143465-a039-4bd1-96db-57c318f1472e">
             <g stroke="color_13" stroke-width="1.75"/>
           </style>
         </listOfStyles>
@@ -106,10 +106,10 @@
           <h>2221.9024153243267</h>
           <minW>1764.5149459682946</minW>
           <minH>2221.9024153243267</minH>
-          <WLBias>5.813368757418344e-7</WLBias>
-          <WRBias>4.1866312425816555e-7</WRBias>
-          <HTBias>8.271665609091793e-7</HTBias>
-          <HBBias>1.7283343909082078e-7</HBBias>
+          <WLBias>5.813368757418344e-9</WLBias>
+          <WRBias>4.186631242581655e-9</WRBias>
+          <HTBias>8.271665609091792e-9</HTBias>
+          <HBBias>1.7283343909082078e-9</HBBias>
         </extraInfo>
       </extension>
       <label text="cytoplasm"/>
@@ -173,9 +173,9 @@
           <h>586.9423390635766</h>
           <minW>754.7342286001616</minW>
           <minH>586.9423390635766</minH>
-          <WLBias>9.66550473310611e-13</WLBias>
-          <WRBias>9.90334495266894e-11</WRBias>
-          <HTBias>0.000001</HTBias>
+          <WLBias>9.665504733106111e-15</WLBias>
+          <WRBias>9.90334495266894e-13</WRBias>
+          <HTBias>1e-8</HTBias>
           <HBBias>0</HBBias>
         </extraInfo>
       </extension>
@@ -197,8 +197,8 @@
           <h>490.2499999999992</h>
           <minW>122.39999999999984</minW>
           <minH>0</minH>
-          <WLBias>9.999999999999996e-11</WLBias>
-          <WRBias>2.8421709430404007e-26</WRBias>
+          <WLBias>9.999999999999996e-13</WLBias>
+          <WRBias>2.8421709430404007e-28</WRBias>
           <HTBias>0</HTBias>
           <HBBias>0</HBBias>
         </extraInfo>
@@ -248,7 +248,7 @@
           <WLBias>0</WLBias>
           <WRBias>0</WRBias>
           <HTBias>0</HTBias>
-          <HBBias>0.000001</HBBias>
+          <HBBias>1e-8</HBBias>
         </extraInfo>
       </extension>
       <label text="cisRNA Delay"/>
@@ -341,10 +341,10 @@
           <h>131.8282199343727</h>
           <minW>106.06446890823744</minW>
           <minH>131.8282199343727</minH>
-          <WLBias>5e-7</WLBias>
-          <WRBias>5e-7</WRBias>
-          <HTBias>5.09773298435009e-7</HTBias>
-          <HBBias>4.902267015649911e-7</HBBias>
+          <WLBias>5e-9</WLBias>
+          <WRBias>5e-9</WRBias>
+          <HTBias>5.09773298435009e-9</HTBias>
+          <HBBias>4.90226701564991e-9</HBBias>
         </extraInfo>
       </extension>
       <label text="EpoRJAK2"/>
@@ -377,10 +377,10 @@
           <h>140.872637310114</h>
           <minW>106.06446890823746</minW>
           <minH>140.872637310114</minH>
-          <WLBias>5.000000000000025e-7</WLBias>
-          <WRBias>4.999999999999973e-7</WRBias>
-          <HTBias>5e-7</HTBias>
-          <HBBias>5e-7</HBBias>
+          <WLBias>5.000000000000025e-9</WLBias>
+          <WRBias>4.999999999999974e-9</WRBias>
+          <HTBias>5e-9</HTBias>
+          <HBBias>5e-9</HBBias>
         </extraInfo>
       </extension>
       <label text="EpoRpJAK2"/>
@@ -495,7 +495,7 @@
           <WLBias>0</WLBias>
           <WRBias>0</WRBias>
           <HTBias>0</HTBias>
-          <HBBias>0.000001</HBBias>
+          <HBBias>1e-8</HBBias>
         </extraInfo>
       </extension>
       <label text="p12EpoRpJAK2"/>
@@ -535,9 +535,9 @@
           <minW>103.27446761174713</minW>
           <minH>199.05276424939294</minH>
           <WLBias>0</WLBias>
-          <WRBias>0.000001</WRBias>
+          <WRBias>1e-8</WRBias>
           <HTBias>0</HTBias>
-          <HBBias>0.000001</HBBias>
+          <HBBias>1e-8</HBBias>
         </extraInfo>
       </extension>
       <label text="EpoRJAK2_CIS"/>
@@ -640,10 +640,10 @@
           <h>53.46932417412974</h>
           <minW>200.1016433160734</minW>
           <minH>53.46932417412974</minH>
-          <WLBias>2.1839449032273353e-12</WLBias>
-          <WRBias>9.781605509677264e-11</WRBias>
-          <HTBias>1.0703213424088845e-11</HTBias>
-          <HBBias>8.929678657591115e-11</HBBias>
+          <WLBias>2.1839449032273353e-14</WLBias>
+          <WRBias>9.781605509677265e-13</WRBias>
+          <HTBias>1.0703213424088845e-13</HTBias>
+          <HBBias>8.929678657591115e-13</HBBias>
         </extraInfo>
       </extension>
       <bbox x="-1282.1690923336687" y="-2629.6260641722783" w="228.1016433160734" h="81.46932417412974"/>
@@ -674,7 +674,7 @@
     </arc>
     <arc id="nwtE_a032de90-01a8-4dfe-b499-816050c985f5" class="inhibition" source="nwtN_76e589f1-0618-487d-84bf-fc99a66588b1" target="nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0">
       <start x="-215.72872138851733" y="-1462.3955934673295"/>
-      <next x="-458.18216456697877" y="-1462.7010732087988"/>
+      <next x="-458.1821645669788" y="-1462.7010732087986"/>
       <end x="-457.7426038655832" y="-1532.1094372543398"/>
     </arc>
     <arc id="nwtE_9cfa1cfe-77b1-47d1-95c7-b15c73967c84" class="production" source="nwtN_ff70d034-4e8b-46f1-a1fb-12430a9857e0" target="c0aa1740-3f0a-959d-ec2a-92e8f7f85134">
@@ -711,7 +711,7 @@
     </arc>
     <arc id="nwtE_bad4659f-90e2-4940-b44f-28f5ae9bcc30" class="inhibition" source="nwtN_5096a7f8-9215-47f2-8250-00dd6a3813e5" target="nwtN_fa380867-57bf-4316-8549-9dc573aee386">
       <start x="544.5065650595317" y="-1724.3021124067918"/>
-      <next x="544.6066629581507" y="-2357.73407972211"/>
+      <next x="544.6066629581507" y="-2357.7340797221104"/>
       <end x="407.57645390898944" y="-2357.7889702366474"/>
     </arc>
     <arc id="nwtE_803a7fb5-87e4-4f85-ba16-91dc92c2f064" class="production" source="nwtN_ffcdf587-e735-4b79-8899-3abb1307bbc4" target="nwtN_90d9594e-5d75-4342-b47d-de28cf8d5b3c">
@@ -743,8 +743,8 @@
       <end x="-38.93159392961786" y="-2191.0305314889524"/>
     </arc>
     <arc id="nwtE_b1ce2676-c469-4f61-90b7-0bed84c4acd5" class="catalysis" source="nwtN_89ad11ba-c238-4125-8778-e07da137a458" target="nwtN_45a89a92-3fee-411d-b961-01973a7b0c70">
-      <start x="-8.918480973171214" y="-2183.993787885528"/>
-      <next x="42.24890916659579" y="-2162.660190584942"/>
+      <start x="-8.918480973171228" y="-2183.993787885528"/>
+      <next x="42.248909166595794" y="-2162.660190584942"/>
       <end x="48.778519181846306" y="-2159.937752129224"/>
     </arc>
     <arc id="nwtE_54a57d9d-87f1-40b3-acd8-502b8d86d42e" class="catalysis" source="nwtN_30970b4c-6b3b-4ab8-9852-2a7b440a2245" target="nwtN_a36bf0c0-0141-4239-896d-b971df7b8be6">
@@ -849,7 +849,7 @@
     </arc>
     <arc id="nwtE_a36da578-72c3-475e-a01c-2a71c89005b0" class="necessary stimulation" source="d2672078-a0a4-aeeb-3521-bf3d1b4d539a" target="nwtN_f64a8174-89a8-402f-90ad-d992047b386f">
       <start x="-238.87990132446544" y="-1011.4361358326405"/>
-      <next x="-191.3456237203698" y="-1011.6725143976661"/>
+      <next x="-191.34562372036984" y="-1011.6725143976661"/>
       <end x="-189.6759332039529" y="-744.8438459808795"/>
     </arc>
     <arc id="nwtE_65250ccb-a0a2-4563-b0ad-c91e80bf5d78" class="necessary stimulation" source="d2672078-a0a4-aeeb-3521-bf3d1b4d539a" target="nwtN_818a6bfa-593b-41c9-ba12-f027102927cf">
@@ -945,8 +945,8 @@
       <end x="-302.62990132446544" y="-668.3244586357174"/>
     </arc>
     <arc id="nwtE_d2ddd8c2-90a3-49e8-a376-7b0fcf576183" class="production" source="nwtN_b2a4608d-fc93-4a2f-a8bd-e4aba652e222" target="nwtN_0a49446c-9f98-4a8e-acca-68cfb8ae32c4">
-      <start x="-47.424482135102366" y="-1242.4583518338286"/>
-      <next x="-47.50928189999196" y="-1276.1037535977646"/>
+      <start x="-47.42448213510237" y="-1242.4583518338286"/>
+      <next x="-47.50928189999199" y="-1276.1037535977648"/>
       <end x="144.7267925590071" y="-1276.4950007577727"/>
     </arc>
     <arc id="nwtE_975dd6b2-03e5-4443-ae3d-368cb0c61224" class="production" source="nwtN_4a2ea381-8769-4085-9921-03688def94b9" target="143a9049-88a6-3be1-b037-71803cee98ec">
